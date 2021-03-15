@@ -14,7 +14,6 @@ stanza_ext/*
 lang/*
 __init__.py
 construct_hypothesis.py
-count_idf.py
 human_eval/*
 human_judgement.py
 make_templates.sh

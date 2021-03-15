@@ -21,7 +21,7 @@ if __name__ == '__main__':
 
     # arabic, finnish - include mwt
     # russian - exclude mwt
-    stanza_processors = 'tokenize,lemma,pos,depparse'
+    stanza_processors = 'tokenize,lemma,mwt,pos,depparse' if args.lang in ['fi', 'ar'] else 'tokenize,lemma,pos,depparse'
     stanza_lang = stanza.Pipeline(lang=args.lang, processors=stanza_processors)
 
     if args.format == 'tt':

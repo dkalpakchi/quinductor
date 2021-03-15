@@ -16,12 +16,12 @@ from difflib import SequenceMatcher
 
 import logging
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.ERROR,
     format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%m/%d/%Y %I:%M:%S %p',
-    handlers=[
-        logging.FileHandler('templates.log')
-    ]
+    datefmt='%m/%d/%Y %I:%M:%S %p'
+    # handlers=[
+    #     logging.FileHandler('templates.log')
+    # ]
 )
 
 from terminaltables import AsciiTable
