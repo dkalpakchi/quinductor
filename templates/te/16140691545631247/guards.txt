@@ -1,0 +1,48 @@
+n.pos is NOUN, n.acl.ccomp.list.case.nummod.punct.ccomp.ccomp exists, n.acl.ccomp.list.case.nummod.punct.ccomp.ccomp.list exists -> templates1
+n.pos is NOUN, n.ccomp.nsubj.morph has_not PronType=Rel, n.ccomp.nsubj.ccomp.list.ccomp.ccomp exists, n.ccomp.nsubj exists -> templates2
+n.pos is NOUN, n.nmod.ccomp.list.ccomp.ccomp.ccomp.nmod.acl.obl.ccomp.obj.ccomp.ccomp.ccomp.obl.ccomp.list.nmod.ccomp.nsubj.compound.acl.list.nmod.nmod.ccomp.ccomp.ccomp.nsubj.nmod.ccomp.obl.ccomp.nsubj.acl.nsubj.nmod.acl.ccomp.obj.acl.nsubj.ccomp.obj.acl.ccomp.list.acl.ccomp.nsubj exists, n.nmod.ccomp.list.ccomp.ccomp.ccomp.nmod.acl.obl.ccomp.obj.ccomp.ccomp.ccomp.obl.ccomp.list.nmod.ccomp.nsubj.compound.acl.list.nmod.nmod.ccomp.ccomp.ccomp.nsubj.nmod.ccomp.obl.ccomp.nsubj.acl.nsubj.nmod.acl.ccomp.obj.acl.nsubj.ccomp.obj.acl.ccomp.list.acl.ccomp.nsubj.nsubj.ccomp.ccomp.ccomp.ccomp.list.ccomp.ccomp.ccomp.list.ccomp.obl.nummod.obj.acl.advmod.obl:tmod.nmod exists -> templates3
+n.pos is VERB, n.nsubj.nmod.ccomp.obl.nummod.list.nmod.nsubj.nmod.nummod.obl.nmod.nmod:poss.compound.compound exists, n.nsubj.nmod.ccomp.list exists, n.nsubj.nmod.ccomp exists -> templates4
+n.pos is VERB, n.ccomp.amod.punct.nsubj.morph has_not PronType=Rel, n.ccomp.amod exists, n.ccomp.amod.punct.nsubj exists -> templates5
+n.pos is NOUN, n.nummod exists -> templates6
+n.pos is VERB, n.nsubj.acl.ccomp.list.nmod.nummod.ccomp.ccomp.nsubj.list exists, n.nsubj.acl.ccomp.list.nmod.nummod.ccomp.ccomp.list exists -> templates7
+n.pos is VERB, n.nsubj.list.nmod.nmod.nmod.nummod.list/2 exists, n.ccomp.punct exists, n.obl:tmod exists, n.nsubj.list.nmod.nmod.nmod.nummod.nsubj exists -> templates8
+n.pos is NOUN, n.nsubj.morph has_not PronType=Rel, n.nsubj:nc.nmod.nmod exists, n.nsubj exists, n.punct exists -> templates9
+n.pos is VERB, n.obl:tmod.nmod.nmod exists, n.obl:tmod.nmod.nmod.nmod.nmod.nmod.acl.case exists -> templates10
+n.pos is NOUN, n.nsubj.amod.ccomp.ccomp.ccomp.ccomp.ccomp exists, n.nsubj.amod.ccomp.ccomp.ccomp.ccomp.ccomp.nsubj.nmod exists -> templates11
+n.pos is NOUN, n.nsubj:nc.morph has_not PronType=Rel, n.nsubj:nc exists, n.nmod exists, n.nsubj:nc.amod.obl.nmod.nummod.acl.advmod.nmod/2 exists -> templates12
+n.pos is VERB, n.ccomp.ccomp.list.nmod.acl.ccomp.list.ccomp.ccomp.obl.ccomp.ccomp.obl:tmod.punct.ccomp.nmod.ccomp.ccomp.list exists, n.ccomp.ccomp.list.nmod.acl.ccomp.list.ccomp.ccomp.obl.ccomp.ccomp.obl:tmod.punct.ccomp.nmod.ccomp.ccomp.list.ccomp.list.case.ccomp.list exists -> templates13
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.list.ccomp.nmod exists, n.nsubj/2 exists -> templates14
+n.pos is VERB, n.obl.nmod.nmod exists, n.obl.nmod exists -> templates15
+n.pos is VERB, n.ccomp.nsubj.nmod.ccomp.ccomp.ccomp.obl.case.ccomp.acl.obl.ccomp.ccomp.ccomp.list.nmod.nmod.compound.nmod.nmod.ccomp exists, n.ccomp.nsubj.nmod.ccomp.ccomp.ccomp.obl.case.ccomp.acl.obl.ccomp.ccomp.ccomp.list.nmod.nmod.compound.nmod.nmod exists -> templates16
+n.pos is NOUN, n.ccomp.nsubj exists, n.ccomp.obl.acl.obl.nmod exists -> templates17
+n.pos is NOUN, n.nsubj.acl.advmod exists, n.nmod exists -> templates18
+n.pos is VERB, n.ccomp.ccomp.ccomp.punct.ccomp.ccomp.ccomp.list.obl.nmod exists, n.ccomp.ccomp.ccomp.punct.ccomp.ccomp.ccomp.list.obl.nmod.list.nmod exists -> templates19
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.ccomp exists, n.nsubj exists -> templates20
+n.pos is NOUN, n.nsubj.acl.nsubj.ccomp.list.ccomp.list.nsubj.case.ccomp.punct.list.ccomp.ccomp exists, n.nsubj.acl.nsubj.ccomp.list.ccomp.list.nsubj.case.ccomp.punct.list exists, n.nsubj.acl.nsubj.ccomp.list.ccomp.list.nsubj.case.ccomp.punct.list.ccomp exists -> templates21
+n.pos is VERB, n.nsubj.nummod.ccomp.nummod exists, n.nsubj.nummod.nmod.case exists, n.nsubj.nummod.ccomp exists, n.nsubj.nummod.ccomp.nmod exists -> templates22
+n.pos is VERB, n.ccomp.ccomp.ccomp.ccomp.nmod.acl.punct.ccomp.ccomp.list.ccomp.list.acl.list.acl.ccomp exists, n.ccomp.ccomp.ccomp.ccomp.nmod.acl.punct.ccomp.ccomp.list.ccomp.list.acl.list.acl.ccomp.ccomp.ccomp.list.acl.nsubj.list.case exists -> templates23
+n.pos is PROPN, n.punct exists, n.acl exists -> templates24
+n.pos is PUNCT, n.punct exists, n.nsubj:nc.acl.nmod exists -> templates25
+n.pos is VERB, n.obl exists, n.parataxis exists, n.parataxis.punct exists -> templates26
+n.pos is NOUN, n.ccomp exists, n.ccomp.punct exists -> templates27
+n.pos is NOUN, n.nmod.nummod.acl.ccomp.acl.ccomp.obj.nmod:poss exists, n.ccomp.punct exists -> templates28
+n.pos is PROPN, n.nsubj.list.list.nmod:poss.compound exists, n.nsubj.list.parataxis exists, n.nsubj.list.parataxis.punct exists -> templates29
+n.pos is NOUN, n.advmod exists, n.ccomp.conj.punct.ccomp.ccomp.nmod.ccomp.nsubj exists, n.ccomp.conj.punct.ccomp.ccomp.nmod.ccomp.nsubj.nmod.ccomp exists -> templates30
+n.pos is VERB, n.ccomp.nsubj.list.ccomp.ccomp.obl:tmod.nmod.nsubj.case.ccomp.ccomp.ccomp.ccomp.ccomp.punct.ccomp.list.nmod.nmod.ccomp.ccomp.nsubj.nmod/2 exists -> templates31
+n.pos is VERB, n.nsubj.punct exists, n.nsubj.nmod.ccomp.obl:tmod.nummod exists -> templates32
+n.pos is PRON, n.ccomp.obj.ccomp.ccomp.nsubj.nmod.case.nsubj.acl.ccomp exists, n.ccomp.obj.ccomp.ccomp.obl:tmod.compound.compound exists -> templates33
+n.pos is VERB, n.ccomp.nsubj.morph has_not PronType=Rel, n.ccomp.amod.nsubj exists, n.ccomp.nsubj exists -> templates34
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.list.ccomp.ccomp.ccomp.ccomp.punct exists, n.nsubj exists -> templates35
+n.pos is VERB, n.obl:tmod.nsubj exists, n.obl:tmod.nsubj.nmod.nmod exists -> templates36
+n.pos is VERB, n.nsubj.ccomp.advmod.nmod.nummod.nsubj.nmod.acl.advmod.ccomp.nsubj.acl.ccomp.obl.ccomp.nmod.nmod exists, n.nsubj.ccomp.advmod.nmod.nummod.nsubj.nmod.acl.advmod.ccomp.nsubj.acl.ccomp.obl.ccomp.list.nsubj exists, n.nsubj.ccomp.advmod.nmod.nummod.nsubj.nmod.acl.advmod.ccomp.nsubj.acl.ccomp.obl.ccomp.ccomp exists, n.nsubj.ccomp.advmod.nmod.nummod.nsubj.nmod.acl.advmod.ccomp.nsubj.acl.ccomp.obl.nmod exists -> templates37
+n.pos is NOUN, n.nsubj.nmod.list.ccomp.list.nummod.nummod.nsubj.ccomp.compound:svc.ccomp.ccomp.obj.nummod.nmod.ccomp.nummod.nsubj.nmod.ccomp.nsubj exists, n.nsubj.nmod.list.ccomp.list.nummod.nummod.nsubj.ccomp.compound:svc.ccomp.ccomp.nsubj exists, n.nsubj.nmod.list.ccomp.nsubj.nummod exists -> templates38
+n.pos is NOUN, n.ccomp.obl.nmod.nmod exists, n.ccomp.obl.nmod.nmod.det.ccomp.ccomp.ccomp.obl.list.ccomp.ccomp.list.nmod exists -> templates39
+n.pos is NOUN, n.obl exists, n.compound exists, n.punct exists -> templates40
+n.pos is VERB, n.nsubj.nummod.ccomp exists, n.nsubj.nummod.ccomp.nmod exists -> templates41
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists, n.obj exists, n.compound:svc exists -> templates42
+n.pos is NOUN, n.ccomp.ccomp.ccomp.nsubj exists, n.ccomp.ccomp.ccomp.nsubj.nummod exists -> templates43
+n.pos is VERB, n.ccomp.ccomp.compound:svc.ccomp.obl.nummod.nsubj exists, n.ccomp.ccomp.compound:svc.ccomp.obl.nummod.nsubj.nummod.nummod exists -> templates44
+n.pos is VERB, n.ccomp.ccomp.ccomp.ccomp.nmod.nmod.case.ccomp.ccomp.acl.nsubj.morph has_not PronType=Rel, n.ccomp.ccomp.ccomp.ccomp.nmod.nmod.case.ccomp.ccomp.acl.list.case.ccomp.ccomp.list.ccomp.acl.nsubj exists, n.ccomp.ccomp.ccomp.ccomp.nmod.nmod.case.ccomp exists, n.ccomp.ccomp.ccomp.ccomp.nmod.nmod.case.ccomp.ccomp.acl.nsubj exists -> templates45
+n.pos is NOUN, n.ccomp.obl.acl.obl exists, n.ccomp.nsubj exists, n.ccomp.obl.acl.obl.nmod exists -> templates46
+n.pos is NOUN, n.ccomp.ccomp.ccomp.list.ccomp.ccomp.list.ccomp.list exists, n.ccomp.ccomp.ccomp.list.ccomp.ccomp.list.ccomp.list.compound.ccomp.ccomp.obl.acl.ccomp.ccomp.nsubj.nmod.nmod.acl.nsubj exists, n.ccomp.ccomp.ccomp.list.ccomp.ccomp.list.ccomp.list.compound.ccomp.ccomp.obl.acl.ccomp.ccomp.nsubj.nmod.nmod.acl.ccomp exists -> templates47
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod exists -> templates48

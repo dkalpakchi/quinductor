@@ -1,0 +1,227 @@
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass exists, n.nsubj:pass.nmod.appos exists -> templates1
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.amod.conj exists, n.nmod exists, n.nsubj exists -> templates2
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass exists, n.nsubj:pass.nmod exists -> templates3
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.det exists, n.amod exists, n.nmod.case exists, n.nsubj exists, n.nsubj.amod exists -> templates4
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.conj exists, n.conj.conj.obl exists -> templates5
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nummod exists -> templates6
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nmod/2 exists -> templates7
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.nmod.appos.acl exists, n.obl exists -> templates8
+n.pos is VERB, n.morph has Mood=Ind|Tense=Pres|VerbForm=Fin, n.obj exists, n.obj.nmod.acl:relcl.advcl.obl exists -> templates9
+n.pos is ADV, n.morph has Degree=Pos, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.obl:npmod exists -> templates10
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.conj.obl.nmod:poss exists, n.obj exists, n.nsubj exists -> templates11
+n.pos is VERB, n.morph has VerbForm=Inf, n.obj.nmod.acl:relcl.acl:relcl.appos.advmod exists, n.obj.nmod.det exists, n.obj.nmod.compound exists, n.obj.nmod exists, n.obj.nmod.acl:relcl.acl:relcl.appos exists -> templates12
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.obj exists, n.obl exists -> templates13
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.obj exists, n.nsubj exists -> templates14
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.amod exists, n.acl.obl.conj exists, n.nsubj exists -> templates15
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass.det exists, n.obl/2 exists, n.nsubj:pass exists, n.obl.nmod exists -> templates16
+n.pos is NUM, n.morph has NumType=Card, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nmod.appos.acl.obl exists -> templates17
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.nsubj.nmod.appos exists, n.nmod exists -> templates18
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass exists, n.obl exists -> templates19,templates20,templates52,templates53,templates124,templates155,templates175,templates182,templates196,templates220
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass exists, n.obl/2 exists -> templates21
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass exists, n.obl.appos.conj.acl exists, n.obl.appos.conj.acl.obl exists -> templates22
+n.pos is VERB, n.morph has Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin, n.obj.appos.conj.appos.conj.nmod exists, n.obj.appos.conj.appos exists -> templates23
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.nsubj.amod exists, n.det exists, n.nmod exists -> templates24
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.nummod.compound.compound.acl.obl exists, n.nsubj.parataxis.obj.acl exists, n.nummod.compound.compound exists -> templates25
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.aux:pass exists, n.nsubj:pass.compound exists, n.obl exists -> templates26
+n.pos is PROPN, n.morph has Number=Sing, n.acl:relcl.nmod exists -> templates27
+n.pos is NOUN, n.morph has Number=Plur, n.appos.appos.acl.cop exists, n.appos.appos.acl exists -> templates28
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.obj exists, n.nsubj.nmod exists -> templates29
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.compound exists, n.nmod exists, n.nsubj exists -> templates30,templates140
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.conj.obj exists, n.nsubj exists, n.conj.obj.nmod exists -> templates31
+n.pos is PROPN, n.morph has Number=Sing, n.cop exists, n.nsubj.amod exists, n.compound/2 exists -> templates32
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.flat exists, n.obj.acl.obl exists -> templates33
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.flat exists, n.obl exists -> templates34
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.obl exists -> templates35,templates76,templates179
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.parataxis exists -> templates36
+n.pos is NOUN, n.morph has Number=Sing, n.advcl exists, n.obl.nmod exists, n.nmod.nmod exists -> templates37
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.obj exists, n.advmod exists, n.obj.acl exists, n.obj.acl.obl:npmod exists -> templates38
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists, n.amod exists, n.acl exists -> templates39
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists, n.compound exists, n.nmod exists -> templates40
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists, n.nmod exists -> templates41
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists, n.amod exists, n.compound exists, n.acl:relcl exists -> templates42
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists, n.acl exists -> templates43
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.acl.obl exists, n.acl exists, n.acl.obl exists -> templates44
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.advcl.obj.det exists, n.nsubj:pass.compound exists, n.nsubj:pass.compound.compound.compound exists, n.nsubj:pass exists -> templates45
+n.pos is NOUN, n.morph has Number=Sing, n.advcl.obj.nmod:poss.case exists, n.conj.nsubj.nmod.det exists, n.conj.nsubj.acl.obj exists, n.conj.nsubj.nmod.compound exists, n.conj.nsubj.nummod exists -> templates46
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nmod.nmod exists -> templates47
+n.pos is VERB, n.morph has Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.obj exists, n.nsubj exists, n.obj.nmod.nmod exists -> templates48
+n.pos is PROPN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.flat exists -> templates49,templates96
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.amod exists, n.nsubj exists -> templates50
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass exists, n.advcl.obl.compound exists -> templates51
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.ccomp.conj/2 exists, n.nsubj exists -> templates54
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.amod exists, n.nmod exists, n.nsubj exists -> templates55,templates59,templates60,templates215
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass.det exists, n.nsubj:pass exists, n.obl exists -> templates56
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.nmod exists, n.cop exists, n.nsubj exists, n.nmod exists -> templates57
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.det exists, n.nmod exists, n.nsubj exists -> templates58
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.aux:pass exists, n.obl exists, n.obl.nmod.acl.xcomp exists -> templates61
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists, n.nmod.nmod exists -> templates62
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.flat exists, n.acl:relcl exists, n.acl:relcl.obl exists -> templates63
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.advcl.nsubj exists, n.nsubj:pass exists, n.advcl exists -> templates64
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.ccomp.obl.compound.compound exists, n.ccomp.obl exists, n.ccomp.nsubj:pass exists, n.ccomp.obl.compound exists -> templates65
+n.pos is VERB, n.morph has Mood=Ind|Tense=Pres|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists -> templates66
+n.pos is NOUN, n.morph has Number=Sing, n.appos.amod.ccomp exists, n.appos.amod.nsubj.appos.flat exists -> templates67
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.conj.amod exists, n.nsubj exists -> templates68
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.det exists, n.nsubj.amod exists, n.compound exists, n.acl:relcl exists -> templates69
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.det exists, n.nsubj.amod exists, n.nmod exists -> templates70
+n.pos is VERB, n.morph has Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin, n.obj.acl:relcl.conj exists, n.obj.acl:relcl.conj.advmod exists -> templates71
+n.pos is NOUN, n.morph has Number=Sing, n.appos exists, n.nmod exists -> templates72
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.conj.obl exists, n.nsubj:pass exists, n.conj.obl.acl:relcl exists, n.conj.obl.acl:relcl.obl exists -> templates73
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.obl/2 exists -> templates74
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.obl.det exists, n.nsubj:pass.nmod exists, n.obl exists -> templates75
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.det exists, n.acl:relcl exists -> templates77
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nmod exists -> templates78,templates79,templates130
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.acl.conj.obl.nmod.det exists, n.nsubj exists, n.acl exists -> templates80
+n.pos is VERB, n.morph has Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin, n.obj.conj exists, n.obj.conj.acl:relcl exists -> templates81
+n.pos is NOUN, n.morph has Number=Sing, n.advcl.aux:pass exists, n.nmod:poss exists, n.advcl exists, n.advcl.obl exists -> templates82
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.obl.det exists, n.nsubj:pass exists, n.obl.nmod.appos.acl:relcl.obl exists -> templates83
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.acl.obl:tmod exists -> templates84
+n.pos is ADJ, n.morph has Degree=Pos, n.parataxis.acl.obj.conj.acl.obl.nmod exists, n.parataxis.acl.obj.conj.acl.obl.acl:relcl.nsubj:pass.nmod exists, n.parataxis.acl.obj.conj.acl.obl exists -> templates85
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass exists, n.conj exists, n.conj.obl exists -> templates86,templates157
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.obl.acl.obl exists, n.obl.nmod.case exists, n.parataxis.conj exists, n.parataxis exists -> templates87
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.nsubj.appos.parataxis.obl exists, n.nmod exists -> templates88
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj.det exists, n.nsubj exists, n.acl exists -> templates89
+n.pos is NOUN, n.morph has Number=Sing, n.appos exists, n.appos.nmod exists, n.appos.appos.appos exists -> templates90
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nmod exists, n.nsubj exists -> templates91
+n.pos is NOUN, n.morph has Number=Plur, n.cop exists, n.nsubj.det exists, n.amod.conj exists, n.amod/2 exists -> templates92
+n.pos is NUM, n.morph has NumType=Card, n.cop exists, n.nsubj.appos.conj.amod.compound.conj exists, n.nmod.nmod.nmod.compound exists -> templates93
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.det exists, n.acl exists -> templates94,templates145
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.compound exists, n.nmod exists -> templates95
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists -> templates97
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists, n.compound exists -> templates98
+n.pos is NOUN, n.morph has Number=Plur, n.cop exists, n.nmod exists, n.nmod.nmod.acl exists -> templates99
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj.obl.nmod.appos.nmod exists -> templates100
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nmod/2 exists -> templates101
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.acl.obj exists -> templates102
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod:poss.det exists, n.nsubj exists, n.acl.obl exists -> templates103
+n.pos is NOUN, n.morph has Number=Sing, n.advcl.conj exists, n.nmod.det exists, n.nmod exists, n.advcl.conj.obl exists -> templates104
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists, n.compound/2 exists, n.amod exists -> templates105
+n.pos is VERB, n.morph has Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj exists, n.obl exists -> templates106
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.advcl.ccomp.nsubj.morph has_not PronType=Rel, n.advcl.ccomp exists, n.advmod.obl.appos.nmod exists, n.advcl.ccomp.nmod:poss exists, n.advcl.ccomp.nsubj exists -> templates107
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.det exists, n.amod exists, n.nmod exists -> templates108
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nmod.acl:relcl exists -> templates109,templates126,templates205
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.obl exists, n.obl.acl:relcl.obl exists -> templates110
+n.pos is VERB, n.morph has Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin, n.xcomp exists, n.xcomp.advcl.nsubj:pass.nmod:poss exists -> templates111
+n.pos is PROPN, n.morph has Number=Sing, n.appos.parataxis.cop exists, n.appos.parataxis.nmod.conj.nmod exists -> templates112
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.acl.obl exists, n.nsubj exists -> templates113
+n.pos is ADJ, n.morph has Degree=Pos, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists -> templates114
+n.pos is NUM, n.morph has NumType=Card, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nmod.acl exists, n.nmod.acl.obl exists -> templates115
+n.pos is PROPN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nsubj.nmod:poss exists -> templates116
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.acl:relcl.acl exists, n.acl:relcl.acl.obl exists -> templates117
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists, n.compound/2 exists -> templates118
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.nsubj.compound exists, n.compound exists, n.acl exists, n.acl.obl exists -> templates119
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.obj exists, n.obj.appos.nmod exists -> templates120
+n.pos is VERB, n.morph has Mood=Imp|VerbForm=Fin, n.obj.nmod exists, n.obj/2 exists, n.obj.nmod.nmod exists -> templates121
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nmod exists, n.amod exists, n.nmod.conj exists, n.nsubj exists -> templates122
+n.pos is NOUN, n.morph has Number=Sing, n.acl exists, n.nsubj.nmod.nmod.nmod.nmod exists, n.acl.obl exists -> templates123
+n.pos is NOUN, n.morph has Number=Sing, n.det exists, n.amod exists, n.nmod exists -> templates125
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.obl.nmod.appos.acl:relcl.cop exists, n.nsubj exists, n.obl exists, n.advcl.conj.obl.nummod exists -> templates127
+n.pos is NUM, n.morph has NumType=Card, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj exists -> templates128
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.nsubj:pass.appos exists, n.nsubj:pass.nmod.acl.obl exists -> templates129
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.acl exists, n.nsubj.appos.appos exists -> templates131
+n.pos is PROPN, n.morph has Number=Sing, n.flat.appos.appos.conj.cop exists, n.flat exists, n.flat.appos.appos.conj.nmod exists -> templates132
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.csubj exists, n.csubj.obl exists -> templates133
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.acl exists, n.acl.obl exists -> templates134
+n.pos is ADJ, n.morph has Degree=Pos, n.advcl exists, n.advcl.nmod.acl.obj.nmod exists -> templates135
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.aux:pass exists, n.obl/2 exists, n.advmod exists -> templates136,templates193
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.xcomp exists, n.nsubj:pass exists -> templates137,templates183
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.nsubj exists, n.conj.advcl.obj.amod.obl.nmod exists, n.nmod exists -> templates138
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.obl exists, n.nsubj:pass exists -> templates139
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.appos.acl.obl:tmod exists -> templates141
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.conj exists, n.conj.obl exists -> templates142
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.amod exists, n.nmod exists -> templates143,templates194
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nmod exists -> templates144
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.amod exists -> templates146
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.obl.conj.obl exists -> templates147
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.acl:relcl.obl exists -> templates148
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass.det exists, n.nsubj:pass exists, n.nsubj:pass.acl.obl exists -> templates149
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.compound/2 exists, n.acl.obl.nmod.nmod.case exists -> templates150
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.det exists, n.nmod exists, n.nmod.acl.obl exists -> templates151
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.parataxis.cop exists, n.conj.obj.det exists, n.conj.obj.compound exists, n.conj.obj exists -> templates152
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.advcl.aux:pass exists, n.obj exists, n.obl/2 exists -> templates153
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.nmod exists, n.nmod exists, n.cop exists, n.nsubj exists, n.nmod.amod exists -> templates154
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.amod exists, n.compound exists, n.nsubj exists -> templates156
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.advcl.obj.det exists, n.nsubj:pass exists, n.advcl exists -> templates158
+n.pos is ADJ, n.morph has Degree=Sup, n.nsubj.morph has_not PronType=Rel, n.det exists, n.conj exists, n.nsubj exists -> templates159
+n.pos is PROPN, n.morph has Number=Sing, n.appos.parataxis exists, n.flat exists -> templates160
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.nmod exists, n.amod exists -> templates161
+n.pos is VERB, n.morph has Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.advcl exists, n.nsubj exists -> templates162
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.cop exists, n.nsubj.appos.compound exists, n.conj.acl exists, n.conj.acl.obl exists -> templates163
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.nmod.nmod:poss exists, n.nmod.conj.acl exists -> templates164
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj.det exists, n.nmod exists, n.nsubj exists -> templates165
+n.pos is VERB, n.morph has Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.obj.nmod exists, n.nsubj exists, n.obj.nmod.case exists, n.obj.nmod.amod exists -> templates166
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nmod exists, n.amod exists, n.nsubj exists -> templates167
+n.pos is ADJ, n.morph has Degree=Sup, n.cop exists, n.det exists, n.conj exists, n.nsubj.appos exists -> templates168
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.det exists, n.nsubj.conj exists, n.amod exists -> templates169
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.aux:pass exists, n.advcl.obj.appos.nmod.nmod exists, n.advcl.obj.appos exists, n.advcl.obj exists -> templates170
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nsubj.appos.acl.xcomp.appos.appos exists -> templates171
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj exists -> templates172
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.conj.obl exists, n.compound exists, n.acl.conj exists, n.nsubj exists -> templates173
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nmod exists, n.nsubj exists -> templates174
+n.pos is NOUN, n.morph has Number=Sing, n.nmod exists, n.nmod.acl:relcl.advcl.obj exists -> templates176
+n.pos is NOUN, n.morph has Number=Sing, n.parataxis exists, n.amod exists -> templates177
+n.pos is ADJ, n.morph has Degree=Pos, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod exists, n.conj exists -> templates178
+n.pos is NOUN, n.morph has Number=Sing, n.appos exists, n.amod exists -> templates180
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass/2 exists, n.obl exists -> templates181
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.det exists, n.ccomp exists, n.ccomp.obj.nmod exists -> templates184
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.acl.conj exists, n.acl.conj.obl exists -> templates185
+n.pos is NOUN, n.morph has Number=Sing, n.compound/2 exists, n.appos exists -> templates186
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.conj.obl.nmod:poss.det exists, n.nsubj:pass exists, n.obl exists -> templates187
+n.pos is NOUN, n.morph has Number=Sing, n.acl.advcl.nsubj.morph has_not PronType=Rel, n.acl.advcl exists, n.acl.advcl.obl.acl.obl exists, n.acl.advcl.nsubj exists -> templates188
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.xcomp exists, n.nsubj exists -> templates189
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.acl exists, n.acl.obl:tmod exists -> templates190
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.nsubj.compound exists, n.acl:relcl.xcomp exists -> templates191
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.acl exists, n.acl.obl exists -> templates192,templates195,templates239
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.parataxis exists, n.advcl.obj.nmod.det exists, n.nsubj exists, n.parataxis.nsubj:pass.appos exists -> templates197
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.cop exists, n.nsubj exists -> templates198
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.det exists, n.nsubj.appos exists, n.nmod exists -> templates199
+n.pos is ADJ, n.morph has Degree=Pos, n.conj.nsubj exists, n.conj exists -> templates200
+n.pos is PROPN, n.morph has Number=Sing, n.parataxis.parataxis.obj.amod.appos.appos.parataxis.parataxis.cop exists, n.parataxis.parataxis.obj.amod.appos.appos.parataxis.parataxis.nmod exists -> templates201
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.obj exists, n.obj.acl:relcl.obl exists -> templates202
+n.pos is VERB, n.morph has Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj exists, n.nsubj.det exists, n.obj exists, n.nsubj exists -> templates203
+n.pos is ADJ, n.morph has Degree=Pos, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.advmod exists -> templates204
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.conj.nsubj:pass.det exists, n.obl.appos exists, n.advcl.obl.nmod exists -> templates206
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.conj exists, n.nsubj:pass.compound exists, n.obl exists -> templates207
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.acl exists -> templates208
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.obl.nmod exists, n.obl exists -> templates209
+n.pos is NOUN, n.morph has Number=Plur, n.nsubj.amod exists, n.amod exists, n.acl:relcl exists -> templates210
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj/2 exists, n.nsubj.nmod.nmod.appos.nummod exists -> templates211
+n.pos is VERB, n.morph has Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin, n.obj.nmod exists, n.obj.nmod.acl:relcl.obl:tmod exists -> templates212
+n.pos is NOUN, n.morph has Number=Sing, n.compound exists, n.parataxis.appos exists -> templates213
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass exists, n.obl.appos exists -> templates214
+n.pos is NUM, n.morph has NumType=Card, n.parataxis.nsubj.morph has_not PronType=Rel, n.parataxis.nsubj.nmod exists, n.parataxis exists, n.parataxis.obj exists, n.parataxis.nsubj exists -> templates216
+n.pos is NOUN, n.morph has Number=Sing, n.conj exists, n.amod exists, n.nmod:poss exists, n.nmod exists -> templates217
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.obj.acl.obj exists, n.obl.nummod exists -> templates218
+n.pos is NOUN, n.morph has Number=Plur, n.nsubj.morph has_not PronType=Rel, n.obl.det exists, n.nsubj exists, n.nmod.nmod.case exists, n.nsubj.nmod:poss exists, n.nummod exists -> templates219
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.obl.det exists, n.obl.conj exists, n.nsubj:pass.nmod exists, n.advcl.obj exists -> templates221
+n.pos is PROPN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nsubj.nmod:poss exists, n.flat/3 exists -> templates222
+n.pos is NOUN, n.morph has Number=Sing, n.nmod exists, n.nmod.acl:relcl.advcl.obl exists -> templates223
+n.pos is NOUN, n.morph has Number=Sing, n.cop exists, n.det exists, n.nsubj.amod exists, n.amod/2 exists, n.nsubj.nmod exists -> templates224
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj.det exists, n.amod exists, n.nmod:poss exists, n.nsubj exists -> templates225
+n.pos is VERB, n.morph has VerbForm=Ger, n.nsubj.acl.obj.conj exists, n.nsubj.acl.obj.conj.appos exists -> templates226
+n.pos is NOUN, n.morph has Number=Sing, n.parataxis.nmod.det exists, n.appos exists, n.parataxis exists -> templates227
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.aux:pass exists, n.nsubj:pass exists, n.nsubj:pass.nmod exists, n.obl exists -> templates228
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.det exists, n.amod exists, n.nmod exists, n.nsubj exists -> templates229
+n.pos is NOUN, n.morph has Number=Sing, n.acl:relcl.aux:pass exists, n.nsubj.acl.obl exists, n.acl:relcl exists, n.acl:relcl.obl exists -> templates230
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.obj exists, n.advcl exists, n.obl exists -> templates231
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.obl exists -> templates232
+n.pos is NOUN, n.morph has Number=Sing, n.acl:relcl.obl.det exists, n.nsubj.conj exists, n.compound exists, n.nmod exists -> templates233
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.appos.nmod:poss.det exists, n.amod exists, n.appos.conj.nmod.obl.case exists, n.nmod:poss exists, n.nsubj exists -> templates234
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.acl exists, n.nsubj exists -> templates235
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.obj exists, n.nsubj exists -> templates236
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.acl.obl.appos.acl.obl exists -> templates237
+n.pos is NOUN, n.morph has Number=Sing, n.appos.acl:relcl exists -> templates238
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.advcl.obj.nmod.nmod.nmod:poss exists, n.nsubj exists, n.obl.case exists, n.advcl.obj.nmod:poss.compound exists -> templates240
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nmod.conj exists, n.nsubj exists, n.nmod.conj.nummod exists -> templates241
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.ccomp.cop exists, n.nsubj exists, n.ccomp.amod exists, n.appos exists -> templates242
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.conj.acl.xcomp exists -> templates243
+n.pos is PROPN, n.morph has Number=Sing, n.appos.conj.appos.amod.parataxis exists, n.compound exists -> templates244
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part, n.nsubj.morph has_not PronType=Rel, n.obj exists, n.obj.appos exists, n.nsubj exists -> templates245
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.aux:pass exists, n.nsubj:pass.nmod exists, n.obl exists -> templates246
+n.pos is NOUN, n.morph has Number=Plur, n.nsubj.morph has_not PronType=Rel, n.nmod.det exists, n.nsubj exists, n.nmod exists, n.obl.nmod.nmod exists -> templates247
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nmod.acl.obl exists -> templates248
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.nsubj.morph has_not PronType=Rel, n.ccomp exists, n.nsubj exists -> templates249
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.obl.appos exists, n.nsubj exists, n.acl exists, n.acl.obl exists -> templates250
+n.pos is VERB, n.morph has Mood=Ind|Tense=Past|VerbForm=Fin, n.advcl.obj/2 exists, n.obl.nmod.case exists, n.advcl.xcomp.obl exists -> templates251
+n.pos is VERB, n.morph has Tense=Past|VerbForm=Part|Voice=Pass, n.obj.nmod.nmod:poss.case exists, n.obj.nmod.amod exists, n.obj.nmod exists, n.obj.nmod.acl.obl exists -> templates252
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.det exists, n.amod exists, n.nsubj exists, n.nmod exists -> templates253
+n.pos is NOUN, n.morph has Number=Sing, n.nsubj.morph has_not PronType=Rel, n.cop exists, n.nsubj exists, n.nmod.acl:relcl.obl exists, n.nmod exists -> templates254

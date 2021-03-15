@@ -1,0 +1,866 @@
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists -> templates1,templates6,templates172,templates427,templates436,templates1063,templates1072
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl:arg.nmod exists -> templates2
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.nmod exists -> templates3
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl exists -> templates4,templates5,templates23,templates25,templates107,templates109,templates110,templates111,templates116,templates117,templates290,templates428,templates429,templates437,templates632,templates847,templates985,templates1079
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Plur, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl exists, n.nsubj.punct exists -> templates7
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obj exists -> templates8,templates22,templates108
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl.nummod exists -> templates9,templates113,templates115,templates897,templates1015,templates1046
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl exists, n.acl.nsubj exists -> templates10
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.advmod:emph.nsubj.morph has_not PronType=Rel, n.nmod exists, n.advmod:emph.nsubj exists -> templates11
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod exists, n.conj.obj.nmod exists -> templates12
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.nummod exists -> templates13,templates457
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod/2 exists, n.conj.nsubj:pass.acl.obl.nmod.nmod.conj.conj.obl:arg.nmod.nmod.conj.acl.conj.conj.obl:arg.acl.obj.nmod exists -> templates14
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.parataxis.obl:arg.nmod.acl.nsubj:pass exists, n.obl.mark.nsubj.nmod exists, n.parataxis.obl:arg.nmod.acl.obl exists -> templates15
+n.pos is X, n.dep exists -> templates16,templates18
+n.pos is X, n.parataxis exists -> templates17,templates1061
+n.pos is X, n.nummod.nmod.nummod.nmod exists -> templates19
+n.pos is X, n.morph has Foreign=Yes, n.nsubj.morph has_not PronType=Rel, n.nsubj exists -> templates20
+n.pos is X, n.conj.obl:arg exists -> templates21
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl.nmod exists -> templates24
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl.nmod.nmod exists -> templates26
+n.pos is X, n.nmod/2 exists, n.nmod.dep exists -> templates27
+n.pos is X, n.nmod/2 exists, n.dep exists -> templates28,templates347,templates620
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.conj exists, n.amod exists, n.acl exists -> templates29,templates388
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Dual|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.conj exists, n.nsubj exists -> templates30
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.conj exists, n.nmod exists -> templates31
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.parataxis exists, n.dislocated exists, n.parataxis.nmod.amod exists -> templates32
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod.nmod exists, n.nmod exists -> templates33
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.acl.obl:arg exists -> templates34
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists -> templates35,templates996
+n.pos is ADJ, n.morph has Case=Acc|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists -> templates35
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj exists -> templates36,templates42,templates76,templates78,templates82,templates83,templates88,templates89,templates121,templates1100
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.acl exists -> templates37
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj exists -> templates38,templates449
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod exists -> templates39,templates255,templates445,templates850
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nmod exists -> templates40,templates124,templates158,templates171,templates280
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nmod exists -> templates41,templates87,templates187,templates277,templates279,templates313,templates356,templates448,templates477
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj.obl exists -> templates43,templates81
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.acl.obl:arg exists -> templates44
+n.pos is X, n.nmod.conj.nmod.nsubj exists, n.nmod/3 exists -> templates45
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl:arg exists -> templates46,templates51,templates75,templates79,templates86,templates184
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl exists -> templates47,templates49,templates53,templates54,templates55,templates80,templates152,templates182,templates186,templates331,templates458,templates669,templates727,templates738
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl/2 exists -> templates48,templates50
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.nmod exists -> templates52
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.nmod exists -> templates56,templates58,templates183,templates185
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl exists -> templates57,templates760,templates1091
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.nmod exists, n.obl exists -> templates59
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj.obl:arg.nmod exists -> templates60
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod.nmod exists -> templates61
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl exists -> templates62,templates446
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.nummod exists -> templates63,templates64,templates71,templates327,templates552
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.obl.acl.xcomp.nmod.conj.acl.obl:arg.amod.nmod.acl.obl:arg.nmod.nmod.nummod exists -> templates65,templates666
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj.obl.nummod.nmod.nummod exists -> templates66
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl exists -> templates67,templates74,templates328,templates667,templates1083
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.xcomp.obl exists -> templates68
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.nmod.nummod exists -> templates69,templates326
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.nummod exists, n.obl exists -> templates70
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.nummod.nmod.nummod exists -> templates72
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl:arg exists -> templates73
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nmod/3 exists -> templates77
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists -> templates84,templates162,templates322,templates677
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl:arg exists -> templates85,templates373
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.obl.nsubj.morph has_not PronType=Rel, n.conj.obl.nsubj.amod exists, n.conj.nsubj.nmod exists, n.nsubj.amod exists, n.conj.obl.nsubj exists -> templates90
+n.pos is CCONJ, n.parataxis.nsubj exists, n.parataxis.dep exists -> templates91
+n.pos is CCONJ, n.parataxis.nsubj exists, n.parataxis.obj exists -> templates92
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod/2 exists -> templates93,templates889,templates928
+n.pos is X, n.nmod exists, n.dep exists -> templates94,templates133,templates137
+n.pos is X, n.nmod exists, n.nmod.dep exists -> templates95,templates135,templates139
+n.pos is X, n.morph has Foreign=Yes, n.nmod exists, n.dep exists -> templates96,templates825
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod exists, n.parataxis exists -> templates97,templates502
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod exists, n.parataxis exists -> templates98,templates384
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod exists, n.dep.nmod exists -> templates99,templates950,templates1037
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.amod.obl exists, n.amod exists, n.nmod exists, n.amod.conj exists -> templates100
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.xcomp.obl.nmod exists, n.dep exists -> templates101
+n.pos is X, n.morph has Foreign=Yes, n.parataxis exists, n.nmod exists, n.parataxis.obl exists -> templates102
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obl exists -> templates103,templates591
+n.pos is X, n.morph has Foreign=Yes, n.dep.nmod exists, n.nmod exists -> templates104
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.conj exists, n.nsubj exists, n.conj exists -> templates105
+n.pos is X, n.parataxis.obl.acl.csubj exists, n.nmod exists, n.parataxis exists -> templates106
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl.nmod.nummod exists -> templates112
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl:arg.obl exists -> templates114
+n.pos is PROPN, n.conj exists, n.conj.obl exists -> templates118
+n.pos is PROPN, n.conj exists, n.conj.conj.nsubj:pass.nmod.nmod.nummod exists -> templates119
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod exists, n.acl exists -> templates120,templates125,templates278,templates358,templates997
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj exists -> templates122,templates462,templates1070
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod/2 exists, n.acl exists -> templates123,templates155
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nummod.nmod exists, n.obj exists -> templates126
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj.nmod exists, n.nsubj/2 exists -> templates127,templates822
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists -> templates128
+n.pos is X, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.conj exists, n.obl/2 exists -> templates129
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists -> templates130,templates131,templates232,templates244,templates247,templates564,templates568,templates721,templates881,templates933
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.nmod.conj.obl:arg exists, n.nmod exists -> templates132
+n.pos is X, n.nmod.parataxis.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nmod.parataxis.nsubj exists -> templates134
+n.pos is X, n.nmod/2 exists -> templates136,templates742
+n.pos is X, n.nmod exists, n.nmod.obj exists -> templates138
+n.pos is X, n.nmod exists, n.amod/2 exists -> templates140
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj exists, n.obl exists -> templates141
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj exists, n.obj.obl.conj.acl exists -> templates142
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obj.acl.obl:arg exists, n.nsubj exists, n.conj exists -> templates143
+n.pos is X, n.acl.conj.advcl.nsubj.amod.acl exists, n.acl exists, n.acl.conj.advcl.nsubj.amod.acl.obl.nummod exists -> templates144,templates674
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nmod exists, n.amod exists -> templates145
+n.pos is X, n.morph has Foreign=Yes, n.flat:foreign exists, n.dep exists -> templates146,templates147,templates149,templates567
+n.pos is X, n.morph has Foreign=Yes, n.flat:foreign exists, n.nmod exists -> templates148
+n.pos is X, n.morph has Foreign=Yes, n.flat:foreign exists, n.parataxis exists -> templates150
+n.pos is CCONJ, n.parataxis.xcomp.nsubj exists, n.parataxis exists, n.parataxis.nsubj.amod exists -> templates151
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl/2 exists -> templates153,templates197
+n.pos is X, n.morph has Foreign=Yes, n.parataxis.nmod exists, n.amod exists, n.parataxis exists -> templates154
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod/3 exists, n.acl exists -> templates156
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.obl/2 exists -> templates157
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod exists, n.nmod exists -> templates159
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod exists, n.nmod exists, n.acl exists -> templates160
+n.pos is ADJ, n.morph has Case=Acc|Definite=Ind|Gender=Fem|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj exists -> templates161
+n.pos is X, n.nsubj.nummod.nsubj exists, n.nsubj.nummod exists -> templates163
+n.pos is X, n.nmod exists, n.amod exists -> templates164
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.dislocated exists, n.dislocated.nmod.amod exists -> templates165
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.xcomp.acl exists -> templates166
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.acl exists, n.nmod exists, n.parataxis.acl.obl exists -> templates167,templates169,templates1004,templates1016
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.acl exists, n.nmod exists, n.parataxis.amod exists -> templates168
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obl:arg exists, n.nsubj exists -> templates170
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.obl exists, n.nsubj exists -> templates173,templates749
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.obl/2 exists, n.nmod exists, n.nsubj.nmod exists -> templates174
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nummod.conj.nsubj exists, n.nmod.nmod exists, n.nsubj.nmod exists, n.nummod.conj exists -> templates175
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.obl exists, n.nmod.acl.obl:arg.nmod exists, n.conj.obl.nmod.nmod.nmod.amod exists -> templates176
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj exists, n.nsubj exists, n.conj exists -> templates177,templates424
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj exists, n.nsubj exists, n.conj.obj exists -> templates178
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.obl.nmod.acl.obj exists, n.conj.obl.nmod.nmod.amod exists, n.obl.case exists, n.conj.nsubj.nmod.nmod exists, n.conj.obl.nmod.amod exists -> templates179
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.parataxis.nsubj.conj exists, n.parataxis.nsubj.nmod exists, n.parataxis.nsubj.conj.nmod exists -> templates180,templates547
+n.pos is X, n.dep.nsubj exists, n.nmod.conj exists, n.dep exists, n.parataxis.obl exists -> templates181
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obl exists -> templates188
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod exists, n.nmod.acl exists, n.nsubj.nmod exists -> templates189
+n.pos is X, n.parataxis exists, n.nmod exists, n.parataxis.obl exists -> templates190
+n.pos is X, n.parataxis exists, n.nmod exists, n.parataxis.obl.amod.nmod.nmod exists -> templates191
+n.pos is X, n.parataxis exists, n.nmod exists -> templates192,templates431
+n.pos is PART, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.nsubj.acl.obl exists -> templates193
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.amod exists, n.nsubj exists -> templates194
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists, n.acl.obl.nmod.nmod exists, n.acl.obl exists -> templates195
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obj.nmod.nmod exists, n.nsubj exists, n.obj.nmod exists -> templates196
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis exists, n.nmod exists, n.parataxis.obl exists -> templates198
+n.pos is X, n.morph has Foreign=Yes, n.parataxis exists, n.parataxis.acl.obl exists -> templates199,templates795,templates871,templates970,templates1045
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod exists, n.amod exists, n.nsubj.nmod exists, n.dep.nmod.nmod exists -> templates200
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.nmod exists, n.obl exists -> templates201,templates523
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.nmod exists, n.obl/2 exists -> templates202
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nmod.nmod exists, n.nsubj exists -> templates203
+n.pos is ADJ, n.morph has Case=Nom|Definite=Def|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj exists, n.nsubj exists, n.obj exists, n.obl exists -> templates204
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.conj exists, n.conj.conj.conj.obl:arg exists -> templates205
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.conj/4 exists -> templates206
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists, n.acl exists, n.conj exists -> templates207
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/3 exists, n.nsubj exists -> templates208,templates211
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists -> templates209
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists, n.acl exists -> templates210,templates212,templates222,templates234,templates442,templates983,templates1059
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Plur, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod/2 exists, n.acl exists -> templates213
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.amod exists -> templates214,templates216,templates248
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.acl exists -> templates215,templates230,templates1035,templates1039
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod/2 exists -> templates217,templates311
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.amod/3 exists -> templates218,templates992
+n.pos is NOUN, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists -> templates219
+n.pos is X, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists -> templates219
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.acl exists -> templates220,templates245
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists, n.acl/2 exists -> templates221
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Plur, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.conj/2 exists -> templates223
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists -> templates224,templates225,templates363,templates367,templates400,templates416,templates584,templates846,templates945
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/4 exists, n.nsubj exists -> templates226,templates239
+n.pos is NOUN, n.morph has Case=Acc|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists, n.acl exists -> templates227
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod/3 exists -> templates228
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.amod/2 exists -> templates229
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod/2 exists, n.acl exists -> templates231,templates406
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.acl exists -> templates233
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Plur, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists, n.acl exists -> templates235,templates902
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Plur, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.acl exists -> templates236
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists, n.acl exists, n.nsubj.nmod.amod exists -> templates237
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.obl exists -> templates238
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.amod exists -> templates240
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.obl exists -> templates241
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod exists -> templates242
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.amod exists, n.obl exists -> templates243
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.amod exists, n.acl exists -> templates246
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.parataxis.nmod exists, n.obl.nmod exists, n.parataxis exists -> templates249
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod/2 exists, n.nsubj.conj.amod.obl:arg exists -> templates250
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.dislocated exists, n.dep exists -> templates251
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.dislocated exists, n.nsubj:pass exists -> templates252,templates831
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.parataxis.nmod.acl.obl exists -> templates253
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nummod.nsubj exists, n.nsubj exists, n.conj.nummod exists -> templates254
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis exists, n.nmod exists, n.nsubj.amod.nmod.nmod exists -> templates256
+n.pos is X, n.morph has Foreign=Yes, n.parataxis exists, n.nmod exists -> templates257
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.xcomp exists -> templates258,templates1094
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.conj exists, n.conj.nmod exists -> templates259,templates463
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.conj.xcomp.obl:arg exists, n.conj.xcomp.obl:arg.nsubj.amod exists -> templates260
+n.pos is CCONJ, n.parataxis exists, n.parataxis.obl exists -> templates261,templates417,templates513,templates690,templates702,templates703,templates826,templates851,templates869,templates918,templates1024
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists, n.amod.nmod.nmod.acl.conj.obj exists -> templates262
+n.pos is X, n.dep.conj exists, n.nmod/2 exists -> templates263
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.obl:arg exists, n.parataxis.obl:arg.conj.acl.obj exists -> templates264,templates409
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.amod exists -> templates265
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj.nummod exists -> templates266
+n.pos is X, n.conj exists, n.conj.nmod.nummod.conj.nmod exists -> templates267
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists, n.acl.obl.nummod exists -> templates268,templates298,templates555
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.nsubj exists, n.nsubj.nmod exists, n.acl.obl:arg exists -> templates269
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nmod exists, n.nsubj exists -> templates270,templates807,templates943,templates980
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.obl exists, n.nmod exists, n.nsubj.nmod exists -> templates271
+n.pos is X, n.nmod exists, n.nmod.nmod exists -> templates272
+n.pos is X, n.obj.conj exists, n.nmod exists, n.obj.conj.nmod.amod exists -> templates273
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Fem|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod exists, n.obl:arg exists -> templates274
+n.pos is X, n.nmod.nsubj exists, n.nmod/3 exists -> templates275,templates414,templates415
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod exists -> templates276
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod/2 exists -> templates281,templates412
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.ccomp.obl.nmod.conj.nmod exists, n.advcl.nsubj.nmod.nmod.nmod exists, n.obl/2 exists -> templates282
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.obl exists -> templates283,templates284,templates287
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.obl.nmod exists -> templates285
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.obl.obl exists -> templates286
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.obj exists, n.nsubj.dep exists, n.obj.nmod exists -> templates288,templates900
+n.pos is ADV, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod.acl exists -> templates289
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists, n.acl.obl.nmod exists -> templates291,templates302
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists, n.acl.obj exists -> templates292,templates304,templates635
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists, n.acl.obl exists -> templates293,templates295,templates296,templates300,templates303,templates934
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists -> templates294,templates554
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists, n.amod exists -> templates297
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists, n.acl.obl.nmod.nummod exists -> templates299
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists, n.acl.dep.nmod.nmod.nummod exists -> templates301
+n.pos is CCONJ, n.parataxis.nsubj exists, n.parataxis exists -> templates305
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.obj exists, n.obl exists -> templates306
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.obj exists, n.obl.nummod exists -> templates307
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj exists, n.conj.xcomp.obl.nmod.nmod.nmod exists -> templates308
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists -> templates309,templates868
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis exists, n.nmod exists, n.parataxis.obj.nummod exists -> templates310
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.amod exists -> templates312
+n.pos is CCONJ, n.parataxis exists, n.parataxis.obl.nmod exists -> templates314,templates998
+n.pos is NOUN, n.morph has Case=Acc|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.conj exists, n.nsubj exists, n.conj.conj.obl exists -> templates315
+n.pos is NOUN, n.morph has Case=Gen|Definite=Cons|Number=Plur, n.nmod/3 exists, n.case exists, n.nsubj.amod exists -> templates316
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod exists, n.obl/2 exists -> templates317
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.dislocated exists, n.obl exists -> templates318
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.nmod exists -> templates319
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obl.nummod exists -> templates320
+n.pos is X, n.morph has Foreign=Yes, n.conj/2 exists, n.nmod exists, n.flat:foreign exists -> templates321
+n.pos is X, n.conj.obl exists, n.nmod/2 exists -> templates323
+n.pos is X, n.conj.nsubj exists, n.nmod.conj.nmod.conj exists, n.nmod exists, n.conj exists -> templates324
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.obl exists, n.nsubj.nmod exists -> templates325
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod exists -> templates329
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod exists -> templates330
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.nmod exists, n.obl exists -> templates332
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.parataxis exists, n.nsubj exists -> templates333
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nummod exists, n.acl.obl exists, n.advcl.obl.nummod exists -> templates334
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.csubj exists -> templates335
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj.nsubj.nmod exists, n.conj.obl.nmod.case exists, n.conj.obj exists, n.obl:arg exists -> templates336
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.parataxis.obj exists, n.nsubj exists, n.parataxis.obj.acl.obl:arg exists -> templates337
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis.conj.nsubj.nmod.nsubj exists, n.dep exists -> templates338
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.acl.nsubj exists, n.acl.obl.nummod exists -> templates339
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.advcl exists, n.dislocated exists, n.advcl.obl/2 exists -> templates340
+n.pos is X, n.nmod/3 exists, n.nmod.nummod.conj.nummod.amod exists -> templates341
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod.obl.nummod exists -> templates342
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.amod.conj exists, n.nmod exists, n.amod.conj.nmod.nummod.conj.nummod exists -> templates343
+n.pos is CCONJ, n.parataxis exists -> templates344,templates676,templates952
+n.pos is NUM, n.morph has NumForm=Digit, n.parataxis/2 exists, n.parataxis.obl.nummod exists -> templates345
+n.pos is X, n.nmod/2 exists, n.amod exists -> templates346
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl/2 exists, n.obj exists, n.obl.nummod exists -> templates348
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.obl.acl.nsubj exists, n.nsubj exists, n.acl.obl.acl.obj exists -> templates349
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.nmod exists, n.nsubj exists -> templates350,templates351
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Fem|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj exists, n.nsubj exists, n.conj exists -> templates352
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj exists, n.nsubj exists, n.obl exists -> templates353
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.conj exists, n.nmod.nmod exists, n.acl.conj.obl/2 exists -> templates354
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.nsubj.nmod.acl exists, n.nmod exists, n.parataxis.nsubj.nmod.acl.obl.nmod.nmod.amod.nmod exists -> templates355
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod/2 exists, n.conj exists -> templates357
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj exists, n.conj.nsubj exists, n.conj.obj.nmod.nummod exists -> templates359
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.obj.amod.obl exists, n.nsubj exists, n.acl.obj.amod.obl.acl exists -> templates360,templates361
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.conj.nsubj:pass.morph has_not PronType=Rel, n.conj exists, n.conj.nsubj:pass exists -> templates362
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod/2 exists, n.nsubj.nmod exists -> templates364
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod/2 exists, n.nsubj.conj exists -> templates365,templates611
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod/3 exists -> templates366
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl exists, n.obj exists -> templates368
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj exists -> templates369
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj exists -> templates370,templates443,templates625,templates685
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.dep.nmod.nmod exists, n.obj exists -> templates371,templates372
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.conj exists -> templates374
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.dep exists -> templates375
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists -> templates376,templates382
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod exists, n.nsubj.nmod exists -> templates377,templates379,templates381,templates711
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod/2 exists -> templates378,templates380,templates383,templates504
+n.pos is X, n.dep exists, n.dep.acl.obl exists -> templates385
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.nmod exists, n.conj.conj.advcl.obl:arg.nmod.nmod.nmod exists, n.obl.nummod exists -> templates386
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.parataxis exists, n.nsubj exists, n.nmod.acl.obl exists -> templates387
+n.pos is CCONJ, n.parataxis.conj.ccomp exists, n.parataxis.conj.ccomp.nsubj.acl.obl:arg.nmod.nummod exists -> templates389
+n.pos is NUM, n.morph has NumForm=Digit, n.parataxis.conj.nsubj.morph has_not PronType=Rel, n.parataxis.conj.nsubj.nmod exists, n.parataxis.conj.nsubj exists -> templates390
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.conj.nummod exists -> templates391
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.advcl.obj.nmod.acl.conj exists, n.nsubj exists, n.nsubj.nmod.nummod exists -> templates392
+n.pos is CCONJ, n.dep exists, n.dep.nmod.acl.obj exists -> templates393
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.acl exists, n.parataxis.nmod exists, n.nmod exists, n.parataxis.acl.obl exists -> templates394
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl/2 exists -> templates395
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj exists, n.nsubj.nmod exists, n.conj.nmod exists -> templates396
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Fem|Number=Sing, n.conj exists, n.nsubj.nmod exists, n.conj.obl exists -> templates397
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.conj exists, n.nsubj.nmod exists, n.conj.obl exists -> templates398
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.conj.advmod:emph.appos exists, n.obl.nummod exists -> templates399
+n.pos is NUM, n.morph has NumForm=Digit, n.nsubj.morph has_not PronType=Rel, n.dep.nmod.acl exists, n.nsubj exists, n.dep.nmod.acl.obl exists -> templates401
+n.pos is X, n.morph has Foreign=Yes, n.parataxis/2 exists, n.parataxis.nmod exists -> templates402
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis.conj.obj.nmod exists, n.parataxis.nmod.nmod.case exists, n.parataxis.conj.obj exists -> templates403
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.nsubj exists, n.amod exists, n.nmod exists -> templates404
+n.pos is X, n.conj.conj exists, n.nmod exists, n.nmod.nmod.nmod exists, n.conj.conj.obl.nmod.nummod exists -> templates405
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.nsubj:pass.nmod exists, n.obl:arg exists -> templates407
+n.pos is X, n.nmod.nsubj exists, n.nmod/2 exists -> templates408
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.conj.xcomp exists, n.amod.obl exists, n.conj.obl.obl.nmod.nummod.nmod.nummod.nmod.nummod exists -> templates410
+n.pos is X, n.morph has Foreign=Yes, n.parataxis.obj/2 exists, n.parataxis exists -> templates411
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.nmod.acl.obl:arg.amod.nummod.nmod.acl exists, n.nmod exists, n.amod exists, n.parataxis.nmod.nmod exists -> templates413
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod.conj.obl.conj.acl.obl:arg.nmod.acl.obl.conj.conj exists, n.nmod exists, n.amod exists, n.nmod.conj.obl.conj.acl.obl:arg.nmod.acl.obl exists -> templates418
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj.obl:arg.nmod exists, n.nsubj.obl exists -> templates419
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.obl/2 exists, n.amod exists, n.nsubj.dep.conj exists -> templates420
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.parataxis exists, n.obj.conj.nmod exists -> templates421
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.parataxis exists, n.conj.ccomp.obj exists -> templates422
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.parataxis.conj.obl exists, n.obl:arg exists, n.parataxis.conj.obl.case exists, n.parataxis.conj.nsubj.nmod exists -> templates423
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.xcomp.obl/2 exists -> templates425
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.advcl.nsubj.morph has_not PronType=Rel, n.dislocated/2 exists, n.advcl.nsubj exists -> templates426
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.nsubj exists -> templates430
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.parataxis.nsubj exists, n.parataxis.obj exists, n.parataxis.obl:arg exists -> templates432
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.amod exists, n.parataxis.obl:arg.nmod.nummod.nmod exists -> templates433
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.amod exists, n.conj.nsubj.nmod exists -> templates434
+n.pos is X, n.morph has Foreign=Yes, n.amod exists, n.dep exists -> templates435,templates481
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl.nummod exists -> templates438
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis exists, n.nmod.nmod exists, n.nmod/2 exists, n.parataxis.obl.nummod exists -> templates439
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.acl.conj exists, n.obl exists, n.acl.conj.obl.nummod exists -> templates440
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.obl.nmod.nmod.nmod.nmod.nmod.obj.conj exists, n.nmod.nmod exists, n.nmod/2 exists -> templates441
+n.pos is NUM, n.morph has NumForm=Digit, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.dep exists -> templates444
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl:arg exists, n.obj exists, n.obl:arg.conj exists -> templates447
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nmod exists -> templates450
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.obl exists, n.conj.nsubj.nmod exists, n.nsubj.nmod exists, n.conj.obj exists -> templates451
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis exists, n.nmod exists, n.parataxis.obl.nummod exists -> templates452
+n.pos is X, n.conj.nsubj exists, n.nmod exists, n.conj.obl:arg exists -> templates453
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.acl.obj exists -> templates454
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.xcomp.obj exists, n.xcomp.obl.nummod.nmod exists -> templates455
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.parataxis.nsubj exists, n.nsubj exists, n.amod exists -> templates456
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.amod exists, n.nsubj exists -> templates459
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.conj exists, n.nmod.conj.nmod exists, n.conj.case exists, n.conj.nsubj.nmod exists, n.parataxis exists -> templates460
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.obl.acl exists, n.dislocated exists, n.obl exists, n.obl.acl.obl.nmod exists, n.obl.acl.obl exists, n.parataxis exists -> templates461
+n.pos is X, n.parataxis.acl exists, n.parataxis.obj.conj exists, n.nmod exists, n.parataxis.acl.obl exists -> templates464
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obl:arg exists -> templates465
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.acl.nsubj exists, n.nmod exists, n.parataxis.acl.obl exists -> templates466
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Dual|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.conj.obl exists, n.nsubj.nmod exists -> templates467
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis exists, n.parataxis.obl exists -> templates468
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod exists, n.aux exists, n.nsubj.nmod.nmod exists, n.nsubj.nmod.nmod.acl.obl exists -> templates469
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists -> templates470
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj/2 exists, n.obl:arg.case exists, n.nsubj exists, n.conj exists -> templates471
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj.obj exists, n.nsubj exists, n.conj.obj.nummod exists -> templates472,templates473
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj.obl.acl.nsubj exists, n.obl:arg exists -> templates474,templates475,templates634
+n.pos is X, n.acl exists, n.nmod exists, n.acl.obl exists -> templates476
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod/3 exists, n.nsubj.nmod exists -> templates478
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.advcl exists, n.nsubj exists, n.acl.obl.nummod exists -> templates479
+n.pos is X, n.parataxis.nmod.acl exists, n.parataxis.nmod exists, n.nmod exists, n.parataxis.nmod.nmod exists -> templates480
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.nmod.acl.obl:arg.nmod.conj exists, n.nsubj.conj.amod exists, n.nsubj.nmod.acl.obl:arg.nmod.acl exists -> templates482
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obl exists -> templates483,templates803
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists, n.nmod exists -> templates484
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.nsubj exists, n.nmod exists, n.conj.obj exists -> templates485
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod.nummod exists -> templates486
+n.pos is X, n.parataxis.conj/2 exists, n.parataxis.nsubj.acl.obl exists -> templates487
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obl:arg exists, n.nsubj exists, n.obl:arg.amod exists -> templates488
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl exists, n.conj.obl exists -> templates489
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl exists, n.obl.nummod exists -> templates490
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.dislocated.conj exists, n.nsubj.obl.nummod exists -> templates491
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Plur, n.nmod exists, n.acl.obl.nmod.nmod.nmod exists, n.amod exists, n.acl exists -> templates492
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl.nmod.conj.nmod.nmod exists, n.acl.obl exists -> templates493
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.conj.obj exists, n.nsubj.nummod.nmod.nmod exists, n.obl.nmod exists -> templates494
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.dislocated exists, n.obl.nummod exists -> templates495
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obj.nummod exists -> templates496
+n.pos is X, n.parataxis.nmod exists, n.parataxis exists -> templates497
+n.pos is CCONJ, n.parataxis exists, n.parataxis.advcl.obl exists -> templates498
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj exists, n.obl exists, n.obl.nummod exists -> templates499
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Fem|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists, n.nmod exists -> templates500
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.parataxis.conj exists, n.parataxis.advcl.nsubj exists, n.parataxis.obl:arg.obl.nummod exists -> templates501
+n.pos is X, n.nmod exists, n.parataxis exists -> templates503
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj exists, n.nsubj exists, n.conj.nsubj.amod exists, n.conj exists -> templates505
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod.nmod exists, n.acl.dislocated.nmod exists, n.nmod.nmod.nmod.nummod exists -> templates506
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.parataxis.nsubj exists, n.dislocated exists, n.parataxis exists -> templates507
+n.pos is CCONJ, n.parataxis exists, n.parataxis.obl.nmod.nummod exists -> templates508,templates717
+n.pos is ADJ, n.morph has Case=Acc|Definite=Ind|Gender=Masc|Number=Sing, n.parataxis.nmod exists, n.obj.nmod.acl.nsubj.nmod.nummod.nmod exists, n.obj.nmod exists -> templates509
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj exists, n.nsubj.nmod exists, n.conj.acl.obl exists -> templates510
+n.pos is CCONJ, n.parataxis exists, n.parataxis.nsubj.nmod.nmod exists -> templates511
+n.pos is X, n.nmod.flat:foreign.nmod exists, n.parataxis.xcomp.conj.xcomp exists -> templates512
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj.amod exists, n.amod exists, n.nsubj exists -> templates514
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.conj.conj.obj.nmod.nsubj exists, n.acl.obl exists, n.acl.nsubj.nmod.nmod exists, n.acl.obl.acl.obj exists -> templates515
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.parataxis.conj.advcl.conj exists, n.parataxis.nsubj exists, n.acl.obl:arg.nmod exists -> templates516
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.dislocated exists, n.obl exists -> templates517
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.acl.obl:arg.nmod.amod exists, n.nsubj.nmod.nmod.case exists, n.acl.obj exists -> templates518
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.acl exists, n.nsubj exists, n.conj.acl.obl exists -> templates519
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.acl.obl.nmod exists, n.nmod exists, n.nsubj exists, n.conj.acl.obl.nmod.nmod.nmod.acl.obj exists -> templates520
+n.pos is X, n.nmod.nmod exists, n.dep exists -> templates521
+n.pos is X, n.morph has Foreign=Yes, n.nmod.nmod exists, n.parataxis exists -> templates522
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod.conj exists, n.nmod exists, n.nmod.conj.nmod.nummod exists -> templates524
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.conj exists, n.nmod/2 exists, n.parataxis.conj.obl.nummod exists -> templates525
+n.pos is X, n.amod exists, n.dep.conj exists, n.parataxis.obj exists -> templates526
+n.pos is X, n.obj.nsubj exists, n.obj.obl:arg exists -> templates527
+n.pos is CCONJ, n.dep.nmod exists, n.parataxis exists -> templates528
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.advcl.obl:arg.acl.obj.nmod exists, n.advcl.obl:arg exists -> templates529
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl:arg exists, n.obl.nummod.nmod.nmod exists -> templates530
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl:arg exists, n.obl.nummod exists -> templates531
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.obl.nmod.nmod.nummod exists -> templates532
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.conj exists, n.amod exists -> templates533
+n.pos is X, n.conj/2 exists, n.conj.obl exists -> templates534
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.conj.conj.obl.nmod.acl.obj.nmod exists, n.acl exists -> templates535
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.obl exists -> templates536
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nummod.nsubj exists, n.nsubj exists, n.nummod exists -> templates537,templates942
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.conj.conj.obj.conj.acl.obj exists, n.nsubj exists -> templates538
+n.pos is X, n.conj.conj.amod.conj exists, n.nmod/4 exists, n.nmod.nmod exists, n.nummod exists -> templates539
+n.pos is X, n.dep.amod.obl exists, n.nmod exists, n.dep exists -> templates540
+n.pos is X, n.nmod.nmod exists -> templates541
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.advmod:emph.nsubj exists, n.obl.nummod exists -> templates542
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj/2 exists, n.amod/2 exists -> templates543
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj/2 exists, n.amod/3 exists -> templates544
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.xcomp exists, n.advcl exists -> templates545
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.amod.conj exists -> templates546
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.obl.nmod.acl exists, n.nsubj.nmod exists, n.acl.obl.nmod.acl.obl exists -> templates548
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.obl.nmod.acl exists, n.nsubj.nmod exists -> templates549
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.amod/2 exists, n.nsubj exists -> templates550,templates576
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj.nmod exists, n.nsubj exists, n.dep.nmod exists -> templates551
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.amod exists, n.obl exists, n.nsubj exists -> templates553
+n.pos is X, n.conj exists, n.dep.nmod.nummod exists -> templates556
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.conj.csubj exists, n.nsubj:pass exists, n.conj.csubj.obl exists -> templates557
+n.pos is CCONJ, n.parataxis exists, n.parataxis.nsubj:pass.nmod exists -> templates558
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obj exists -> templates559
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.conj.nsubj exists, n.conj.obl:arg exists -> templates560
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Jus|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj exists, n.nsubj exists -> templates561
+n.pos is X, n.dep.nsubj exists, n.nmod/2 exists -> templates562
+n.pos is NOUN, n.morph has Case=Acc|Definite=Ind|Number=Sing, n.conj.nmod exists, n.nsubj.nmod exists, n.nmod exists -> templates563
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.obl.conj exists, n.obl exists -> templates565
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.nmod exists -> templates566
+n.pos is X, n.conj.nsubj exists, n.conj.nsubj.nmod exists -> templates569
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.obj.nmod.acl exists, n.nsubj/2 exists, n.advmod exists, n.obj.nmod.acl.obl.nmod exists -> templates570
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.conj exists, n.conj.obl.nummod exists -> templates571
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.xcomp.acl exists, n.nsubj/2 exists, n.xcomp.acl.obj exists, n.conj.obl:arg exists, n.conj.obl.nummod exists -> templates572
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.dislocated exists, n.dislocated.nmod.nmod.conj.nummod exists -> templates573
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.acl.conj.obl exists -> templates574
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.dislocated exists, n.dep.amod exists -> templates575
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj exists, n.acl.conj.obj.acl.obj exists, n.conj.nmod exists -> templates577
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.acl exists, n.nsubj exists -> templates578
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis.conj.nsubj exists, n.conj.nmod exists, n.conj.nummod.nmod exists -> templates579
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obl:arg.nmod exists, n.nsubj exists -> templates580
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.acl exists, n.nmod.nmod exists, n.acl.obl exists -> templates581
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.amod exists, n.nsubj/2 exists -> templates582
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.amod exists, n.nsubj exists -> templates583
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.obl.nummod exists -> templates585
+n.pos is X, n.nmod.nmod.conj exists, n.nmod exists, n.nmod.nmod.conj.obl:arg.nummod exists -> templates586
+n.pos is X, n.morph has Foreign=Yes, n.parataxis exists, n.parataxis.acl.obl.nmod.nmod exists -> templates587
+n.pos is X, n.parataxis exists, n.nmod exists, n.parataxis.acl.obl exists -> templates588
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.obl exists -> templates589
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.nsubj exists -> templates590
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.conj exists, n.conj exists, n.obl:arg exists -> templates592
+n.pos is CCONJ, n.parataxis.nsubj:pass exists, n.parataxis.nsubj:pass.conj.conj exists -> templates593
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod/2 exists, n.nmod.nmod.amod.nmod.nmod.nummod exists -> templates594
+n.pos is X, n.dep exists, n.nmod exists, n.nummod.obl.nummod exists -> templates595
+n.pos is X, n.dep exists, n.nmod exists, n.nummod.obl.nummod.nmod.nummod exists -> templates596
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.conj.advcl.conj.nsubj:pass.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.conj.advcl.conj.nsubj:pass exists, n.nsubj exists, n.obl.case exists, n.conj.advcl.nsubj exists -> templates597
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.nmod exists, n.obl.nummod exists -> templates598,templates923
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.nmod exists, n.nmod exists -> templates599
+n.pos is X, n.morph has Foreign=Yes, n.parataxis exists, n.parataxis.conj.amod.nmod.conj.nmod exists -> templates600
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.xcomp exists, n.nsubj exists, n.nsubj.nmod exists, n.xcomp.obl.amod exists -> templates601
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.acl.xcomp exists, n.nsubj exists, n.conj.acl.xcomp.obl exists -> templates602
+n.pos is X, n.conj exists, n.nmod exists, n.conj.nmod exists -> templates603
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.amod.nmod exists, n.nsubj exists, n.amod exists -> templates604
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists, n.acl exists -> templates605
+n.pos is ADJ, n.morph has Case=Nom|Definite=Def|Gender=Fem|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists -> templates606
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl/2 exists, n.nsubj exists, n.nmod exists -> templates607
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Fem|Number=Plur, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists, n.amod exists -> templates608
+n.pos is NUM, n.morph has NumForm=Digit, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists, n.nmod exists -> templates609
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod/2 exists, n.nsubj.conj exists, n.amod exists -> templates610
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod/2 exists, n.nsubj.conj exists -> templates612
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod exists, n.nsubj.conj exists, n.amod/3 exists -> templates613
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Plur, n.nmod exists, n.nsubj.conj exists, n.amod exists, n.acl exists -> templates614
+n.pos is NUM, n.morph has NumForm=Digit, n.amod.conj.obj.obl exists, n.amod.conj.nsubj.nmod.nmod exists, n.amod.obl exists, n.amod.conj.obj exists -> templates615
+n.pos is X, n.parataxis.obj exists, n.conj exists, n.parataxis.obj.acl.xcomp.obl:arg.acl.obl exists -> templates616
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.ccomp exists, n.nsubj exists, n.ccomp.obl exists -> templates617
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod exists, n.conj.nsubj.nmod exists, n.amod exists, n.acl exists -> templates618
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj exists, n.conj.acl.obl exists -> templates619
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists, n.nmod.acl.obl.amod exists, n.nmod exists -> templates621
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod/2 exists, n.conj.xcomp.nmod.nmod exists -> templates622
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.conj.nsubj.nmod.acl exists, n.nmod exists, n.nummod exists -> templates623
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.dep exists -> templates624
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.conj.obl:arg exists, n.obl:arg.acl.obj exists, n.nsubj.nmod.nmod exists, n.conj.obl:arg.nmod.nmod exists -> templates626
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Fem|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod exists -> templates627
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists -> templates628
+n.pos is X, n.nsubj.conj exists, n.nmod exists, n.nsubj.conj.obl exists -> templates629
+n.pos is X, n.nsubj.conj exists, n.nmod exists, n.nmod.conj exists -> templates630
+n.pos is X, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj.nmod.nsubj exists, n.nsubj exists, n.conj.nsubj exists, n.conj.nsubj.nmod exists -> templates631
+n.pos is NOUN, n.morph has Case=Gen|Definite=Cons|Number=Sing, n.parataxis.nsubj exists, n.nsubj.nmod exists, n.parataxis exists -> templates633
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod.acl.obl.nmod.nummod exists -> templates636
+n.pos is X, n.dep.nmod exists, n.nmod exists, n.dep exists -> templates637
+n.pos is X, n.parataxis.nsubj exists, n.nmod exists, n.parataxis exists -> templates638
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.nsubj exists, n.nmod exists, n.parataxis exists -> templates639
+n.pos is CCONJ, n.parataxis exists, n.parataxis.conj.acl.conj.obl.nmod exists -> templates640
+n.pos is NOUN, n.morph has Case=Gen|Definite=Def|Number=Plur, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.case exists -> templates641
+n.pos is X, n.nmod.nmod.nmod.nmod.nmod.amod.conj exists, n.nmod exists, n.nmod.nmod.nmod.nmod.nmod.nummod exists -> templates642
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj.obj exists, n.nsubj exists, n.conj exists -> templates643
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.acl.nsubj.nmod.nmod exists, n.amod exists -> templates644
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.nsubj exists, n.nsubj.nmod exists, n.conj exists -> templates645
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.xcomp exists, n.nsubj exists, n.xcomp.obl exists -> templates646
+n.pos is X, n.morph has Foreign=Yes, n.parataxis.advcl exists, n.flat:foreign exists, n.parataxis.advcl.obj exists, n.parataxis.advcl.obl.nmod.nummod exists -> templates647
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.nmod exists, n.obl.nmod exists -> templates648
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj exists, n.nmod.acl.nsubj:pass.nummod.nmod.acl.obl.conj.nmod.nmod.acl.xcomp.nmod exists, n.nmod.acl.nsubj:pass.nummod.nmod.acl.obl.conj.nmod.nmod.nmod.nmod exists, n.conj.conj exists -> templates649
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nmod exists, n.nsubj exists, n.acl.obl.nummod exists -> templates650
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.conj exists, n.nmod exists, n.parataxis.conj.obl exists -> templates651
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.obl exists, n.nsubj.nmod exists, n.obl:arg exists -> templates652
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.nsubj.conj.nmod exists -> templates653
+n.pos is X, n.parataxis exists, n.parataxis.acl.obl.nmod exists -> templates654
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obj exists, n.nsubj exists, n.obj.nmod.nmod exists -> templates655
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.acl.obl:arg.nmod.acl exists, n.nmod exists, n.nsubj exists, n.nmod.acl.obl:arg.nmod.acl.obl.nummod exists -> templates656
+n.pos is X, n.morph has Foreign=Yes, n.parataxis exists -> templates657
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.parataxis.conj.advcl.nsubj exists, n.amod/2 exists -> templates658
+n.pos is CCONJ, n.parataxis.nsubj exists, n.parataxis.obl.nmod exists -> templates659
+n.pos is CCONJ, n.parataxis.nsubj exists, n.parataxis.nsubj.nmod.nmod exists -> templates660
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obl/2 exists, n.nsubj exists, n.xcomp exists -> templates661
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists, n.amod/2 exists -> templates662
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod.acl exists, n.nmod exists, n.nsubj.nmod.nmod exists -> templates663,templates664
+n.pos is NUM, n.morph has NumForm=Digit, n.nsubj.conj.conj exists, n.nmod.nmod.nmod.nmod.acl exists -> templates665
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj exists -> templates668
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.nsubj.amod exists -> templates670
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.nmod.acl exists, n.dislocated exists, n.conj.nmod.acl.obl.nummod exists -> templates671
+n.pos is CCONJ, n.parataxis exists, n.parataxis.conj.obl:arg exists -> templates672
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.conj.obl:arg.acl exists, n.conj.obl:arg.nmod exists -> templates673
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.parataxis exists, n.dep.nmod.nmod.nmod.nmod exists, n.nsubj.parataxis.nmod.nmod.acl.obl exists -> templates675
+n.pos is X, n.parataxis.obj.acl exists, n.parataxis.obj exists -> templates678
+n.pos is NUM, n.morph has NumForm=Digit, n.nmod/3 exists, n.conj.amod exists -> templates679
+n.pos is X, n.parataxis.nmod exists, n.conj.nsubj exists, n.nmod exists -> templates680
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.obj exists, n.obj.nmod.nmod.acl.obl exists -> templates681
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.dislocated exists, n.dislocated.advcl.obj exists -> templates682
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj exists -> templates683
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nmod.acl exists, n.nmod exists, n.nmod.acl.obj exists -> templates684
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod.conj exists, n.nmod exists -> templates686
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists, n.acl.obl:arg exists -> templates687
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod/2 exists, n.dep exists -> templates688
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.dep.nsubj.morph has_not PronType=Rel, n.nmod exists, n.dep.nsubj exists -> templates689
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nmod/3 exists, n.nsubj/2 exists -> templates691
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.amod exists -> templates692
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod.nmod.nummod exists -> templates693
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.dep.acl exists, n.nmod exists, n.dep.acl.obl exists -> templates694
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj exists, n.nsubj exists, n.conj exists -> templates695
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj.conj exists -> templates696
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.obl exists, n.obl.nmod exists -> templates697
+n.pos is X, n.conj exists, n.nmod/2 exists, n.conj.obl exists -> templates698
+n.pos is X, n.parataxis.obl:arg exists, n.parataxis.obl:arg.nsubj.nummod exists -> templates699
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl/3 exists, n.nsubj exists, n.nmod exists -> templates700
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.conj exists, n.nsubj exists, n.acl.conj.obl.nummod exists -> templates701
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.conj.xcomp.nsubj:pass exists, n.nmod exists, n.amod/2 exists -> templates704
+n.pos is X, n.nmod.nmod exists, n.nmod/3 exists -> templates705
+n.pos is X, n.conj exists -> templates706
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Dual|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.xcomp.nmod exists, n.nsubj exists, n.xcomp exists -> templates707
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.xcomp.nmod exists, n.nsubj exists, n.xcomp exists -> templates708
+n.pos is X, n.morph has Foreign=Yes, n.flat:foreign.nmod exists, n.flat:foreign exists, n.flat:foreign.nmod.acl.obl exists -> templates709
+n.pos is X, n.morph has Foreign=Yes, n.nmod.conj exists, n.flat:foreign exists, n.nmod.nummod exists -> templates710
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obl.nmod exists, n.conj.obl exists -> templates712
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.nsubj:pass.nmod.nmod exists -> templates713
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.conj exists -> templates714
+n.pos is X, n.nmod.acl exists, n.nmod exists -> templates715
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.conj.nsubj.nmod.nmod.nmod exists, n.obl exists, n.obl.nmod.nummod exists -> templates716
+n.pos is X, n.parataxis exists, n.parataxis.acl.obj exists -> templates718
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.obl:arg.obl.nmod.acl.obl.acl.csubj.mark.fixed.nsubj.amod.obl:arg.conj.nmod.nmod.nmod.acl.obl.nmod.nmod.nmod.nmod.acl.nsubj exists, n.obl:arg.nsubj.acl.obj exists -> templates719
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.acl.nsubj.nmod.nmod exists, n.acl.obl exists -> templates720
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.conj.advcl.obl:arg.conj.nmod.nmod.nmod exists, n.obl.amod.obl exists -> templates722
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod/3 exists, n.nsubj.nmod.conj exists, n.obl exists -> templates723
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.conj.nsubj.conj.acl exists, n.nmod exists, n.conj.nsubj.conj.acl.conj.conj.obl.acl.obj exists -> templates724
+n.pos is X, n.conj exists, n.nmod exists, n.dep.nmod.nummod exists -> templates725
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.obj.acl.obl.conj.nsubj.morph has_not PronType=Rel, n.obj.acl.obl.conj exists, n.nsubj.dep.nmod exists, n.obj.acl.obl.conj.nsubj exists -> templates726
+n.pos is X, n.morph has Foreign=Yes, n.parataxis.acl exists, n.flat:foreign/2 exists, n.parataxis.acl.obl exists -> templates728
+n.pos is CCONJ, n.parataxis.conj.nsubj exists, n.parataxis.nsubj.nmod exists, n.parataxis.conj.nsubj.conj.nmod.nmod exists -> templates729,templates946
+n.pos is X, n.morph has Foreign=Yes, n.parataxis.obj exists, n.parataxis.obj.acl.obl exists -> templates730
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod exists, n.nsubj.nmod exists, n.amod/2 exists, n.nummod exists, n.acl exists -> templates731
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod exists, n.nsubj.nmod exists, n.acl exists -> templates732,templates733
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.conj exists, n.nsubj.conj exists, n.conj.obl exists -> templates734
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod exists, n.nsubj.conj exists, n.amod exists -> templates735
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod exists, n.nsubj.conj exists, n.acl exists -> templates736
+n.pos is X, n.morph has Foreign=Yes, n.obl exists, n.dep exists -> templates737
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.conj exists -> templates739
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.conj.nsubj.morph has_not PronType=Rel, n.nmod exists, n.conj/2 exists, n.conj.nsubj exists -> templates740
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.conj exists, n.nsubj exists, n.conj.obl exists -> templates741
+n.pos is CCONJ, n.parataxis.conj.nsubj exists, n.parataxis.conj.obl exists, n.parataxis.conj exists -> templates743
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.acl.obj.acl.obl:arg exists, n.acl.obj.nmod.conj.nmod exists, n.acl.obj exists -> templates744
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.xcomp exists, n.xcomp.conj.obj exists, n.conj exists -> templates745
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.nmod.acl.nsubj.morph has_not PronType=Rel, n.parataxis.nmod.acl exists, n.nmod exists, n.parataxis.nmod.acl.nsubj exists -> templates746
+n.pos is X, n.dep.conj exists, n.nmod exists, n.dep.nmod.nummod exists -> templates747
+n.pos is NUM, n.morph has NumForm=Digit, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nmod exists -> templates748
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obl.nummod exists, n.conj.obl exists -> templates750
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.parataxis.nmod exists, n.nsubj exists, n.parataxis exists -> templates751
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.obl:arg.nmod.nmod.nmod exists -> templates752
+n.pos is CCONJ, n.parataxis exists, n.parataxis.obj exists -> templates753
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod.acl exists, n.parataxis.advcl.nsubj.nmod exists, n.nmod.acl.obl exists -> templates754
+n.pos is X, n.obj exists, n.conj.conj exists -> templates755
+n.pos is X, n.nsubj.nmod exists, n.nmod exists, n.amod exists, n.parataxis exists -> templates756
+n.pos is X, n.morph has Foreign=Yes, n.parataxis.nmod exists, n.parataxis.advmod:emph.nsubj.nmod exists, n.parataxis exists -> templates757
+n.pos is X, n.morph has Foreign=Yes, n.dep.amod.conj exists, n.flat:foreign exists, n.dep.nmod exists -> templates758
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nummod.nsubj exists, n.nsubj.nmod exists, n.nummod exists -> templates759
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.obl:arg.amod.conj exists, n.xcomp exists -> templates761
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.parataxis exists, n.parataxis.obl.nummod exists -> templates762
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.dislocated exists, n.acl.dislocated.conj.obl.nmod.nmod exists -> templates763
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.amod exists, n.acl exists, n.nsubj exists -> templates764
+n.pos is CCONJ, n.parataxis.xcomp exists, n.parataxis.nsubj:pass.amod exists -> templates765
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.conj.obl.nmod.nmod.nsubj exists, n.xcomp.obl.nmod exists, n.nsubj.nmod.nmod exists -> templates766
+n.pos is X, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists -> templates767
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.nmod exists, n.amod exists, n.acl exists, n.nsubj.nmod.amod exists -> templates768
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.nsubj exists, n.nsubj.nmod.nmod exists -> templates769
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.amod.conj exists, n.nsubj exists, n.obl.nummod exists -> templates770
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nmod/2 exists -> templates771
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod/2 exists, n.nsubj.nmod.nmod exists -> templates772
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.amod exists, n.acl.obl.nummod exists -> templates773
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod exists, n.amod.nsubj exists, n.amod.conj exists -> templates774
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis exists, n.nmod/2 exists, n.amod exists, n.parataxis.obl.nummod exists -> templates775
+n.pos is CCONJ, n.parataxis.conj.csubj.conj exists, n.parataxis.conj exists, n.parataxis.conj.csubj.conj.obl.nummod exists -> templates776
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.conj.acl.obl exists -> templates777
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.acl.conj exists, n.nsubj exists, n.nmod.acl.conj.obl.nummod exists -> templates778
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obl.nmod.obl:arg exists, n.nsubj exists, n.obj.conj.nmod.nmod.nummod exists -> templates779
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.nmod exists, n.acl.conj.obl exists -> templates780
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.dislocated.nmod exists, n.obj.nmod exists -> templates781
+n.pos is X, n.parataxis.conj.acl exists, n.parataxis.conj.acl.obl.nmod exists, n.parataxis.conj.obl exists -> templates782
+n.pos is CCONJ, n.parataxis exists, n.parataxis.conj.ccomp.xcomp.obl exists -> templates783
+n.pos is X, n.morph has Foreign=Yes, n.dep.nmod.acl.nsubj exists, n.nmod exists, n.dep.nmod.acl.obl:arg exists -> templates784
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists -> templates785
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.nsubj.nmod exists -> templates786
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.amod exists, n.acl exists -> templates787
+n.pos is X, n.parataxis exists, n.nummod exists, n.parataxis.obl exists -> templates788
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.obj.nmod exists, n.nsubj.nmod exists, n.parataxis exists -> templates789
+n.pos is CCONJ, n.parataxis exists, n.parataxis.xcomp.nsubj.obl.nmod exists -> templates790
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.obl/2 exists -> templates791
+n.pos is X, n.conj exists, n.nmod/3 exists, n.dep exists -> templates792
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis.conj.acl.xcomp.conj.obl exists, n.parataxis exists -> templates793
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.obj.nmod.nmod.case exists, n.nsubj.conj exists, n.obl:arg.nmod exists -> templates794
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.csubj exists, n.csubj.obl:arg exists -> templates796
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.parataxis.xcomp.obj.nmod.nmod exists, n.parataxis.xcomp.obj.nmod.nmod.acl.obl.nummod exists -> templates797
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod exists, n.nummod exists -> templates798
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod.nmod exists, n.parataxis exists -> templates799
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod/2 exists, n.advmod:emph.nsubj.nmod exists, n.amod exists -> templates800
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.obl exists, n.nsubj.amod.obl:arg.nmod exists, n.amod exists -> templates801
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.dep.conj exists, n.nsubj exists, n.dep.conj.nmod exists -> templates802
+n.pos is NUM, n.morph has NumForm=Digit, n.conj.xcomp.conj.nmod exists, n.conj.xcomp.dislocated.appos.nmod.conj exists, n.conj.obj exists -> templates804
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.parataxis.nmod.nmod.nmod.nmod.nmod.nmod.conj.conj exists, n.nsubj exists, n.nsubj.amod.obl:arg.nmod exists, n.conj.obl.conj exists -> templates805
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod.nmod exists, n.nsubj.nmod exists, n.nmod exists, n.nmod.nmod.amod exists -> templates806
+n.pos is X, n.nsubj.morph has_not PronType=Rel, n.obj exists, n.nsubj exists, n.obj.nmod exists -> templates808
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod exists, n.nmod.acl exists -> templates809
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.nmod.nmod exists, n.nsubj exists, n.amod exists, n.acl exists -> templates810
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.obj.nmod.nsubj exists, n.conj.nsubj exists, n.conj.obj.nmod exists -> templates811
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.obj.amod exists, n.acl.obj.amod.obl.case exists, n.acl.obj.nmod.nmod exists, n.nsubj exists -> templates812
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obl:arg exists, n.conj.obl.nummod exists -> templates813
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.conj.acl.obl.nmod.nmod exists, n.conj.nmod.nmod exists, n.nmod.nmod.case exists, n.conj.acl.obl.nmod.nmod.nmod.acl.obj.nummod.nmod.nummod exists, n.conj.acl.obl.nmod.nmod.nmod.acl.obj exists -> templates814
+n.pos is CCONJ, n.parataxis.obl/2 exists -> templates815
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.nsubj exists, n.nsubj.conj.nmod exists, n.amod exists, n.acl exists -> templates816
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.nmod.acl.obl.nmod.nmod exists -> templates817
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.acl.obj.nmod exists, n.nsubj exists, n.conj.acl.obj exists -> templates818
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.amod exists, n.nmod.case exists, n.nsubj/2 exists -> templates819
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.nsubj:pass exists, n.nsubj.nmod exists -> templates820
+n.pos is NOUN, n.morph has Case=Gen|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.case exists, n.nsubj.acl.obl exists -> templates821
+n.pos is X, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nmod.nmod exists, n.nsubj.acl exists -> templates823
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.acl.conj exists, n.nsubj exists, n.conj.acl.conj.obl exists -> templates824
+n.pos is X, n.parataxis.ccomp.obl:arg.nmod.nmod.nmod exists -> templates827
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod.nmod exists, n.nsubj.conj exists, n.nmod.nmod.amod exists -> templates828
+n.pos is NUM, n.morph has NumForm=Digit, n.nummod.nmod.nummod.nmod.nummod.nummod.conj.conj.nmod.acl.nsubj.nmod.nmod.conj.nmod.nsubj.conj exists, n.nmod.nmod/2 exists, n.nmod/2 exists, n.nummod.nmod.nummod.nmod.nummod.nummod.conj.conj.nmod.acl.nsubj.nmod.nmod.conj.nmod.nsubj.conj.nmod exists -> templates829
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl exists -> templates830
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.conj.nsubj.acl exists, n.conj.conj.conj.obl:arg.nmod.nmod exists, n.conj.conj.nsubj.acl.obl:arg exists -> templates832
+n.pos is PRON, n.morph has Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs, n.nmod exists, n.nmod.acl.xcomp.obl.nmod.conj.nmod exists -> templates833
+n.pos is X, n.conj.nmod/2 exists -> templates834
+n.pos is PROPN, n.conj.conj exists, n.conj.conj.obl exists -> templates835
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj.nmod exists, n.nsubj/2 exists, n.obl:arg exists -> templates836
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.advcl.nsubj.morph has_not PronType=Rel, n.obl:arg exists, n.advcl.nsubj exists -> templates837
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Plur, n.nsubj.morph has_not PronType=Rel, n.nmod.acl exists, n.nsubj exists, n.nmod.acl.obl.nmod exists -> templates838
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Plur, n.nsubj.morph has_not PronType=Rel, n.nmod.acl exists, n.nsubj exists, n.nmod.acl.obl exists -> templates839
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obj.nmod.nsubj exists, n.nsubj exists, n.obj.nmod exists -> templates840
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.obl:arg.nmod.nmod.nummod.nsubj exists, n.nsubj exists, n.amod exists -> templates841
+n.pos is X, n.conj exists, n.nmod exists -> templates842
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.conj exists, n.nsubj exists, n.acl.conj.obl exists -> templates843
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj.amod.obl:arg.nmod exists, n.obj exists -> templates844
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj.flat:foreign exists, n.nsubj exists -> templates845
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.amod exists, n.acl exists, n.nsubj exists -> templates848
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod exists -> templates849
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj exists, n.nsubj.nmod.conj.nmod exists, n.conj.obl.nummod exists -> templates852
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.xcomp.nmod exists, n.nsubj/2 exists -> templates853
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.parataxis.nsubj exists, n.nsubj.obl:arg.case exists, n.nsubj exists, n.parataxis exists -> templates854
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.obl.acl.conj exists, n.obl.acl.conj.obl exists -> templates855
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.xcomp.nmod.nmod.acl exists, n.obj exists, n.nsubj:pass exists, n.xcomp.nmod.nmod.nmod exists -> templates856
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.amod/3 exists, n.acl exists -> templates857
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obj.nmod exists, n.nsubj exists, n.obj exists -> templates858
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.nmod.acl exists, n.nsubj exists, n.nmod.nmod.acl.obl.nummod exists -> templates859
+n.pos is PRON, n.morph has Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs, n.nmod.acl.xcomp exists -> templates860
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.nummod.conj exists, n.amod/2 exists, n.acl exists -> templates861
+n.pos is X, n.parataxis.obj exists, n.parataxis.obj.acl.xcomp.obl:arg.nmod exists -> templates862
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.xcomp.nmod.nmod exists, n.nmod exists -> templates863
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod.nmod.nmod.acl exists, n.nmod exists, n.conj.nmod.nmod exists -> templates864
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.nsubj exists, n.obl.nmod exists, n.nsubj.conj exists, n.nsubj.nmod exists -> templates865
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj.obl exists, n.nsubj exists, n.nsubj.nmod exists, n.conj exists -> templates866
+n.pos is CCONJ, n.parataxis.xcomp.conj exists, n.parataxis.nsubj exists, n.parataxis.xcomp.conj.obl exists -> templates867
+n.pos is CCONJ, n.dep exists, n.dep.conj.nummod.nmod.nummod exists -> templates870
+n.pos is X, n.parataxis exists, n.parataxis.acl exists, n.dep exists -> templates872
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.conj exists, n.obl.nummod exists -> templates873
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.conj.conj.nsubj exists, n.conj.conj.xcomp.obl exists, n.conj.conj.conj.obl:arg exists -> templates874
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.acl exists, n.nsubj exists, n.nmod.acl.obl exists -> templates875
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.nsubj:pass.conj exists, n.obl exists -> templates876
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.obl.nmod.acl.conj.obl.conj.nummod.nmod exists, n.obl.conj.nmod.nmod.acl.xcomp.obl:arg.conj.nmod.conj.acl.xcomp.obj.nmod.nmod exists, n.obl.nmod.acl.conj.obl.conj.nummod.nmod.nummod exists -> templates877
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Plur, n.amod exists, n.nmod.nmod exists -> templates878
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Fem|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod.acl.obl:arg.nmod exists -> templates879
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.conj.nmod/2 exists, n.amod exists, n.conj exists, n.nsubj.nmod exists -> templates880
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl:arg exists, n.obl exists, n.obl.nummod exists -> templates882
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.obj.nmod.nmod.nmod.nmod exists, n.acl.obj.nmod.acl exists -> templates883
+n.pos is X, n.morph has Foreign=Yes, n.parataxis.conj.advcl.conj.obj.conj.acl.conj exists, n.cc exists, n.parataxis.conj.advcl.conj.obj.conj.nmod.conj exists, n.dep exists -> templates884
+n.pos is X, n.parataxis.obj.acl.xcomp.obl:arg.acl exists, n.parataxis.obj exists -> templates885
+n.pos is X, n.dep.acl.conj.nsubj exists, n.nmod exists, n.dep exists -> templates886
+n.pos is NUM, n.morph has NumForm=Digit, n.parataxis exists, n.parataxis.obl exists -> templates887
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.acl exists, n.nsubj exists -> templates888
+n.pos is X, n.morph has Foreign=Yes, n.nmod/3 exists, n.nmod.nmod exists -> templates890
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.obj.acl exists, n.obj.nmod exists, n.obj.acl.nsubj.nummod.nmod.acl.obl exists -> templates891
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.parataxis.obl exists, n.nsubj exists -> templates892
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.advcl exists, n.advcl.obl exists -> templates893
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.ccomp exists, n.obl:arg exists, n.ccomp.obl.nummod exists -> templates894
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.nmod exists, n.nsubj exists -> templates895
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.nmod exists, n.obj exists -> templates896
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.nmod exists, n.nsubj.nmod exists -> templates898
+n.pos is CCONJ, n.parataxis exists, n.parataxis.obj.nummod exists -> templates899
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod.nmod.nmod.acl.obl exists -> templates901
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.advcl.nsubj:pass.acl exists, n.nsubj.nmod exists, n.acl.advcl.nsubj:pass.acl.conj.csubj.obj.nmod.nummod exists -> templates903
+n.pos is NUM, n.morph has NumForm=Digit, n.nsubj.nmod exists, n.nmod exists -> templates904
+n.pos is X, n.morph has Foreign=Yes, n.dep exists -> templates905
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.amod exists, n.nsubj.nmod exists, n.nmod.nummod exists -> templates906
+n.pos is X, n.parataxis exists, n.parataxis.nsubj.acl.xcomp.obl:arg.nmod.nmod.nmod exists -> templates907
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.dep.acl exists, n.dep.acl.obl exists -> templates908
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.obl.acl.obj.nmod.nmod.acl.advcl.obl:arg.conj.acl.advcl exists, n.xcomp exists, n.nsubj.nmod exists, n.obl.nummod exists -> templates909
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.nmod.conj exists, n.amod exists, n.conj exists, n.nmod exists -> templates910
+n.pos is X, n.morph has Foreign=Yes, n.dep.nmod exists, n.flat:foreign/2 exists, n.dep exists -> templates911
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.nsubj:pass.nmod.nmod.acl.obl:arg.conj.nmod exists, n.advcl.mark exists, n.nsubj:pass.nmod.nmod.acl.obl:arg exists, n.nsubj:pass.nmod.nmod.acl.obl:arg.conj.nmod.acl.obl:arg exists -> templates912
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.acl exists, n.nsubj exists, n.nmod.acl.obl.nummod exists -> templates913
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.conj.nsubj exists, n.nummod.nmod exists, n.nsubj.nmod exists, n.conj.nmod exists -> templates914
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nmod.acl exists, n.nsubj exists, n.acl.obj.nmod.case exists, n.conj.nmod.acl.obl exists, n.conj.nmod.acl.obl.nmod exists -> templates915
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod exists, n.obl.case exists, n.nsubj.nmod.nmod.nmod exists, n.nmod.nmod exists -> templates916
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.conj.conj exists, n.amod.nmod exists, n.conj.conj.obl.nmod exists, n.conj.conj.obl exists -> templates917
+n.pos is X, n.nmod/3 exists -> templates919
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj.nmod exists, n.obj exists -> templates920
+n.pos is CCONJ, n.parataxis.nmod exists, n.parataxis.nsubj exists, n.parataxis exists -> templates921
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Plur, n.parataxis.acl exists, n.conj.obl exists, n.parataxis.acl.obl exists -> templates922
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.acl exists, n.nsubj exists, n.nmod.acl.obj exists -> templates924
+n.pos is CCONJ, n.parataxis.conj.advcl.nsubj exists, n.parataxis.conj.conj exists, n.parataxis.conj.advcl.obl:arg.appos.nummod exists -> templates925
+n.pos is X, n.parataxis exists, n.parataxis.acl.obl exists -> templates926,templates1020
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.conj exists, n.conj.obj exists -> templates927
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod exists, n.dep exists -> templates929
+n.pos is X, n.nmod.conj.conj exists, n.nmod/2 exists, n.nmod.conj.conj.obl.nmod.nummod exists -> templates930
+n.pos is DET, n.morph has Case=Nom|Gender=Masc|Number=Sing|PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.nsubj.nmod exists -> templates931
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.obj.nmod exists, n.nsubj.amod exists -> templates932
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.conj.nsubj.morph has_not PronType=Rel, n.conj exists, n.conj.nsubj exists -> templates935
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.obj.acl exists, n.conj.acl.obl.amod.nmod.nmod.nummod exists, n.conj exists -> templates936
+n.pos is X, n.nsubj.conj.cc exists, n.nsubj.conj.nmod.conj.nmod.nmod.nummod.conj exists, n.nmod exists, n.nmod.nummod exists -> templates937
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.dep exists -> templates938
+n.pos is X, n.amod.conj.obl.nmod.acl exists, n.nmod/2 exists, n.amod.conj.obl.nmod.acl.obl.nmod.nummod exists -> templates939
+n.pos is X, n.morph has Foreign=Yes, n.nmod.conj exists, n.nmod exists, n.nmod.conj.obl exists -> templates940
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists -> templates941
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists, n.nummod exists -> templates944
+n.pos is CCONJ, n.parataxis exists, n.parataxis.nsubj.nmod.nmod.nummod exists -> templates947
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis exists, n.parataxis.obl.case exists, n.parataxis.conj.conj.obl:arg.nmod.nmod.nmod exists, n.parataxis.conj.obl:arg.case exists, n.parataxis.obl:arg exists, n.parataxis.nsubj:pass.nmod exists -> templates948
+n.pos is ADJ, n.morph has Case=Gen|Definite=Cons|Gender=Masc|Number=Sing, n.obl/2 exists, n.nmod.amod exists, n.conj.nsubj.nmod.conj exists, n.nmod exists -> templates949
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.conj.nsubj.acl.xcomp.conj exists, n.amod/2 exists, n.conj.nsubj.acl.xcomp.conj.obl exists -> templates951
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod exists, n.parataxis.advmod:emph.nsubj exists -> templates953
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.conj.nsubj exists, n.nsubj.amod.obl.nmod exists, n.obj exists, n.conj exists -> templates954
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nummod exists, n.nsubj.nmod exists -> templates955
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.nmod exists, n.nmod exists, n.parataxis exists -> templates956
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.nsubj:pass exists, n.obl:arg exists -> templates957
+n.pos is NOUN, n.morph has Case=Acc|Definite=Ind|Number=Sing, n.acl.conj.conj exists, n.amod exists, n.acl exists -> templates958
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.conj.nmod.nmod.amod.obl.nmod exists, n.obl exists -> templates959
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obl.nummod exists -> templates960
+n.pos is X, n.morph has Foreign=Yes, n.parataxis.acl exists, n.parataxis.acl.obl exists -> templates961
+n.pos is X, n.parataxis.acl exists, n.parataxis.conj.obl exists -> templates962
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.conj.obj exists, n.advcl exists -> templates963
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obj exists, n.obl.acl.obl exists -> templates964
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obl.nmod.nmod/2 exists, n.nsubj.nmod.amod exists, n.nsubj exists -> templates965
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.conj.obl:arg.case exists, n.obl exists, n.obl.nummod exists -> templates966
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists -> templates967
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.dep.nmod.acl exists, n.nsubj.case exists, n.obl exists, n.dep exists -> templates968
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.obl.acl.obj.nmod.nmod.acl.advcl.obl:arg.conj.acl exists, n.obl.nummod exists -> templates969
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.obl.nmod/2 exists, n.parataxis.obl.nmod.acl.obl exists, n.parataxis.obl.nmod.acl.obj exists -> templates971
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis.nsubj.morph has_not PronType=Rel, n.parataxis.nsubj.nmod exists, n.parataxis.obl.nsubj exists, n.conj exists, n.parataxis.nsubj exists -> templates972
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis.nmod exists, n.parataxis.nmod.nmod.acl exists, n.amod exists -> templates973
+n.pos is X, n.parataxis.acl.obj.acl.obl:arg.acl.conj exists, n.parataxis.acl.obj.acl.obl:arg.acl.conj.obl exists -> templates974
+n.pos is CCONJ, n.parataxis exists, n.parataxis.obl:arg.nmod exists -> templates975
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis exists, n.nmod exists -> templates976
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.parataxis.conj.conj.conj.obl.nsubj.conj.nmod.acl.advcl exists, n.conj.obl.acl.advcl.obl.nmod.nmod exists, n.parataxis.conj.conj.conj.obl.nsubj.conj.nmod.acl.advcl.obl.nmod.nummod exists -> templates977
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.conj.nmod exists, n.obl:arg exists -> templates978
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.advmod:emph.nsubj exists, n.obj exists -> templates979
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl.obl:arg.nmod.acl exists, n.nsubj.nmod exists, n.acl.obl:arg.nmod.acl.obl exists -> templates981
+n.pos is X, n.morph has Foreign=Yes, n.dep.acl exists, n.nmod.nmod.amod exists, n.dep.acl.obl.nummod exists -> templates982
+n.pos is X, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj exists -> templates984
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.parataxis.obl.acl exists, n.parataxis.nsubj.acl.obl exists, n.parataxis.obl.acl.obl exists -> templates986
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.acl exists, n.nsubj exists, n.nmod.acl.obl exists -> templates987
+n.pos is CCONJ, n.parataxis.conj.conj.obj.nmod exists, n.parataxis.conj.conj.nsubj.nmod exists, n.parataxis exists -> templates988
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.conj exists, n.conj.nmod.nmod exists, n.nmod exists -> templates989
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.conj exists, n.nsubj:pass exists, n.obj exists -> templates990
+n.pos is X, n.nsubj.morph has_not PronType=Rel, n.nmod.conj.nsubj exists, n.nsubj exists, n.nmod.conj exists -> templates991
+n.pos is X, n.parataxis.conj.conj exists, n.dep exists, n.parataxis.conj.obl:arg.case exists, n.parataxis.conj.conj.obl.nmod.nmod.nmod exists, n.parataxis.conj.conj.obj exists -> templates993
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.amod.conj exists, n.nsubj exists, n.nmod exists -> templates994
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.conj.conj exists, n.nsubj exists -> templates995
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.conj exists, n.conj.acl.obl.nmod.nmod.nmod.acl.obj exists -> templates999
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.conj.acl.obj.acl exists, n.nmod exists, n.conj.acl.obj.acl.obl exists -> templates1000
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.dislocated.conj exists, n.dislocated/2 exists, n.dislocated.conj.nummod exists -> templates1001
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis exists -> templates1002
+n.pos is NUM, n.morph has NumForm=Digit, n.nmod.conj.nsubj.conj exists, n.nmod/2 exists, n.obl exists -> templates1003
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.conj.acl exists, n.nmod exists -> templates1005
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.acl exists, n.nsubj exists, n.nmod.acl.obl.nummod.nmod.nummod exists -> templates1006
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod.acl.conj exists, n.nsubj exists, n.nmod exists -> templates1007
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Pass, n.nsubj:pass.morph has_not PronType=Rel, n.xcomp.nsubj exists, n.nsubj:pass exists, n.xcomp exists -> templates1008
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.obj/2 exists -> templates1009
+n.pos is CCONJ, n.parataxis.conj.advcl.conj.xcomp.nmod exists, n.parataxis.conj.obl.nmod.nmod exists, n.parataxis.conj.advcl.conj.obl.nmod exists -> templates1010
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.parataxis.obl.conj exists, n.parataxis.obl.conj.nmod exists -> templates1011
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.obl:arg.nmod.acl.nsubj.morph has_not PronType=Rel, n.obl:arg.nmod exists, n.obl:arg.nmod.acl.nsubj exists -> templates1012
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.nmod.amod exists, n.nsubj.nmod.amod.nmod.nmod.nmod exists -> templates1013
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj/2 exists, n.amod/3 exists -> templates1014
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.dislocated exists, n.nsubj exists -> templates1017
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.nmod.nmod exists, n.nsubj.nummod.conj exists, n.nsubj.nmod exists -> templates1018
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl:arg.nummod exists -> templates1019
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.conj.obl:arg.acl exists, n.conj.nummod.nmod.acl.xcomp exists, n.nmod.conj.nmod.nmod exists, n.nmod.nmod exists -> templates1021
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod.conj.nsubj exists, n.nmod.nmod.acl.obl.nummod.nmod.nmod exists, n.nmod exists, n.nmod.conj exists -> templates1022
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.nsubj.amod exists, n.conj.advcl exists, n.conj.nsubj.nmod.nmod exists -> templates1023
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod.amod.obj.nmod exists -> templates1025
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nmod exists, n.nmod.acl.nsubj:pass.nummod.nmod.acl.obl.conj.nmod.nmod.acl.xcomp exists, n.nsubj.nmod exists -> templates1026
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.conj exists, n.nsubj exists, n.obl exists -> templates1027
+n.pos is X, n.conj.nummod.obl.nummod.nmod.nummod.nummod.conj.nmod.nummod.nsubj.morph has_not PronType=Rel, n.conj.nummod.obl.nummod.nmod.nummod.nummod.conj.nmod.nummod.nsubj exists -> templates1028
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.parataxis.obj exists, n.conj.obl.nmod.nmod.nmod.amod exists, n.parataxis.obl exists -> templates1029
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.parataxis exists, n.nsubj exists -> templates1030
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.advcl exists, n.nsubj exists, n.advcl.obl:arg exists -> templates1031
+n.pos is X, n.morph has Foreign=Yes, n.dep.acl exists, n.nmod exists, n.dep.acl.obl.nmod exists -> templates1032
+n.pos is CCONJ, n.parataxis.conj.conj exists, n.parataxis exists -> templates1033
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nsubj exists, n.dep.nsubj exists, n.obl:arg.case exists, n.nsubj exists, n.dep exists -> templates1034
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.dislocated exists, n.obl exists -> templates1036
+n.pos is CCONJ, n.parataxis.obj.acl exists, n.parataxis.obj.acl.obl exists -> templates1038
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis.nsubj exists, n.amod/2 exists, n.parataxis exists -> templates1040
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl.obl:arg.nmod.acl exists, n.nsubj exists, n.acl.obl:arg.nmod.acl.obl.nummod exists -> templates1041
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj exists, n.acl.obl:arg exists -> templates1042
+n.pos is X, n.parataxis exists, n.parataxis.nsubj.nmod exists -> templates1043
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.advcl.nsubj.acl.obl:arg.nmod.nmod.acl.obj.nsubj exists, n.obl.nummod exists -> templates1044
+n.pos is CCONJ, n.parataxis exists, n.parataxis.obl:arg exists -> templates1047
+n.pos is X, n.parataxis.nmod exists, n.parataxis.nsubj exists, n.parataxis exists -> templates1048
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.parataxis.conj.nsubj.acl exists, n.parataxis.conj.nsubj.acl.obl.nmod exists -> templates1049
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nmod.nmod.nmod.nsubj exists, n.nmod/2 exists -> templates1050
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.nsubj exists, n.obl.nummod exists -> templates1051
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.conj exists, n.nsubj exists, n.nsubj.amod.obl:arg.nmod exists, n.dep exists -> templates1052
+n.pos is NOUN, n.morph has Case=Acc|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.amod/4 exists -> templates1053
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.amod exists -> templates1054
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.obl.acl.nsubj exists, n.nsubj exists, n.conj.obl.acl.obl.nmod.nummod exists, n.conj.obl.acl.obj exists -> templates1055
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.parataxis.conj.acl exists, n.obl:arg exists, n.nsubj exists, n.parataxis.conj.conj.obl exists -> templates1056
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.amod exists, n.nmod exists, n.acl.dislocated exists -> templates1057
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.conj.advcl.conj.nsubj:pass.nmod.nmod exists, n.conj.amod exists, n.obl exists, n.conj.obl exists -> templates1058
+n.pos is X, n.morph has Foreign=Yes, n.nmod.nmod.obl.nummod.conj exists, n.nmod exists, n.nmod.nmod.obl.amod exists -> templates1060
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nmod.acl.obl exists, n.parataxis exists, n.parataxis.nmod.nmod exists, n.nummod exists, n.nmod exists -> templates1062
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.conj.conj exists, n.nsubj/2 exists, n.conj.conj.obl exists -> templates1064
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nmod exists, n.nsubj.amod exists, n.amod exists, n.acl exists -> templates1065
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.conj.obj.acl exists, n.amod.nmod exists, n.nsubj.nmod exists, n.conj.obj.acl.obl.nmod.nmod exists -> templates1066
+n.pos is CCONJ, n.dep exists, n.parataxis.nsubj.nmod exists -> templates1067
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.advcl exists, n.advcl.obl.nummod exists -> templates1068
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nmod/2 exists, n.conj exists, n.nsubj exists -> templates1069
+n.pos is X, n.morph has Foreign=Yes, n.parataxis.nsubj:pass.morph has_not PronType=Rel, n.obl exists, n.dep.nmod exists, n.parataxis.nsubj:pass exists -> templates1071
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Fem|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj.conj exists, n.nsubj exists, n.obl exists -> templates1073
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.amod exists, n.nmod exists, n.amod.conj.acl.obl exists -> templates1074
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.xcomp.nmod exists, n.nsubj exists, n.xcomp exists -> templates1075
+n.pos is X, n.nmod.nmod exists, n.nmod/2 exists -> templates1076
+n.pos is ADJ, n.morph has Case=Nom|Definite=Cons|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.conj.nmod.acl exists, n.nsubj exists, n.amod.nmod.nmod exists -> templates1077
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.obj exists, n.obj.nmod.nmod.nummod exists -> templates1078
+n.pos is X, n.morph has Foreign=Yes, n.conj exists, n.nmod exists, n.dep exists -> templates1080
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.conj.advcl.obj exists, n.nsubj.nmod exists, n.conj.advcl.nsubj.amod exists, n.conj.conj.obl:arg exists -> templates1081
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.nmod.nmod exists, n.obj exists -> templates1082
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj/2 exists, n.acl exists -> templates1084
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.acl.obl exists -> templates1085
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.acl.obl exists -> templates1086
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.nsubj.acl.obl exists -> templates1087
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.acl exists, n.nsubj.dep exists, n.acl.obl exists -> templates1088
+n.pos is NOUN, n.morph has Case=Nom|Definite=Cons|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.advcl.conj.advcl.conj.conj.conj.conj.conj.conj exists, n.nsubj exists, n.nsubj.nummod exists -> templates1089
+n.pos is NOUN, n.morph has Case=Nom|Definite=Ind|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.parataxis.dislocated exists, n.nsubj.nmod.obl:arg.nsubj exists, n.obl:arg.case exists, n.nsubj exists, n.nsubj.nmod.obl:arg.nsubj.nummod exists -> templates1090
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.conj.conj.conj.nmod.acl.obl:arg.nmod.nmod.amod.obj.nmod exists, n.conj.conj.conj.nmod.acl.obl:arg.nmod.nmod.amod.obj.nmod.nmod.nmod exists -> templates1092
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.conj.nsubj exists, n.nsubj.nmod exists, n.conj.acl exists -> templates1093
+n.pos is CCONJ, n.parataxis.conj exists, n.parataxis.obl.nmod.conj.obl.nummod exists -> templates1095
+n.pos is X, n.parataxis.obl:arg.nmod.nsubj exists, n.parataxis.obl:arg.nmod/2 exists -> templates1096
+n.pos is X, n.conj.acl.nsubj.morph has_not PronType=Rel, n.conj/3 exists, n.conj.acl.nsubj exists -> templates1097
+n.pos is ADJ, n.morph has Case=Nom|Definite=Ind|Gender=Masc|Number=Sing, n.nsubj.morph has_not PronType=Rel, n.obl exists, n.conj.nsubj.nmod/2 exists, n.conj.obl:arg.case exists, n.nsubj exists -> templates1098
+n.pos is X, n.parataxis.nsubj.morph has_not PronType=Rel, n.parataxis.nsubj.nmod exists, n.parataxis.nsubj exists -> templates1099
+n.pos is VERB, n.morph has Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act, n.obj.amod.nummod.amod exists, n.nsubj.nmod exists, n.obl.nmod exists -> templates1101
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.acl.nsubj.morph has_not PronType=Rel, n.acl exists, n.nsubj.amod exists, n.conj.nmod exists, n.acl.nsubj exists -> templates1102
+n.pos is NOUN, n.morph has Case=Nom|Definite=Def|Number=Sing, n.amod exists, n.conj exists, n.nmod exists -> templates1103
+n.pos is VERB, n.morph has Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Voice=Act, n.obj.nmod exists, n.nsubj.nmod exists, n.obj.nmod.acl.obl exists -> templates1104

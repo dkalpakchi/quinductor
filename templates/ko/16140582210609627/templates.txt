@@ -1,0 +1,9 @@
+<w.nsubj#1> 무엇인가요 => [w.acl:relcl#2.obj#3]
+<w.nsubj#1> 무엇인가요 => [w.advcl#2]
+<w.nsubj#1> 누구인가요 => [w] [w.flat#2]
+<w.nsubj#1> 어디인가요 => [w.ccomp#2.conj#3]
+<w.nsubj#1> 어디인가 => [w.ccomp#2]
+[w.conj#1.nsubj#2.det:poss#3] <w.conj#1 - nsubj#2.det:poss#3 - advmod#4 - advmod#5 - nmod#6 - punct#7 - conj#1* - advmod#15.acl:relcl#14.advmod#8 - advmod#15.acl:relcl#14.nmod#9 - advmod#15.acl:relcl#10* - advmod#15.flat#11 - advmod#15.flat#12 - advmod#13*> 누구인가요 => <w.conj#1.advmod#13 - flat#12.case#14 - flat#12.appos#15 - acl:relcl#10 - conj#1.advmod#13*>
+<w.advmod#1.dep#2.advcl#3.nsubj#4> 무엇인가요 => <w.advmod#1.dep#2.advcl#3.advmod#5 - flat#6.case#7 - flat#6.appos#8>
+<w.nsubj#1 - acl:relcl#7.appos#2.punct#3 - acl:relcl#7.appos#2.punct#4> 어디인가요 => [w.advcl#5.nsubj#6.dep#7.obj#8]
+<w.nsubj#1 - det:poss#2*> 누구인가요 => [w]

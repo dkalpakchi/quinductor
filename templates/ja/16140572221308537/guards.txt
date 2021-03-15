@@ -1,0 +1,23 @@
+n.pos is VERB, n.advcl exists, n.advcl.nsubj.acl.obj exists -> templates1
+n.pos is NOUN, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj exists -> templates2
+n.pos is PROPN, n.nsubj.morph has_not PronType=Rel, n.nsubj exists -> templates3,templates11
+n.pos is NOUN, n.nsubj.morph has_not PronType=Rel, n.nmod exists, n.nsubj.case exists, n.nsubj exists -> templates4
+n.pos is VERB, n.ccomp exists, n.ccomp.nsubj.nmod.nmod exists -> templates5
+n.pos is VERB, n.advcl.nsubj exists, n.advcl exists -> templates6,templates14
+n.pos is NUM, n.morph has NumType=Card, n.advcl.advcl.advcl exists -> templates7
+n.pos is NUM, n.morph has NumType=Card, n.advcl.advcl.nsubj.morph has_not PronType=Rel, n.advcl.advcl exists, n.advcl.advcl.nsubj exists -> templates8
+n.pos is VERB, n.nsubj.nmod exists, n.obl.acl.obj.compound exists, n.nsubj.case exists, n.obl exists -> templates9
+n.pos is NUM, n.morph has NumType=Card, n.advcl.iobj.nmod exists, n.nsubj.case exists, n.advcl.obl exists -> templates10
+n.pos is NOUN, n.obl.acl.obl.compound/2 exists, n.nummod.compound exists, n.nummod.nummod.compound exists -> templates12
+n.pos is NUM, n.morph has NumType=Card, n.nsubj.morph has_not PronType=Rel, n.advcl exists, n.nsubj.case exists, n.nsubj exists -> templates13
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.advcl.nsubj exists, n.nsubj exists -> templates15
+n.pos is NOUN, n.obl.nmod exists, n.nmod exists, n.nsubj.case exists, n.nmod.nmod.nmod.compound exists -> templates16
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.dislocated.case exists -> templates17
+n.pos is VERB, n.obl.nmod/2 exists, n.nsubj.case exists, n.obl exists -> templates18
+n.pos is VERB, n.nsubj.acl.nmod exists, n.advcl exists, n.dislocated.case exists, n.nsubj.compound exists -> templates19
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.obl.acl.obl/2 exists, n.obl.acl exists, n.nsubj.case exists -> templates20
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.advcl.obl exists, n.nsubj.case exists, n.nsubj exists -> templates21
+n.pos is VERB, n.advcl.advcl.obj.acl.obl exists, n.advcl.advcl.nsubj.case exists, n.advcl.advcl.obj exists -> templates22
+n.pos is VERB, n.advcl exists, n.advcl.iobj exists -> templates23
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.nsubj.acl.nsubj exists, n.nsubj.nmod.case exists, n.advcl.obl exists, n.nsubj.case exists, n.nsubj exists -> templates24
+n.pos is VERB, n.advcl.nsubj.morph has_not PronType=Rel, n.advcl.iobj.nmod exists, n.obl.nmod exists, n.advcl.nsubj exists -> templates25

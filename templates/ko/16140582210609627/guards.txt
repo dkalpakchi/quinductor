@@ -1,0 +1,9 @@
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.acl:relcl.obj exists -> templates1
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.advcl exists -> templates2
+n.pos is NOUN, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.flat exists -> templates3
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.ccomp.conj exists -> templates4
+n.pos is VERB, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.ccomp exists -> templates5
+n.pos is NOUN, n.conj.nsubj.det:poss exists, n.conj exists, n.conj.advmod exists -> templates6
+n.pos is VERB, n.advmod.dep.advcl.nsubj exists, n.advmod.dep.advcl.advmod exists -> templates7
+n.pos is ADJ, n.nsubj.morph has_not PronType=Rel, n.nsubj exists, n.advcl.nsubj.dep.obj exists -> templates8
+n.pos is NOUN, n.nsubj.morph has_not PronType=Rel, n.nsubj exists -> templates9
