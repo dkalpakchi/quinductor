@@ -14,7 +14,13 @@ stanza_ext/*
 lang/*
 __init__.py
 construct_hypothesis.py
-human_eval/*
+human_eval/*.pdf
+human_eval/*.tex
+human_eval/*.csv
+human_eval/*.ods
+human_eval/__pycache__/
+human_eval/.ipynb_checkpoints/
+human_eval/sv.json
 human_judgement.py
 make_templates.sh
 more_than2w_en_tmpl.txt
