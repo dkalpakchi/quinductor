@@ -1,5 +1,5 @@
 # Quinductor
-A multilingual data-driven method for generating reading comprehension questions.
+A multilingual data-driven method for generating reading comprehension questions. An official repository for the Quinductor article: https://arxiv.org/abs/2103.10121
 
 ## Data
 We use [TyDi QA dataset](https://github.com/google-research-datasets/tydiqa), which you can easily get by running `get_tydiqa_data.sh`
