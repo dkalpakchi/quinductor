@@ -21,6 +21,7 @@ Then automatic evaluation metrics can be calculated by running a command similar
 ```nlg-eval --hypothesis templates/ar/1614104416496133/eval/hypothesis_ar.txt --references templates/ar/1614104416496133/eval/ground_truth_ar_0.txt --references templates/ar/1614104416496133/eval/ground_truth_ar_1.txt --references templates/ar/1614104416496133/eval/ground_truth_ar_2.txt --no-glove --no-skipthoughts```
 
 ## Cite us
+```
 @misc{kalpakchi2021quinductor,
       title={Quinductor: a multilingual data-driven method for generating reading-comprehension questions using Universal Dependencies}, 
       author={Dmytro Kalpakchi and Johan Boye},
@@ -29,3 +30,4 @@ Then automatic evaluation metrics can be calculated by running a command similar
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
+```
