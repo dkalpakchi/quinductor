@@ -6,7 +6,7 @@ import dill
 import stanza
 from tqdm import tqdm
 
-import loaders
+from quinductor.loaders import *
 
 
 if __name__ == '__main__':
@@ -25,11 +25,11 @@ if __name__ == '__main__':
     stanza_lang = stanza.Pipeline(lang=args.lang, processors=stanza_processors)
 
     if args.format == 'tt':
-        data_loader = loaders.TextinatorLoader
+        data_loader = TextinatorLoader
     elif args.format == 'squad':
-        data_loader = loaders.SquadLoader
+        data_loader = SquadLoader
     elif args.format == 'tydiqa':
-        data_loader = loaders.TyDiQaLoader
+        data_loader = TyDiQaLoader
 
     stats = defaultdict(lambda: defaultdict(int))
     answer_tmpl = defaultdict(int)

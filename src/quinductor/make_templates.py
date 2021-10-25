@@ -14,16 +14,6 @@ from collections import defaultdict
 from operator import itemgetter
 from difflib import SequenceMatcher
 
-import logging
-logging.basicConfig(
-    level=logging.ERROR,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    datefmt='%m/%d/%Y %I:%M:%S %p'
-    # handlers=[
-    #     logging.FileHandler('templates.log')
-    # ]
-)
-
 import tqdm
 
 import stanza
@@ -36,6 +26,9 @@ from .repro import get_client
 from .common import *
 from .guards import *
 from .rules import load_templates
+
+
+logger = get_logger()
 
 
 def get_negatives(node, chain):
@@ -52,20 +45,20 @@ def shift_reduce(template_elements):
     template, children_map = [], {}
     N = len(template_elements)
     for t in template_elements:
-        logging.debug(" ".join(map(str, template)) + " <-- " + str(t))
+        logger.debug(" ".join(map(str, template)) + " <-- " + str(t))
         if template:
-            logging.debug("type(template[-1]): {}".format(type(template[-1])))
+            logger.debug("type(template[-1]): {}".format(type(template[-1])))
             if type(template[-1]) == TemplateElement:
-                logging.debug("\ttemplate[-1] is lemma? -- {}".format(template[-1].is_lemma))
-        logging.debug("type(t): {}".format(type(t)))
+                logger.debug("\ttemplate[-1] is lemma? -- {}".format(template[-1].is_lemma))
+        logger.debug("type(t): {}".format(type(t)))
         if type(t) == TemplateElement:
-            logging.debug("\tt is lemma? -- {}".format(t.is_lemma))
+            logger.debug("\tt is lemma? -- {}".format(t.is_lemma))
         if template and type(template[-1]) == TemplateElement and type(t) == TemplateElement and not template[-1].is_lemma and not t.is_lemma:
-            logging.debug("stack contains at least two items!")
+            logger.debug("stack contains at least two items!")
             intersection = template[-1] & t
             N1, N2, Ni = len(template[-1]), len(t), len(intersection)
-            logging.debug("intersection: {}".format(str(intersection)))
-            logging.debug("N1: {}, N2: {}, Ni: {}".format(N1, N2, Ni))
+            logger.debug("intersection: {}".format(str(intersection)))
+            logger.debug("N1: {}, N2: {}, Ni: {}".format(N1, N2, Ni))
 
             if intersection and (N1 - Ni <= 1 or N2 - Ni <= 1):
                 # If the intersection exists and it's one level above any of the two candidates,
@@ -74,7 +67,7 @@ def shift_reduce(template_elements):
                 # <w.conj - obl5*>, whereas the conj structures can vary a lot and hence
                 # some wrong questions will be generated
                 
-                logging.debug("==> REDUCE")
+                logger.debug("==> REDUCE")
 
                 negatives = []
                 for node in [t, template[-1]]:
@@ -95,7 +88,7 @@ def shift_reduce(template_elements):
                             children_map[new_chain_str] = new_neg
                         negatives.extend(children_map[new_chain_str])
 
-                logging.debug("\tnegatives: {}".format(negatives))
+                logger.debug("\tnegatives: {}".format(negatives))
 
                 # means they are part of the same subtree
                 te = TemplateElement(intersection, new_node, t.id, True)
@@ -108,16 +101,16 @@ def shift_reduce(template_elements):
                 te.copy_negatives([template[-1], t])
                 te.add_negatives(negatives)
 
-                logging.debug("\treduced token: {}".format(str(te)))
+                logger.debug("\treduced token: {}".format(str(te)))
 
                 template.pop()
                 template.append(te)
             else:
-                logging.debug("==> SHIFT: the token {} is added to stack".format(str(t)))
+                logger.debug("==> SHIFT: the token {} is added to stack".format(str(t)))
                 # means they are from different subtrees
                 template.append(t)
         else:
-            logging.debug("==> SHIFT: the token {} is added to stack".format(str(t)))
+            logger.debug("==> SHIFT: the token {} is added to stack".format(str(t)))
             # just the second word
             template.append(t)
     return template, children_map
@@ -138,7 +131,7 @@ def generate_question_template(s_root, q_root, strict=True, join_char=' '):
     node_list = q_root.linear()
     N = len(node_list)
 
-    logging.debug("-- S-TRANSFORM --")
+    logger.debug("-- S-TRANSFORM --")
     template_elements, is_template_element = [], []
     for i in range(N):
         # can't use `node_list[i].get_rel() != "punct"`, since sometimes adpositions become punct!
@@ -217,58 +210,58 @@ def generate_question_template(s_root, q_root, strict=True, join_char=' '):
     if best_cand is None and min_diff == float('inf'):
         best_cand = cand
 
-    logging.debug(list(map(str, best_cand)))
+    logger.debug(list(map(str, best_cand)))
     
-    logging.debug("-- SHIFT-REDUCE --")
+    logger.debug("-- SHIFT-REDUCE --")
 
     template, children_map = shift_reduce(best_cand)
 
-    logging.debug(" ".join(map(str, template)))
+    logger.debug(" ".join(map(str, template)))
 
     if len(template) == 1:
-        logging.debug("-- OVERGENERIC! RETURN S-TRANSFORM --")
+        logger.debug("-- OVERGENERIC! RETURN S-TRANSFORM --")
         # overgeneric case, like what <w.obl - case - num>?
         # simply go on with an original word by word template after S-transform
         best_cand = list(best_cand)
         S_t = sum([type(x) == TemplateElement for x in best_cand])
         return best_cand
 
-    logging.debug("-- MERGING NEGATIVES --")
+    logger.debug("-- MERGING NEGATIVES --")
     for t in template:
         if type(t) == TemplateElement:
             t.merge_negatives(children_map)
 
-    logging.debug(join_char.join(map(str, template)))
-    logging.debug("-- END OF TRANSFORMATION --\n")
+    logger.debug(join_char.join(map(str, template)))
+    logger.debug("-- END OF TRANSFORMATION --\n")
     return template
 
 
 def generate_answer_template(s_root_word, answer_str, join_char=' '):
     # try to find the right subtree containing the answer_str
     answer_node = s_root_word.textual_intersect(answer_str.strip())
-    logging.debug(f"-- ANSWER STRING -> {answer_str} --")
+    logger.debug(f"-- ANSWER STRING -> {answer_str} --")
     
     if answer_node:
-        logging.debug(f"-- FOUND ANSWER NODE -> {answer_node.form} --")
-        logging.debug(f"-- SUBTREE ANSWER NODE -> {answer_node.get_subtree_text()} --")
+        logger.debug(f"-- FOUND ANSWER NODE -> {answer_node.form} --")
+        logger.debug(f"-- SUBTREE ANSWER NODE -> {answer_node.get_subtree_text()} --")
     else:
         # this case should not happen normally for Swedish, because we know for sure
         # the answer is in the original sentence - that's how the dataset is structured
         # but for other datasets it's definitely a possibility
-        logging.debug("-- ANSWER NOT PRESENT --\n")
+        logger.debug("-- ANSWER NOT PRESENT --\n")
         return None
 
     # find the way from the answer node of the original sentence to its root
     if answer_node.form.lower() == answer_str.lower():
         root_chain = chain(s_root_word, answer_node, include_ids=True)
         template = [TemplateElement(root_chain, answer_node)]
-        logging.debug(" ".join(map(str, template)))
-        logging.debug("-- END OF TRANSFORMATION --\n")
+        logger.debug(" ".join(map(str, template)))
+        logger.debug("-- END OF TRANSFORMATION --\n")
     elif answer_node.get_subtree_text().lower() == answer_str.lower():
         root_chain = chain(s_root_word, answer_node, include_ids=True)
         template = [TemplateElement(root_chain, answer_node, is_subtree=True)]
-        logging.debug(" ".join(map(str, template)))
-        logging.debug("-- END OF TRANSFORMATION --\n")
+        logger.debug(" ".join(map(str, template)))
+        logger.debug("-- END OF TRANSFORMATION --\n")
     else:
         sketch, start = [], None
         for i, word in enumerate(re.findall(r"[\w']+|[.,!?;]", answer_str.strip())):
@@ -284,14 +277,14 @@ def generate_answer_template(s_root_word, answer_str, join_char=' '):
                     res2.append(TemplateElement(root_chain, r))
                 sketch.append(res2)
             else:
-                logging.debug("-- COULDN'T FIND: res, word --")
-                logging.debug("-- NO ANSWER COULD BE GENERATED --\n")
+                logger.debug("-- COULDN'T FIND: res, word --")
+                logger.debug("-- NO ANSWER COULD BE GENERATED --\n")
                 return None
 
-        logging.debug(f"-- START -> {start} --")
+        logger.debug(f"-- START -> {start} --")
 
         if not start:
-            logging.debug("-- NO ANSWER COULD BE GENERATED --\n")
+            logger.debug("-- NO ANSWER COULD BE GENERATED --\n")
             return None
 
         # we know for sure that at least one word will match exactly
@@ -310,7 +303,7 @@ def generate_answer_template(s_root_word, answer_str, join_char=' '):
                         best_match = el
                 sketch[j] = best_match
         
-        logging.debug(f"ANSWER SKETCH --- {list(map(str, sketch))}")
+        logger.debug(f"ANSWER SKETCH --- {list(map(str, sketch))}")
 
         template, children_map = shift_reduce(sketch)
 
@@ -318,8 +311,8 @@ def generate_answer_template(s_root_word, answer_str, join_char=' '):
             if type(t) == TemplateElement:
                 t.merge_negatives(children_map)
         
-        logging.debug(join_char.join(map(str, template)))
-        logging.debug("-- END OF TRANSFORMATION --\n")
+        logger.debug(join_char.join(map(str, template)))
+        logger.debug("-- END OF TRANSFORMATION --\n")
 
     return template
 
@@ -580,7 +573,7 @@ def generate_templates(fname, stanza_lang, rtl=False, min_support=2, strict=True
                 if max_idf <= math.log(4): # appeared in at least 25% of the documents
                     for qw, endings in passport['qw'].items():
                         for a_tmpl, data in endings.items():
-                            logging.debug("-- {} - {} - {} -> PASSED --".format(q_tmpl, passport['all_templates'], N_ex))
+                            logger.debug("-- {} - {} - {} -> PASSED --".format(q_tmpl, passport['all_templates'], N_ex))
 
                             final_templates.append({
                                 'question': q_tmpl.replace("<qw>", qw),
@@ -601,9 +594,9 @@ def generate_templates(fname, stanza_lang, rtl=False, min_support=2, strict=True
                             f1.write("id: {}{}\n{}\n\n".format(temp_base, temp_id, sent))
                             temp_id += 1
                 else:
-                    logging.debug("-- {} - {} - {} -> FAILED IDF ({}) --".format(q_tmpl, passport['all_templates'], N_ex, max_idf))
+                    logger.debug("-- {} - {} - {} -> FAILED IDF ({}) --".format(q_tmpl, passport['all_templates'], N_ex, max_idf))
             else:
-                logging.debug("-- {} - {} - {} -> FAILED --".format(q_tmpl, passport['all_templates'], N_ex))
+                logger.debug("-- {} - {} - {} -> FAILED --".format(q_tmpl, passport['all_templates'], N_ex))
 
     print_report(final_templates)
 
@@ -643,6 +636,17 @@ if __name__ == '__main__':
     parser.add_argument('-j', '--join-char', type=str, default=" ")
     parser.add_argument('-qac', '--qac-file', type=str, help='A preprocessed .qac file for the given dataset')
     args = parser.parse_args()
+
+    if not args.idf:
+        default_file = os.path.join(DEFAULT_TEMPLATES_DIR, args.lang, 'idf_{}.csv'.format(args.lang))
+        if os.path.exists(default_file):
+            args.idf = default_file
+        else:
+            logger.error(
+                """No valid IDF file was provided. Either download it by running `quinductor.download({})`
+                or create your own and supply it using `-idf` argument""".format(args.lang)
+            )
+            sys.exit(1)
 
     # arabic, finnish - include mwt
     # russian - exclude mwt

@@ -4,7 +4,9 @@ import sys
 import unicodedata
 import re
 from collections import defaultdict
+from pathlib import Path
 from pprint import pprint
+import logging
 
 import numpy as np
 
@@ -16,6 +18,74 @@ FUNCTION_WORDS = ['DET', 'PART', 'INTJ', 'SYM'] # AUX is a special case
 MODIFIER_RELS = ["advmod", "amod"]
 
 PUNCT_TABLE = dict.fromkeys(i for i in range(sys.maxunicode) if unicodedata.category(chr(i)).startswith('P'))
+
+HOME_DIR = str(Path.home())
+DEFAULT_TEMPLATES_DIR = os.getenv(
+    'QUINDUCTOR_RESOURCES_DIR',
+    os.path.join(HOME_DIR, 'quinductor_resources')
+)
+QUINDUCTOR_RESOURCES_GITHUB = 'https://raw.githubusercontent.com/dkalpakchi/quinductor/master/templates'
+
+MODELS = {
+    'ar': {
+        'templates': 1614104416496133,
+        'pos_ngrams': ['ar_padt_train.txt']
+    },
+    'en': {
+        'templates': 16132054753040054,
+        'pos_ngrams': ['ewt_train_freq', 'ewt_dev_freq']
+    },
+    'fi': {
+        'templates': 16132078825085254,
+        'pos_ngrams': ['fi_tdt_train.txt']
+    },
+    'id': {
+        'templates': 16140609246000547,
+        'pos_ngrams': ['id_gsd_train.txt']
+    },
+    'ja': {
+        'templates': 16140572221308537,
+        'pos_ngrams': ['ja_gsd_train.txt']
+    },
+    'ko': {
+        'templates': 16140582210609627,
+        'pos_ngrams': ['ko_gsd_train.txt']
+    },
+    'ru': {
+        'templates': 1613204358381249,
+        'pos_ngrams': ['ru_syntagrus_train.txt']
+    },
+    'te': {
+        'templates': 16140691545631247,
+        'pos_ngrams': ['te_mtg_train.txt']
+    }
+}
+
+
+def get_logger():
+    logger = logging.getLogger('quinductor')
+    console = logging.StreamHandler()
+    console.setLevel(logging.INFO)
+    formatter = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    console.setFormatter(formatter)
+    logger.addHandler(console)
+    return logger
+
+
+def get_default_model_path(lang):
+    if lang in MODELS:
+        return os.path.join(DEFAULT_TEMPLATES_DIR, lang, str(MODELS[lang]['templates']))
+    else:
+        logger = logging.getLogger('quinductor')
+        logger.error(
+            """The language {} currently has no available models.
+            Please create your own model and provide it using script arguments""".format(args.lang)
+        )
+        sys.exit(1)
+
 
 class TemplateElement:
     def __init__(self, root_chain, node, last_span_id=None, is_subtree=False, is_lemma=False):

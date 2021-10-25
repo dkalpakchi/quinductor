@@ -1,7 +1,0 @@
-numpy
-udon2
-pypeg2
-stanza
-tqdm
-dill
-jsonlines

@@ -9,6 +9,7 @@ import csv
 from operator import itemgetter
 from collections import defaultdict
 from itertools import product
+from pathlib import Path
 
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -19,21 +20,22 @@ import dill
 import numpy as np
 import stanza
 from stanza.utils.conll import CoNLL
-from spacy.lang.sv import Swedish
 
 from tqdm import tqdm
 
-from rules import *
-from core import *
-from common import *
-from guards import load_guards
-import loaders
-import repro
+from quinductor.rules import *
+from quinductor.core import *
+from quinductor.common import *
+from quinductor.guards import load_guards
+from quinductor.loaders import *
+from quinductor.repro import *
 
 import udon2
-from stanza_ext import TokenizeWithPunctProcessor
 
 np.seterr('raise')
+
+
+logger = get_logger()
 
 
 SURVEY_TEMPLATES = {
@@ -145,7 +147,20 @@ if __name__ == '__main__':
             'eval_remove_diacritics': args.remove_diacritics
         }, overwrite=True)
 
-    eval_folder = os.path.join(args.templates_folder, 'eval', '')
+    if args.templates_folder:
+        eval_folder = os.path.join(args.templates_folder, 'eval')
+    else:
+        args.templates_folder = get_default_model_path(args.lang)
+        if not os.path.exists(args.templates_folder):
+            logger.error(
+                """No valid model found. Try downloading by running `quinductor.download({})`
+                or providing your own by using script arguments""".format(args.lang)
+            )
+        eval_folder = 'evaluation'
+
+    if not args.ranking_folder:
+        args.ranking_folder = Path(args.templates_folder).parent
+    
     if not os.path.exists(eval_folder):
         os.makedirs(eval_folder)
 
@@ -156,17 +171,20 @@ if __name__ == '__main__':
     proc = 'tokenize,mwt,pos' if args.lang in ['fi', 'ar'] else 'tokenize,pos'
     stanza_dep_pipe = stanza.Pipeline(lang=args.lang, processors=dep_proc)
     stanza_pipe = stanza.Pipeline(lang=args.lang, processors=proc)
+    
+    if not args.pos_ngrams:
+        args.pos_ngrams = os.path.join(args.ranking_folder, 'pos_ngrams')
     log_prob = load_pos_ngrams(args.pos_ngrams)
 
     qw_stat = dill.load(open(os.path.join(args.ranking_folder, 'qwstats.dill'), 'rb'))
     a_tmpl = dill.load(open(os.path.join(args.ranking_folder, 'atmpl.dill'), 'rb'))
 
     if args.format == 'tt':
-        data_loader = loaders.TextinatorLoader
+        data_loader = TextinatorLoader
     elif args.format == 'squad':
-        data_loader = loaders.SquadLoader
+        data_loader = SquadLoader
     elif args.format == 'tydiqa':
-        data_loader = loaders.TyDiQaLoader
+        data_loader = TyDiQaLoader
 
     data_file = os.path.join(eval_folder, 'data.dill')
     if os.path.exists(data_file):

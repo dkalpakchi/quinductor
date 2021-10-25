@@ -32,3 +32,4 @@ random_indexing.py
 run_bpe.sh
 run_exp.sh
 templates.log
+src/quinductor.egg-info
