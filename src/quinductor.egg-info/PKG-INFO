@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: quinductor
+Version: 0.1.0
+Summary: A package implementing a multi-lingual question generation method described in https://arxiv.org/abs/2103.10121
+Home-page: https://github.com/dkalpakchi/quinductor
+Author: Dmytro Kalpakchi
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+
+UNKNOWN
+

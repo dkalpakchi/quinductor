@@ -2,7 +2,7 @@ import os
 import re
 from collections import defaultdict
 
-from rules import *
+from .rules import *
 
 
 def generate_guards(templates, temp_fname, guard_fname="gen_guards.txt"):

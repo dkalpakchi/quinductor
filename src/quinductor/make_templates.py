@@ -24,7 +24,6 @@ logging.basicConfig(
     # ]
 )
 
-from terminaltables import AsciiTable
 import tqdm
 
 import stanza
@@ -32,11 +31,11 @@ from stanza.utils.conll import CoNLL
 
 import udon2
 
-import loaders
-import repro
-from common import *
-from guards import *
-from rules import load_templates
+from .loaders import *
+from .repro import get_client
+from .common import *
+from .guards import *
+from .rules import load_templates
 
 
 def get_negatives(node, chain):
@@ -654,7 +653,7 @@ if __name__ == '__main__':
     timestamp = str(start).replace('.', '')
 
     if args.modeldb_url:
-        client = repro.get_client(args.modeldb_url)
+        client = get_client(args.modeldb_url)
         client.set_project("SQuAD")#"TyDiQA QG")#"SvQG")
         client.set_experiment(args.lang)
         run = client.set_experiment_run("{}_{}".format(args.lang, timestamp))
@@ -694,11 +693,11 @@ if __name__ == '__main__':
             stanza_tokenizer = stanza.Pipeline(lang=args.lang, processors=proc)
 
             if args.format == 'tt':
-                data_loader = loaders.TextinatorLoader
+                data_loader = TextinatorLoader
             elif args.format == 'squad':
-                data_loader = loaders.SquadLoader
+                data_loader = SquadLoader
             elif args.format == 'tydiqa':
-                data_loader = loaders.TyDiQaLoader
+                data_loader = TyDiQaLoader
             else:
                 print("Unrecognized data format")
                 sys.exit(1)

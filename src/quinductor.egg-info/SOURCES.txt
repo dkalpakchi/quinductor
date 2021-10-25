@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/quinductor/__init__.py
+src/quinductor/common.py
+src/quinductor/core.py
+src/quinductor/guards.py
+src/quinductor/lang_spec_feats.json
+src/quinductor/loaders.py
+src/quinductor/make_templates.py
+src/quinductor/repro.py
+src/quinductor/rules.py
+src/quinductor.egg-info/PKG-INFO
+src/quinductor.egg-info/SOURCES.txt
+src/quinductor.egg-info/dependency_links.txt
+src/quinductor.egg-info/requires.txt
+src/quinductor.egg-info/top_level.txt

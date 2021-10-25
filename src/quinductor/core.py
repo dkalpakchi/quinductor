@@ -8,7 +8,7 @@ from pprint import pprint
 
 import numpy as np
 
-from common import repr_pos_morph
+from .common import repr_pos_morph
 
 
 START_TOKEN = "<START>"

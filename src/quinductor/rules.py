@@ -2,11 +2,11 @@
 import os
 import re
 import json
-import numpy as np
 from collections import defaultdict
 from itertools import product, combinations
 from pypeg2 import *
-from common import chain_to_root
+
+from .common import chain_to_root
 
 
 telugu_chars = '\u0C00-\u0C7F'
@@ -17,7 +17,8 @@ inter_word = re.compile(r'[{0}{1}{2}\w0-9\'\-\?,\.]+'.format(japanese_chars, ara
 
 
 # to be fixed later with UDon2
-lang_spec = json.load(open('lang_spec_feats.json'))
+base_folder = os.path.dirname(__file__)
+lang_spec = json.load(open(os.path.join(base_folder, 'lang_spec_feats.json')))
 lang_spec_tags = [x for d in lang_spec.values() for x in d.keys()]
 lang_spec_vals = [y for d in lang_spec.values() for x in d.values() for y in x]
 

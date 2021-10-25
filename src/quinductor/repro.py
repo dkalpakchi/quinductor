@@ -1,5 +1,3 @@
-from verta import Client
-
-
 def get_client(url):
+    from verta import Client
     return Client(url)
