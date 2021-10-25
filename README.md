@@ -4,7 +4,30 @@ A multilingual data-driven method for generating reading comprehension questions
 ## Data
 We use [TyDi QA dataset](https://github.com/google-research-datasets/tydiqa), which you can easily get by running `get_tydiqa_data.sh`
 
-## How to induce templates?
+## How to work with the induced templates?
+Quinductor is now available as a Python package that can be installed via `pip install quinductor`. After that you can download the induce templates for your language by running the following in the Python shell (the example is for English).
+```python
+>>> import quinductor as qi
+>>> qi.download('en')
+```
+The avaible languages with a wide set of templates are:
+- Arabic (`ar`)
+- English (`en`)
+- Finnish (`fi`)
+- Indonesian (`id`)
+- Japanese (`ja`)
+- Russian (`ru`)
+
+Templates are also available for the other languages listed below, but Quinductor did not manage to induce many templates on the TyDiQA.
+- Korean (`ko`)
+- Telugu (`te`)
+
+After having downloaded the templates for your language, you can get access to them by running
+```python
+>>> tools = qi.use('en')
+```
+
+## How to induce templates yourself?
 1. Generate auxiliary models:
   - IDFs by running `calculate_idf.sh`
   - ranking models by running `get_qword_stat.sh`

@@ -15,7 +15,6 @@ tmpl
 stanza_ext
 *.conll
 lang/*
-__init__.py
 construct_hypothesis.py
 human_eval/*.pdf
 human_eval/*.tex
