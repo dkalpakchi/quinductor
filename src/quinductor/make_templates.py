@@ -404,7 +404,7 @@ def normalize_templates(qtemp, atemp):
 
 def generate_templates(fname, stanza_lang, rtl=False, min_support=2, strict=True, case_folding=False, remove_punct=False,
                        temp_fname="gen_templates.txt", sent_fname="gen_sentences.txt", remove_diacritics=True, dot_fix=False,
-                       join_char=' ', idf_file=None):
+                       join_char=' ', idf_file=None, no_answers=False):
     def record(key):
         problems[key] += 1
 
@@ -517,12 +517,16 @@ def generate_templates(fname, stanza_lang, rtl=False, min_support=2, strict=True
                         qw = q_temp.pop(0)
                         q_temp.insert(0, '<qw>')
 
-                    a_temp = generate_answer_template(s_root_word, answer, join_char=join_char)
-                    if not a_temp:
-                        record('no_a_template')
-                        continue
+                    if answer and not no_answers:
+                        a_temp = generate_answer_template(s_root_word, answer, join_char=join_char)
+                        if not a_temp:
+                            record('no_a_template')
+                            continue
 
-                    q_temp, a_temp = normalize_templates(q_temp, a_temp)
+                        q_temp, a_temp = normalize_templates(q_temp, a_temp)
+                    else:
+                        a_temp = ''
+                    
                     qtemp_without_qw = join_char.join(map(str, q_temp))
 
                     if qtemp_without_qw not in templates:
@@ -635,6 +639,8 @@ if __name__ == '__main__':
         Append dots at the end of the sentences even if punctuation is removed in attempt to fix dependency trees""")
     parser.add_argument('-j', '--join-char', type=str, default=" ")
     parser.add_argument('-qac', '--qac-file', type=str, help='A preprocessed .qac file for the given dataset')
+    parser.add_argument('-na', '--no-answers', action='store_true',
+        help="Whether to generate templates for answers")
     args = parser.parse_args()
 
     if not args.idf:
@@ -703,14 +709,19 @@ if __name__ == '__main__':
             elif args.format == 'tydiqa':
                 data_loader = TyDiQaLoader
             else:
-                print("Unrecognized data format")
-                sys.exit(1)
+                # generic case
+                data_loader = JsonLinesLoader
 
-            with open(gen_fname, 'w') as f:
-                for q, a, c in data_loader.from_files(questions_fnames, args.lang):
-                    sent = get_sentence_by_answer(a, c, stanza_tokenizer)
-                    if sent:
-                        f.write(f'{q} #|@ {a["text"]} #|@ {sent}\n')
+            if data_loader == JsonLinesLoader:
+                with open(gen_fname, 'w') as f:
+                    for q, a, s in data_loader.from_files(questions_fnames, args.lang):
+                        f.write(f'{q} #|@ {a} #|@ {s}\n')
+            else:
+                with open(gen_fname, 'w') as f:
+                    for q, a, c in data_loader.from_files(questions_fnames, args.lang):
+                        sent = get_sentence_by_answer(a, c, stanza_tokenizer)
+                        if sent:
+                            f.write(f'{q} #|@ {a["text"]} #|@ {sent}\n')
 
     if args.templates == 'NA':
         stanza_lang = stanza.Pipeline(lang=args.lang, processors=dep_proc)
@@ -718,7 +729,7 @@ if __name__ == '__main__':
             rtl=args.right_to_left, case_folding=args.case_folding, remove_punct=args.remove_punct,
             temp_fname=os.path.join(DIR, "templates.txt"), sent_fname=os.path.join(DIR, "sentences.txt"),
             remove_diacritics=args.remove_diacritics, dot_fix=args.dot_fix, join_char=args.join_char,
-            idf_file=args.idf)
+            idf_file=args.idf, no_answers=args.no_answers)
     else:
         print("Loading templates from {}".format(args.templates))
         templates, temp_fname = templates = load_templates([args.templates]), args.templates

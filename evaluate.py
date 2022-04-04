@@ -1,6 +1,7 @@
 import os
 import sys
 import copy
+import time
 import re
 import json
 import string
@@ -10,9 +11,6 @@ from operator import itemgetter
 from collections import defaultdict
 from itertools import product
 from pathlib import Path
-
-import seaborn as sns
-import matplotlib.pyplot as plt
 
 import argparse
 
@@ -125,7 +123,8 @@ if __name__ == '__main__':
     parser.add_argument('-rtl', '--right-to-left', action='store_true')
     parser.add_argument('-mdb', '--modeldb-url', type=str, default='')
     parser.add_argument('-j', '--join-symbol', type=str, default=' ')
-    parser.add_argument('--include-gold', action='store_true')
+    parser.add_argument('--include-gold', action='store_true', help="Whether to include gold items in the survey")
+    parser.add_argument('-ke', '--keep-empty', action='store_true', help="Keep the cases with no generated questions")
     args = parser.parse_args()
 
     if args.modeldb_url:
@@ -148,7 +147,7 @@ if __name__ == '__main__':
         }, overwrite=True)
 
     if args.templates_folder:
-        eval_folder = os.path.join(args.templates_folder, 'eval')
+        eval_folder = os.path.join(args.templates_folder, 'eval_{}'.format(str(time.time()).replace('.', '')))
     else:
         args.templates_folder = get_default_model_path(args.lang)
         if not os.path.exists(args.templates_folder):
@@ -163,6 +162,9 @@ if __name__ == '__main__':
     
     if not os.path.exists(eval_folder):
         os.makedirs(eval_folder)
+
+    with open(os.path.join(eval_folder, 'args.txt'), 'w') as f:
+        f.write(str(args))
 
     # lm = arpa.loadf(args.language_model)[0]
     # arabic, finnish - include mwt
@@ -185,10 +187,25 @@ if __name__ == '__main__':
         data_loader = SquadLoader
     elif args.format == 'tydiqa':
         data_loader = TyDiQaLoader
+    else:
+        # generic case
+        data_loader = JsonLinesLoader
 
     data_file = os.path.join(eval_folder, 'data.dill')
     if os.path.exists(data_file):
         data = dill.load(open(data_file, 'rb'))
+    elif data_loader == JsonLinesLoader:
+        data = defaultdict(lambda: defaultdict(list))
+        for q, a, s in data_loader.from_files(args.files.split(','), args.lang):
+            if args.case_folding:
+                s = s.lower()
+                q = q.lower()
+                a = a.lower()
+            
+            if args.remove_punctuation:
+                s = remove_unicode_punctuation(s).strip()
+                q = remove_unicode_punctuation(q).strip()
+            data[s][q].append(a)
     else:
         data = defaultdict(lambda: defaultdict(list))
         for q, a, c in data_loader.from_files(args.files.split(','), args.lang):
@@ -315,6 +332,10 @@ if __name__ == '__main__':
                     writer.writerow([res[i]['temp_id'], sent, q, a, scores[i], qwf[i]])
                     generated[q].append(a)
                     all_scores.append(scores[i])
+                elif q.strip():
+                    writer.writerow([res[i]['temp_id'], sent, q, '', scores[i], qwf[i]])
+                    all_scores.append(scores[i])
+
                 num_recorded_questions += 1
 
             if idx_sorted_by_scores:
@@ -331,8 +352,42 @@ if __name__ == '__main__':
                     if set(a_list) & set(q_dict[q]):
                         correct_t += 1
 
+            if num_recorded_questions == 0 and args.keep_empty:
+                # hypotheses and ground truth are to be concatenated by space no matter what,
+                # since nlg-eval splits by space and other packages expect tokenized hypotheses and references
+                gt = []
+                for gt_q in q_dict:
+                    q_tokens = [t.text for s in stanza_pipe(gt_q).sentences for t in s.words]
+                    if args.remove_diacritics:
+                        gt_qq = remove_unicode_diacritics(" ".join(q_tokens))
+                    else:
+                        gt_qq = " ".join(q_tokens)
+                    gt_qq = remove_unicode_punctuation(gt_qq) # since templates are without punctuation
+                    gt.append(gt_qq)
+                ground_truth.append(gt)
+                hypotheses.append("")
+                hyp_scores.append(float('inf'))
+                all_scores.append(0)
+
+        elif args.keep_empty:
+            # hypotheses and ground truth are to be concatenated by space no matter what,
+            # since nlg-eval splits by space and other packages expect tokenized hypotheses and references
+            gt = []
+            for gt_q in q_dict:
+                q_tokens = [t.text for s in stanza_pipe(gt_q).sentences for t in s.words]
+                if args.remove_diacritics:
+                    gt_qq = remove_unicode_diacritics(" ".join(q_tokens))
+                else:
+                    gt_qq = " ".join(q_tokens)
+                gt_qq = remove_unicode_punctuation(gt_qq) # since templates are without punctuation
+                gt.append(gt_qq)
+            ground_truth.append(gt)
+            hypotheses.append("")
+            hyp_scores.append(float('inf'))
+            all_scores.append(0)
+
     if ground_truth and hypotheses:
-        hyp_scores, score_mean = np.array(hyp_scores), np.mean(all_scores)
+        hyp_scores, score_mean = np.array(hyp_scores), np.ma.masked_invalid(all_scores).mean()
         ind = np.asarray(hyp_scores >= score_mean).nonzero()[0]
 
         if args.max_examples > 0:
@@ -350,11 +405,17 @@ if __name__ == '__main__':
         with open(os.path.join(eval_folder, hyp_fname), 'w') as hp_file,\
              open(os.path.join(eval_folder, survey_fname), 'w') as sm_file:
             items = []
-            for j in sample:
-                hp_file.write(remove_unicode_punctuation(hypotheses[j]) + '\n')
-                items.append(survey["items"][j])
-                if survey["gold"]:
-                    items.append(survey["gold"][j])
+            for j in range(len(hyp_scores)):
+                if j in sample:
+                    hp_file.write(remove_unicode_punctuation(hypotheses[j]) + '\n')
+                    try:
+                        items.append(survey["items"][j])
+                        if survey["gold"]:
+                            items.append(survey["gold"][j])
+                    except IndexError:
+                        print("Error while writing a survey file -- Skipping the item")
+                elif args.keep_empty:
+                    hp_file.write('\n')
             survey["items"] = items
             del survey["gold"]
             print("Written {} items to the survey".format(len(items)))

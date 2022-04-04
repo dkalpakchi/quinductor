@@ -28,36 +28,63 @@ QUINDUCTOR_RESOURCES_GITHUB = 'https://raw.githubusercontent.com/dkalpakchi/quin
 
 MODELS = {
     'ar': {
-        'templates': 1614104416496133,
-        'pos_ngrams': ['ar_padt_train.txt']
+        'tydiqa': {
+            'templates': 1614104416496133
+        },
+        'pos_ngrams': ['ar_padt_train.txt'],
+        'default': 'tydiqa'
     },
     'en': {
-        'templates': 16132054753040054,
-        'pos_ngrams': ['ewt_train_freq', 'ewt_dev_freq']
+        'tydiqa': {
+            'templates': 16132054753040054
+        },
+        'squad': {
+            'templates': 16432660346112196
+        },
+        'pos_ngrams': ['ewt_train_freq.txt', 'ewt_dev_freq.txt'],
+        'default': 'tydiqa'
     },
     'fi': {
-        'templates': 16132078825085254,
-        'pos_ngrams': ['fi_tdt_train.txt']
+        'tydiqa': {
+            'templates': 16132078825085254
+        },
+        'pos_ngrams': ['fi_tdt_train.txt'],
+        'default': 'tydiqa'
     },
     'id': {
-        'templates': 16140609246000547,
-        'pos_ngrams': ['id_gsd_train.txt']
+        'tydiqa': {
+            'templates': 16140609246000547
+        },
+        'pos_ngrams': ['id_gsd_train.txt'],
+        'default': 'tydiqa'
     },
     'ja': {
-        'templates': 16140572221308537,
-        'pos_ngrams': ['ja_gsd_train.txt']
+        'tydiqa': {
+            'templates': 16140572221308537
+        },
+        'pos_ngrams': ['ja_gsd_train.txt'],
+        'default': 'tydiqa'
     },
     'ko': {
-        'templates': 16140582210609627,
-        'pos_ngrams': ['ko_gsd_train.txt']
+        'tydiqa': {
+            'templates': 16140582210609627
+        },
+        'pos_ngrams': ['ko_gsd_train.txt'],
+        'default': 'tydiqa'
     },
     'ru': {
-        'templates': 1613204358381249,
-        'pos_ngrams': ['ru_syntagrus_train.txt']
+        'tydiqa': {
+            'templates': 1613204358381249
+        },
+        'pos_ngrams': ['ru_syntagrus_train.txt'],
+        'default': 'tydiqa'
     },
     'te': {
-        'templates': 16140691545631247,
-        'pos_ngrams': ['te_mtg_train.txt']
+        'tydiqa': {
+            'templates': 16140691545631247
+        },
+        'pos_ngrams': ['te_mtg_train.txt'],
+        'default': 'tydiqa'
     }
 }
 
@@ -75,9 +102,10 @@ def get_logger():
     return logger
 
 
-def get_default_model_path(lang):
+def get_default_model_path(lang, mtype=None):
     if lang in MODELS:
-        return os.path.join(DEFAULT_TEMPLATES_DIR, lang, str(MODELS[lang]['templates']))
+        model = mtype or MODELS[lang]['default']
+        return os.path.join(DEFAULT_TEMPLATES_DIR, lang, model, str(MODELS[lang][model]['templates']))
     else:
         logger = logging.getLogger('quinductor')
         logger.error(
@@ -85,6 +113,18 @@ def get_default_model_path(lang):
             Please create your own model and provide it using script arguments""".format(args.lang)
         )
         sys.exit(1)
+
+
+def get_default_guards_path(lang):
+    return os.path.join(get_default_model_path(lang), 'guards.txt')
+
+
+def get_default_templates_path(lang):
+    return os.path.join(get_default_model_path(lang), 'templates.txt')
+
+
+def get_default_examples_path(lang):
+    return os.path.join(get_default_model_path(lang), 'sentences.txt')
 
 
 class TemplateElement:

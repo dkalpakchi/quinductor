@@ -97,6 +97,18 @@ class SquadLoader:
         print(total, total_one_answer)
 
 
+class JsonLinesLoader:
+    @staticmethod
+    def from_files(fnames, lang='en'):
+        for fname in fnames:
+            with jsonlines.open(fname) as reader:
+                for obj in reader:
+                    sentence = obj['sentence']
+                    question = obj["question"]
+                    answer = obj.get("answer", '')
+                    yield question, answer, sentence
+
+
 class TyDiQaLoader:
     @staticmethod
     def from_files(fnames, lang='en'):

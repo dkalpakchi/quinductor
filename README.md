@@ -27,6 +27,17 @@ After having downloaded the templates for your language, you can get access to t
 >>> tools = qi.use('en')
 ```
 
+Starting from v0.2.0, you can also use the `tools` dictionary to quickly induce QA-pairs using the following piece of code.
+```python
+import quinductor as qi
+import udon2
+
+tools = qi.use("en")
+trees = udon2.ConllReader.read_file("example.conll")
+res = qi.generate_questions(trees, tools)
+print("\n".join([str(x) for x in res]))
+```
+
 ## How to induce templates yourself?
 1. Generate auxiliary models:
   - IDFs by running `calculate_idf.sh`

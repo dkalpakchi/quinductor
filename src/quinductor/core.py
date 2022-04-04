@@ -5,14 +5,43 @@ import math
 from operator import itemgetter
 from itertools import product, permutations
 from pprint import pprint
+from collections import defaultdict
 
 import numpy as np
+import stanza
 
 from .common import repr_pos_morph
 
 
 START_TOKEN = "<START>"
 END_TOKEN = "<END>"
+
+
+class GeneratedQAPair:
+    def __init__(self, q, a, tmpl, score):
+        self.__q = q
+        self.__a = a
+        self.__tmpl = tmpl
+        self.__score = score
+
+    @property
+    def q(self):
+        return self.__q
+
+    @property
+    def a(self):
+        return self.__a
+
+    @property
+    def template(self):
+        return self.__tmpl
+
+    @property
+    def score(self):
+        return self.__score
+
+    def __str__(self):
+        return "{} -- {} ({})".format(self.__q, self.__a, self.__score)
 
 
 def invoke_guards(root, guards_root, return_first=False):
@@ -74,6 +103,41 @@ def split_coordinate_clauses(tree_root):
     return list(clauses.values())
 
 
+def generate_questions(trees, tools, **kwargs):
+    generated = []
+    res = overgenerate_questions(
+        trees, tools['guards'],
+        tools['templates'], tools['examples'], **kwargs
+    )
+
+    if res:
+        dep_proc = 'tokenize,lemma,mwt,pos,depparse' if tools['lang'] in ['fi', 'ar'] else 'tokenize,lemma,pos,depparse'
+        proc = 'tokenize,mwt,pos' if tools['lang'] in ['fi', 'ar'] else 'tokenize,pos'
+        stanza_dep_pipe = stanza.Pipeline(lang=tools['lang'], processors=dep_proc)
+        stanza_pipe = stanza.Pipeline(lang=tools['lang'], processors=proc)
+
+        idx_sorted_by_scores, qwf, atf, scores = rank(
+            res, stanza_pipe, stanza_dep_pipe, tools['qw_stat'], tools['a_stat'], tools['pos_ngrams'],
+            rtl=tools['rtl'], join_char=tools['join_symbol'])
+
+        for i in idx_sorted_by_scores:
+            if len(res[i]['answer']) == 1 and atf[i] < 1:
+                # if the answer is one word and its sequence of pos-morph tags not appeared in the corpus
+                continue
+
+            if qwf[i] == 0:
+                # if the combination of the question word and the root token of the answer never appeared in the corpus
+                continue
+
+            q = "{}?".format(tools['join_symbol'].join(res[i]['question']))
+            a = tools['join_symbol'].join(res[i]['answer'])
+
+            if a.strip() and q.strip():
+                generated.append(GeneratedQAPair(q, a, res[i]['temp_id'], scores[i]))
+
+    return generated
+
+
 def overgenerate_questions(trees, guards_root, templates, template_examples, return_first=False, distractors=False):
     res = {}
     for root in trees:
@@ -103,65 +167,96 @@ def overgenerate_questions(trees, guards_root, templates, template_examples, ret
                 for temp_question in product(*[q.keys() if q else [] for q in q_expressions]):
                     tq = [x for x in temp_question if x is not None]
                     if len(set(tq)) == len(tq):
-                        for temp_answer in product(*[a.keys() if a else [] for a in a_expressions]):
-                            ta = [x for x in temp_answer if x is not None]
-                            if len(set(ta)) == len(ta):
-                                passing = True
-                                for s in shared_tags:
-                                    q_last, a_last = s.last_in_chain('q'), s.last_in_chain('a')
-                                    q = q_expressions[s.q][temp_question[s.q]]
-                                    a = a_expressions[s.a][temp_answer[s.a]]
 
-                                    q_check = [q.chain[-1]] if q_last else q.chain
-                                    a_check = [a.chain[-1]] if a_last else a.chain
+                        if a_expressions:
+                            for temp_answer in product(*[a.keys() if a else [] for a in a_expressions]):
+                                ta = [x for x in temp_answer if x is not None]
+                                if len(set(ta)) == len(ta):
+                                    passing = True
+                                    for s in shared_tags:
+                                        q_last, a_last = s.last_in_chain('q'), s.last_in_chain('a')
+                                        q = q_expressions[s.q][temp_question[s.q]]
+                                        a = a_expressions[s.a][temp_answer[s.a]]
 
-                                    if not (set(q_check) & set(a_check)):
-                                        passing = False
-                                        break
+                                        q_check = [q.chain[-1]] if q_last else q.chain
+                                        a_check = [a.chain[-1]] if a_last else a.chain
 
-                                if passing:
-                                    for q_seq in product(*[q_expressions[i][k].text for i, k in enumerate(temp_question)]):
-                                        for a_seq in product(*[a_expressions[i][k].text for i, k in enumerate(temp_answer)]):
-                                            # exclude pronouns for now until pronoun resolution is there
-                                            # PUNCT_REGEX = f'[{string.punctuation}]'
-                                            # qq = re.sub(PUNCT_REGEX, '', q.lower())
-                                            # aa = re.sub(PUNCT_REGEX, '', a.lower())
-                                            # if set(qq.split()) & PERSONAL_PRONOUNS or set(aa.split()) & PERSONAL_PRONOUNS:
-                                            #     continue
+                                        if not (set(q_check) & set(a_check)):
+                                            passing = False
+                                            break
 
-                                            # if any template element was evaluated to an empty sequence
-                                            if any([not x.strip() for x in a_seq]) or any([not x.strip() for x in q_seq]):
-                                                continue
+                                    if passing:
+                                        for q_seq in product(*[q_expressions[i][k].text for i, k in enumerate(temp_question)]):
+                                            for a_seq in product(*[a_expressions[i][k].text for i, k in enumerate(temp_answer)]):
+                                                # exclude pronouns for now until pronoun resolution is there
+                                                # PUNCT_REGEX = f'[{string.punctuation}]'
+                                                # qq = re.sub(PUNCT_REGEX, '', q.lower())
+                                                # aa = re.sub(PUNCT_REGEX, '', a.lower())
+                                                # if set(qq.split()) & PERSONAL_PRONOUNS or set(aa.split()) & PERSONAL_PRONOUNS:
+                                                #     continue
 
-                                            el = {
-                                                'question': [x.strip() for x in q_seq],
-                                                'answer': [x.strip() for x in a_seq],
-                                                'temp_id': [str(temp_id)],
-                                                'guards': [", ".join(guard_chain)],
-                                                "base_sentences": [str(root.children[0].get_subtree_text())],
-                                            }
+                                                # if any template element was evaluated to an empty sequence
+                                                if any([not x.strip() for x in a_seq]) or any([not x.strip() for x in q_seq]):
+                                                    continue
+
+                                                el = {
+                                                    'question': [x.strip() for x in q_seq],
+                                                    'answer': [x.strip() for x in a_seq],
+                                                    'temp_id': [str(temp_id)],
+                                                    'guards': [", ".join(guard_chain)],
+                                                    "base_sentences": [str(root.children[0].get_subtree_text())],
+                                                }
 
 
-                                            if el['answer'] in el['question']:
-                                                # Obviously wrong question!
-                                                continue
+                                                if el['answer'] in el['question']:
+                                                    # Obviously wrong question!
+                                                    continue
 
-                                            if distractors:
-                                                # TODO: fix conv_tree_kernel and then enable again
-                                                # dis = generate_distractors(trees, a)
-                                                dis = []
-                                                el['distractors'] = dis
-                                            else:
-                                                el['distractors'] = []
-                                            
-                                            pair = f"{el['question']} => {el['answer']}"
-                                            if pair not in res:
-                                                res[pair] = el
-                                            else:
-                                                if el['temp_id'][0] not in res[pair]['temp_id']:
-                                                    res[pair]['temp_id'].extend(el['temp_id'])
-                                                    res[pair]['guards'].extend(el['guards'])
-                                                    res[pair]['base_sentences'].extend(el['base_sentences'])
+                                                if distractors:
+                                                    # TODO: fix conv_tree_kernel and then enable again
+                                                    # dis = generate_distractors(trees, a)
+                                                    dis = []
+                                                    el['distractors'] = dis
+                                                else:
+                                                    el['distractors'] = []
+                                                
+                                                pair = f"{el['question']} => {el['answer']}"
+                                                if pair not in res:
+                                                    res[pair] = el
+                                                else:
+                                                    if el['temp_id'][0] not in res[pair]['temp_id']:
+                                                        res[pair]['temp_id'].extend(el['temp_id'])
+                                                        res[pair]['guards'].extend(el['guards'])
+                                                        res[pair]['base_sentences'].extend(el['base_sentences'])
+                        else:
+                            for q_seq in product(*[q_expressions[i][k].text for i, k in enumerate(temp_question)]):
+                                # exclude pronouns for now until pronoun resolution is there
+                                # PUNCT_REGEX = f'[{string.punctuation}]'
+                                # qq = re.sub(PUNCT_REGEX, '', q.lower())
+                                # aa = re.sub(PUNCT_REGEX, '', a.lower())
+                                # if set(qq.split()) & PERSONAL_PRONOUNS or set(aa.split()) & PERSONAL_PRONOUNS:
+                                #     continue
+
+                                # if any template element was evaluated to an empty sequence
+                                if any([not x.strip() for x in q_seq]):
+                                    continue
+
+                                el = {
+                                    'question': [x.strip() for x in q_seq],
+                                    'answer': [],
+                                    'temp_id': [str(temp_id)],
+                                    'guards': [", ".join(guard_chain)],
+                                    "base_sentences": [str(root.children[0].get_subtree_text())],
+                                }
+                                
+                                pair = f"{el['question']} => {el['answer']}"
+                                if pair not in res:
+                                    res[pair] = el
+                                else:
+                                    if el['temp_id'][0] not in res[pair]['temp_id']:
+                                        res[pair]['temp_id'].extend(el['temp_id'])
+                                        res[pair]['guards'].extend(el['guards'])
+                                        res[pair]['base_sentences'].extend(el['base_sentences'])
     return list(res.values())
 
 
@@ -260,7 +355,13 @@ def get_syntactic_score(q_words, unigrams_log_prob, bigrams_log_prob, trigrams_l
             
             N_ngrams += 1
 
-            syntactic_score += np.log(lambda1 * np.exp(w1w2w3t_lprob) + lambda2 * np.exp(w2w3b_lprob) + lambda3 * np.exp(w3u_lprob) + lambda4)
+            # some versions of Numpy give `FloatingPointError: underflow encountered in exp`
+            # when the argument is float('-inf'), hence this workaround
+            w1w2w3t_prob = 0 if w1w2w3t_lprob == float('-inf') else np.exp(w1w2w3t_lprob)
+            w2w3b_prob = 0 if w2w3b_lprob == float('-inf') else np.exp(w2w3b_lprob)
+            w3u_prob = 0 if w3u_lprob == float('-inf') else np.exp(w3u_lprob)
+
+            syntactic_score += np.log(lambda1 * w1w2w3t_prob + lambda2 * w2w3b_prob + lambda3 * w3u_prob + lambda4)
         syntactic_score /= N_ngrams
     elif N == 2:
         w1, w2 = q_words[0], q_words[1]
@@ -269,12 +370,20 @@ def get_syntactic_score(q_words, unigrams_log_prob, bigrams_log_prob, trigrams_l
         w2u_lprob = unigrams_log_prob.get(w2_token, unigrams_log_prob.get(w2_backoff))
         w1b_lprob = bigrams_log_prob.get(w1_token, bigrams_log_prob.get(w1_backoff))
         w1w2b_lprob = w1b_lprob.get(w2_token, w1b_lprob.get(w2_backoff, float('-inf')))
-        syntactic_score += np.log(lambda1 * np.exp(w1w2b_lprob) + lambda2 * np.exp(w2u_lprob) + (1 - lambda1 - lambda2))
+
+        w1w2b_prob = 0 if w1w2b_lprob == float('-inf') else np.exp(w1w2b_lprob)
+        w2u_prob = 0 if w2u_lprob == float('-inf') else np.exp(w2u_lprob)
+
+        syntactic_score += np.log(lambda1 * w1w2b_prob + lambda2 * w2u_prob + (1 - lambda1 - lambda2))
         syntactic_score /= 2
     elif N == 1:
         w1 = q_words[0]
         w1_token = repr_pos_morph(w1)
-        syntactic_score += np.log(lambda1 * np.exp(unigrams_log_prob.get(w1_token, unigrams_log_prob.get(w1.upos, float('-inf')))) + (1 - lambda1))
+        w1u_lprob = unigrams_log_prob.get(w1_token, unigrams_log_prob.get(w1.upos, float('-inf')))
+
+        w1u_prob = 0 if w1u_lprob == float('-inf') else np.exp(w1u_lprob)
+
+        syntactic_score += np.log(lambda1 * w1u_prob + (1 - lambda1))
     return np.exp(syntactic_score)
 
 
@@ -298,7 +407,7 @@ def rank(res, stanza_pipe, stanza_dep_pipe, qw_stat, a_tmpl, log_prob, rtl=False
         # but those might not necessarily be correct for languages like Japanese or Chinese
         q = join_char.join(cand['question']).strip()
         a = join_char.join(cand['answer']).strip()
-        if not q or not a:
+        if not q:
             # to preserve indices in `synt` as in `res`
             q_synt.append(float('-inf'))
             qw_freq.append(0)
@@ -306,51 +415,57 @@ def rank(res, stanza_pipe, stanza_dep_pipe, qw_stat, a_tmpl, log_prob, rtl=False
             continue
 
         q_words = stanza_pipe(q).sentences[0].words
-        a_words = stanza_dep_pipe(a).sentences[0].words
-        aw = None
-        for i, w in enumerate(a_words):
-            if w.deprel == 'root':
-                aw = i
-                break
-        if aw is None:
-            q_synt.append(float('-inf'))
-            qw_freq.append(0)
-            atemp_freq.append(0)
-            continue
-
-        a_pos_pattern = [repr_pos_morph(x) for x in a_words]
-        
-        atemp_freq.append(a_tmpl[" ".join(a_pos_pattern)])
         qw_key = (q_words[-1] if rtl else q_words[0]).text.lower()
 
-        if '/' in a_pos_pattern[aw]:
-            a_pos, a_morph = a_pos_pattern[aw].split('/')
-            a_morph = set(a_morph.split('|'))
+        if a:
+            a_words = stanza_dep_pipe(a).sentences[0].words
+            aw = None
+            for i, w in enumerate(a_words):
+                if w.deprel == 'root':
+                    aw = i
+                    break
+            if aw is None:
+                q_synt.append(float('-inf'))
+                qw_freq.append(0)
+                atemp_freq.append(0)
+                continue
+
+            a_pos_pattern = [repr_pos_morph(x) for x in a_words]
+        
+            atemp_freq.append(a_tmpl[" ".join(a_pos_pattern)])
+
+            if '/' in a_pos_pattern[aw]:
+                a_pos, a_morph = a_pos_pattern[aw].split('/')
+                a_morph = set(a_morph.split('|'))
+            else:
+                a_pos, a_morph = a_pos_pattern[aw], None
+
+            valid_freq, total_freq = 0, 0
+            for pos_pattern, freq in qw_stat[qw_key].items():
+                if '/' in pos_pattern:
+                    pos, morph = pos_pattern.split('/')
+                    morph = morph.split('|')
+                    if a_pos == pos and a_morph and a_morph & set(morph) == a_morph:
+                        valid_freq += freq
+                else:
+                    if a_pos == pos_pattern:
+                        valid_freq += freq
+                total_freq += freq
+
+            if total_freq > 0:
+                qw_freq.append(round(valid_freq / total_freq, 4))
+            else:
+                qw_freq.append(0)
         else:
-            a_pos, a_morph = a_pos_pattern[aw], None
+            # these are to ignore the atf constraint, since we just have no answer
+            qw_freq.append(1)
+            atemp_freq.append(1)
 
         if qw_key not in qw_stat:
             if rtl:
                 cand['question'] = " ".join([x.text for x in q_words[:-1]]) + qw_key
             else:
                 cand['question'] = qw_key + " " + " ".join([x.text for x in q_words[1:]])
-
-        valid_freq, total_freq = 0, 0
-        for pos_pattern, freq in qw_stat[qw_key].items():
-            if '/' in pos_pattern:
-                pos, morph = pos_pattern.split('/')
-                morph = morph.split('|')
-                if a_pos == pos and a_morph and a_morph & set(morph) == a_morph:
-                    valid_freq += freq
-            else:
-                if a_pos == pos_pattern:
-                    valid_freq += freq
-            total_freq += freq
-
-        if total_freq > 0:
-            qw_freq.append(round(valid_freq / total_freq, 4))
-        else:
-            qw_freq.append(0)
 
         q_synt.append(round(get_syntactic_score(q_words, unigrams_log_prob, bigrams_log_prob, trigrams_log_prob), 4))
 

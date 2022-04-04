@@ -1,6 +1,7 @@
 import argparse
 from collections import defaultdict
 from pprint import pprint
+from pathlib import Path
 
 import dill
 import stanza
@@ -11,6 +12,7 @@ from quinductor.loaders import *
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument('-t', '--templates-folder', required=True, type=str, help="A folder with guards, templates and template_examples subfolders")
     parser.add_argument('-l', '--lang', type=str, help='A language for stats generation (en, sv are currently supported)')
     parser.add_argument('-d', '--data', type=str, help='Comma-separated list of files to generate stats from')
     parser.add_argument('-ft', '--format', type=str, help='Data format (tt for Textinator or squad for Squad)')
@@ -30,14 +32,22 @@ if __name__ == '__main__':
         data_loader = SquadLoader
     elif args.format == 'tydiqa':
         data_loader = TyDiQaLoader
+    else:
+        # generic case
+        data_loader = JsonLinesLoader
 
     stats = defaultdict(lambda: defaultdict(int))
     answer_tmpl = defaultdict(int)
-    for q, a, c in tqdm(data_loader.from_files(questions_fnames, args.lang)):
+    for q, a, _ in tqdm(data_loader.from_files(questions_fnames, args.lang)):
         q_parsed = stanza_lang(q)
         qw = q_parsed.sentences[0].words[-1].text if args.right_to_left else q_parsed.sentences[0].words[0].text
-        if not a['text']: continue
-        a_parsed = stanza_lang(a['text'])
+
+        if data_loader == JsonLinesLoader:
+            if not a: continue
+            a_parsed = stanza_lang(a)
+        else:
+            if not a['text']: continue
+            a_parsed = stanza_lang(a['text'])
 
         aw = None
         for w in a_parsed.sentences[0].words:
@@ -57,6 +67,8 @@ if __name__ == '__main__':
             [x.upos + '/' + '|'.join(sorted(x.feats.split('|'))) if x.feats else x.upos
             for x in a_parsed.sentences[0].words])] += 1
 
-    dill.dump(stats, open('qwstats.dill', 'wb'))
-    dill.dump(answer_tmpl, open('atmpl.dill', 'wb'))
+    folder = Path(args.templates_folder).parent
+
+    dill.dump(stats, open(folder.joinpath('qwstats.dill'), 'wb'))
+    dill.dump(answer_tmpl, open(folder.joinpath('atmpl.dill'), 'wb'))
 

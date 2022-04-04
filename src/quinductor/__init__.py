@@ -3,6 +3,7 @@ Common utilities for Stanza resources.
 """
 
 import os
+import sys
 import glob
 import requests
 from pathlib import Path
@@ -20,7 +21,10 @@ from .common import (
 )
 from .guards import load_guards
 from .rules import load_templates, load_template_examples
+from .core import generate_questions
 
+
+__version__ = '0.2.0'
 
 logger = get_logger()
 
@@ -109,13 +113,26 @@ def request_file(url, path, proxies=None, md5=None, raise_for_status=False):
 
 def download(lang):
     # verify if the model is already downloaded and skip if it is (resume if downloaded partially)
+    mtype = None
+    if '/' in lang:
+        lang, mtype = lang.split('/')
+
     if lang in MODELS:
         logger.info("Downloading Quinductor templates for {}".format(lang))
         lang_dir = os.path.join(DEFAULT_TEMPLATES_DIR, lang)
-        for fname in ['atmpl.dill', 'qwstats.dill', 'idf_{}.csv'.format(lang)]:
+        
+        idf_fname = 'idf_{}.csv'.format(lang)
+        request_file(
+            '{}/{}/{}'.format(QUINDUCTOR_RESOURCES_GITHUB, lang, idf_fname),
+            os.path.join(lang_dir, idf_fname)
+        )
+
+        model = mtype or MODELS[lang]['default']
+
+        for fname in ['atmpl.dill', 'qwstats.dill']:
             request_file(
-                '{}/{}/{}'.format(QUINDUCTOR_RESOURCES_GITHUB, lang, fname),
-                os.path.join(lang_dir, fname)
+                '{}/{}/{}/{}'.format(QUINDUCTOR_RESOURCES_GITHUB, lang, model, fname),
+                os.path.join(lang_dir, model, fname)
             )
         
         pos_ngrams_dir = os.path.join(lang_dir, 'pos_ngrams')
@@ -125,10 +142,10 @@ def download(lang):
                 os.path.join(pos_ngrams_dir, fname)
             )
 
-        model_dir = os.path.join(lang_dir, str(MODELS[lang]['templates']))
+        model_dir = os.path.join(lang_dir, model, str(MODELS[lang][model]['templates']))
         for fname in ['guards.txt', 'templates.txt', 'sentences.txt']:
             request_file(
-                '{}/{}/{}/{}'.format(QUINDUCTOR_RESOURCES_GITHUB, lang, str(MODELS[lang]['templates']), fname),
+                '{}/{}/{}/{}/{}'.format(QUINDUCTOR_RESOURCES_GITHUB, lang, model, str(MODELS[lang][model]['templates']), fname),
                 os.path.join(model_dir, fname)
             )
         logger.info("Finished downloading Quinductor templates (saved to {})".format(lang_dir))
@@ -136,19 +153,45 @@ def download(lang):
         logger.warning('Templates for language {} are not available.'.format(lang))
 
 
+def convert2list(n, v):
+    if v is not None and type(v) is not list:
+        logger.warning("`{}` should be a list, automatically converting".format(n))
+        return [str(v)]
+    return v
 
-def use(lang):
-    templates_folder = get_default_model_path(lang)
 
-    ranking_folder = Path(templates_folder).parent
-    ng_folder = os.path.join(ranking_folder, 'pos_ngrams')
+def use(lang=None, templates_folder=None, guards_files=None, templates_files=None, pos_ng_folder=None, example_files=None,
+    qw_stat_file=None, a_stat_file=None):
+    if not lang and not templates_folder:
+        logger.error("use method requires either `lang` or `templates_folder` to be provided")
+        sys.exit(1)
+
+    guards_files = convert2list('guards_files', guards_files)
+    templates_files = convert2list('templates_files', templates_files)
+    example_files = convert2list('example_files', example_files)
+
+    mtype = None
+    if '/' in lang:
+        lang, mtype = lang.split('/')
+    
+    temp_folder = templates_folder or get_default_model_path(lang, mtype)
+
+    print(temp_folder)
+
+    ranking_folder = Path(temp_folder).parent
+    ng_folder = pos_ng_folder or os.path.join(ranking_folder.parent, 'pos_ngrams')
+
+    rtl = ['ja', 'te', 'ko']
 
     return {
+        'lang': lang,
+        'rtl': lang in rtl,
+        'join_symbol': ' ', # to output the tokens, maybe make language-specific in future
         'pos_ngrams': load_pos_ngrams(ng_folder),
-        'guards': load_guards(glob.glob(os.path.join(templates_folder, 'guards.txt'))),
-        'templates': load_templates(glob.glob(os.path.join(templates_folder, 'templates.txt'))),
-        'examples': load_template_examples(glob.glob(os.path.join(templates_folder, 'sentences.txt'))),
-        'qw_stat': dill.load(open(os.path.join(ranking_folder, 'qwstats.dill'), 'rb')),
-        'a_stat': dill.load(open(os.path.join(ranking_folder, 'atmpl.dill'), 'rb'))
+        'guards': load_guards(guards_files or glob.glob(os.path.join(temp_folder, 'guards.txt'))),
+        'templates': load_templates(templates_files or glob.glob(os.path.join(temp_folder, 'templates.txt'))),
+        'examples': load_template_examples(example_files or glob.glob(os.path.join(temp_folder, 'sentences.txt'))),
+        'qw_stat': dill.load(open(qw_stat_file or os.path.join(ranking_folder, 'qwstats.dill'), 'rb')),
+        'a_stat': dill.load(open(a_stat_file or os.path.join(ranking_folder, 'atmpl.dill'), 'rb'))
     }
     
