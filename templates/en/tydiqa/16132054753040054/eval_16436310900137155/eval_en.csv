@@ -1,0 +1,759 @@
+Template|Original sentence|Generated question|Generated answer|Score|Qw frequency
+['templates97']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what are the four kilometres from sintra’s historic centre , and bearing witness to the eclectic tastes of the 19th century?|palace|0.11746000000000001|0.3265
+['templates194']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what are four kilometres from sintra’s historic centre , and bearing witness to the eclectic tastes of the 19th century|peerless palace of monserrate where the exotic vegetal motifs of the building ’s interior decoration extend harmoniously to the gardens outside|0.11098000000000001|0.3265
+['templates79']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what 's four kilometres from sintra’s historic centre , and bearing witness to the eclectic tastes of the 19th century|monserrate|0.08944000000000002|0.3304
+['templates78']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what 's four kilometres from sintra’s historic centre , and bearing witness to the eclectic tastes of the 19th century|palace of monserrate , where the exotic vegetal motifs of the building ’s interior decoration extend harmoniously to the gardens outside|0.08866000000000002|0.3265
+['templates169']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what are the bearing|peerless palace|0.07618000000000001|0.3265
+['templates41']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what are the kilometres|palace of monserrate , where the exotic vegetal motifs of the building ’s interior decoration extend harmoniously to the gardens outside|0.07514000000000001|0.3265
+['templates59']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what are the peerless palace of monserrate , where the exotic vegetal motifs of the building ’s interior decoration extend harmoniously to the gardens outside|kilometres|0.0676|0.0884
+['templates144']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what are kilometres|palace of monserrate ,|0.06722000000000002|0.3265
+['templates143']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what are kilometres|peerless palace of monserrate , where the exotic vegetal motifs of the building ’s interior decoration extend harmoniously to the gardens outside|0.06722000000000002|0.3265
+['templates91']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what are the palace in monserrate , where the exotic vegetal motifs of the building ’s interior decoration extend harmoniously to the gardens outside|kilometres|0.042|0.0884
+['templates50']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|what are the peerless palace|kilometres|0.03944|0.0884
+['templates161']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|where are monserrate|peerless palace of monserrate , where the exotic vegetal motifs of the building ’s interior decoration extend harmoniously to the gardens outside|0.03776|0.168
+['templates215']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|who are the peerless palace of monserrate , where the exotic vegetal motifs of the building ’s interior decoration extend harmoniously to the gardens outside|kilometres|0.02978|0.0117
+['templates108']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|who are four kilometres from sintra’s historic centre , and bearing witness to the eclectic tastes of the 19th century|are the peerless palace of monserrate where the exotic vegetal motifs of the building ’s interior decoration extend harmoniously to the gardens outside|0.022539999999999998|0.0019
+['templates146']|"four kilometres from sintra’s historic centre, and bearing witness to the eclectic tastes of the 19th century, are the peerless palace and park of monserrate, where the exotic vegetal motifs of the building’s interior decoration extend harmoniously to the gardens outside.
+"|who are kilometres|peerless palace|0.01242|0.0525
+
+['templates20']|"the estate of monserrate was rented by gerard de visme (1789), a wealthy english merchant, who built a house there in the neo-gothic style.
+"|where was the estate of monserrate rented?|gerard|0.15725999999999998|0.6967
+['templates52']|"the estate of monserrate was rented by gerard de visme (1789), a wealthy english merchant, who built a house there in the neo-gothic style.
+"|where was estate rented|gerard|0.13998|0.6967
+['templates19', 'templates175', 'templates196']|"the estate of monserrate was rented by gerard de visme (1789), a wealthy english merchant, who built a house there in the neo-gothic style.
+"|when was the estate of monserrate rented|gerard|0.09724000000000001|0.3966
+['templates228']|"the estate of monserrate was rented by gerard de visme (1789), a wealthy english merchant, who built a house there in the neo-gothic style.
+"|when was the estate for monserrate rented|gerard|0.09724000000000001|0.3966
+['templates139']|"the estate of monserrate was rented by gerard de visme (1789), a wealthy english merchant, who built a house there in the neo-gothic style.
+"|what was gerard de visme ( 1789 ) , a wealthy english merchant , who built a house there in the neo-gothic style|the estate of monserrate|0.08794000000000002|0.3265
+['templates182', 'templates220']|"the estate of monserrate was rented by gerard de visme (1789), a wealthy english merchant, who built a house there in the neo-gothic style.
+"|when was estate of monserrate rented|gerard|0.08460000000000001|0.3966
+['templates124']|"the estate of monserrate was rented by gerard de visme (1789), a wealthy english merchant, who built a house there in the neo-gothic style.
+"|when was of monserrate rented|gerard|0.08276|0.3966
+['templates53']|"the estate of monserrate was rented by gerard de visme (1789), a wealthy english merchant, who built a house there in the neo-gothic style.
+"|when was estate rented|gerard|0.08156000000000001|0.3966
+['templates246']|"the estate of monserrate was rented by gerard de visme (1789), a wealthy english merchant, who built a house there in the neo-gothic style.
+"|when was monserrate first rented|gerard|0.081|0.3966
+['templates214']|"the estate of monserrate was rented by gerard de visme (1789), a wealthy english merchant, who built a house there in the neo-gothic style.
+"|when was the estate of monserrate rented|merchant|0.029860000000000005|0.0597
+
+['templates14']|"william beckford then subleased monserrate in 1793-1794, but, in 1809, when lord byron visited the property, the house was already in ruins.
+"|who subleased monserrate?|william beckford|0.18080000000000002|0.8852
+['templates13']|"william beckford then subleased monserrate in 1793-1794, but, in 1809, when lord byron visited the property, the house was already in ruins.
+"|when was monserrate subleased|1793|0.09986|0.4857
+['templates34']|"william beckford then subleased monserrate in 1793-1794, but, in 1809, when lord byron visited the property, the house was already in ruins.
+"|when was beckford subleased|1793|0.09986|0.4857
+
+['templates91']|"the estate’s sublime appearance was a source of inspiration for the poet, who sang of the beauty of monserrate in his poem childe harold’s pilgrimage, after which it became obligatory for foreign travellers to visit the property.
+"|what was a source in inspiration for the poet , who sang of the beauty of monserrate in his poem childe harold ’s pilgrimage , after which it became obligatory for foreign travellers to visit the property?|appearance|0.11474000000000001|0.3265
+['templates78']|"the estate’s sublime appearance was a source of inspiration for the poet, who sang of the beauty of monserrate in his poem childe harold’s pilgrimage, after which it became obligatory for foreign travellers to visit the property.
+"|what 's the estate ’s sublime appearance|source of inspiration for the poet , who sang of the beauty of monserrate in his poem childe harold ’s pilgrimage , after which it became obligatory for foreign travellers to visit the property|0.09242000000000002|0.3265
+['templates79']|"the estate’s sublime appearance was a source of inspiration for the poet, who sang of the beauty of monserrate in his poem childe harold’s pilgrimage, after which it became obligatory for foreign travellers to visit the property.
+"|what 's the estate ’s sublime appearance|inspiration|0.09242000000000002|0.3265
+['templates70']|"the estate’s sublime appearance was a source of inspiration for the poet, who sang of the beauty of monserrate in his poem childe harold’s pilgrimage, after which it became obligatory for foreign travellers to visit the property.
+"|what was a sublime source|a source of inspiration for the poet , who sang of the beauty of monserrate in his poem childe harold ’s pilgrimage , after which it became obligatory for foreign travellers to visit the property|0.07810000000000002|0.3265
+['templates97']|"the estate’s sublime appearance was a source of inspiration for the poet, who sang of the beauty of monserrate in his poem childe harold’s pilgrimage, after which it became obligatory for foreign travellers to visit the property.
+"|what was a the estate ’s sublime appearance|source|0.07482000000000001|0.3265
+['templates24']|"the estate’s sublime appearance was a source of inspiration for the poet, who sang of the beauty of monserrate in his poem childe harold’s pilgrimage, after which it became obligatory for foreign travellers to visit the property.
+"|what was sublime source|was a source of inspiration for the poet , who sang of the beauty of monserrate in his poem childe harold ’s pilgrimage , after which it became obligatory for foreign travellers to visit the property|0.07218000000000001|0.3265
+['templates41']|"the estate’s sublime appearance was a source of inspiration for the poet, who sang of the beauty of monserrate in his poem childe harold’s pilgrimage, after which it became obligatory for foreign travellers to visit the property.
+"|what was a appearance|source of inspiration for the poet , who sang of the beauty of monserrate in his poem childe harold ’s pilgrimage , after which it became obligatory for foreign travellers to visit the property|0.07090000000000002|0.3265
+['templates144']|"the estate’s sublime appearance was a source of inspiration for the poet, who sang of the beauty of monserrate in his poem childe harold’s pilgrimage, after which it became obligatory for foreign travellers to visit the property.
+"|what was appearance|source of inspiration for the poet , who sang of the beauty of monserrate in his poem childe harold ’s pilgrimage , after which it became obligatory for foreign travellers to visit the property|0.06682|0.3265
+['templates62']|"the estate’s sublime appearance was a source of inspiration for the poet, who sang of the beauty of monserrate in his poem childe harold’s pilgrimage, after which it became obligatory for foreign travellers to visit the property.
+"|where was a the estate ’s sublime appearance|poet|0.042800000000000005|0.168
+
+['templates114']|"this was especially true for english visitors, who made vivid descriptions of monserrate in their countless travel reports and illustrated it in many engravings.
+"|what was this?|true|0.00958|0.0447
+['templates204']|"this was especially true for english visitors, who made vivid descriptions of monserrate in their countless travel reports and illustrated it in many engravings.
+"|how true was this|especially true|0.00516|0.023
+
+['templates13']|"the effective acquisition of the property took place in 1863, with the architect james knowles beginning the work of transforming what remained of the house built by de visme.
+"|when was place took?|1863|0.09794|0.4857
+['templates13']|"the effective acquisition of the property took place in 1863, with the architect james knowles beginning the work of transforming what remained of the house built by de visme.
+"|when was place took|james|0.005960000000000001|0.0258
+
+['templates162']|"displaying distinctly medieval and oriental-style influences, the decoration of the palace of monserrate makes it, along with the palace of pena, one of the most important examples of romantic architecture in portugal.
+"|what is displaying distinctly medieval and oriental -style influences?|decoration|0.09322000000000001|0.3265
+['templates106']|"displaying distinctly medieval and oriental-style influences, the decoration of the palace of monserrate makes it, along with the palace of pena, one of the most important examples of romantic architecture in portugal.
+"|when was the decoration of the palace of monserrate|it along with the palace of pena , one of the most important examples of romantic architecture in portugal|0.04566|0.0071
+
+['templates78']|"it was, therefore, thanks to the intervention of the painter william stockdale and the master gardener francis burt, but above all the romantic spirit of francis cook, that the park of monserrate grew to become what it is today.
+"|what 's it?|thanks to the intervention of the painter william stockdale and the master gardener francis burt|0.06794000000000001|0.3265
+['templates79']|"it was, therefore, thanks to the intervention of the painter william stockdale and the master gardener francis burt, but above all the romantic spirit of francis cook, that the park of monserrate grew to become what it is today.
+"|what 's it|intervention|0.06794000000000001|0.3265
+['templates144']|"it was, therefore, thanks to the intervention of the painter william stockdale and the master gardener francis burt, but above all the romantic spirit of francis cook, that the park of monserrate grew to become what it is today.
+"|what was it|thanks to the intervention of the painter william stockdale and the master gardener francis burt|0.0661|0.3265
+
+
+['templates19', 'templates175', 'templates196']|"the estate and the palace were bought by the portuguese state in 1949.
+"|when were the estate and the palace bought?|1949|0.10682|0.4857
+['templates182']|"the estate and the palace were bought by the portuguese state in 1949.
+"|when were estate and the palace bought|1949|0.10226|0.4857
+['templates124']|"the estate and the palace were bought by the portuguese state in 1949.
+"|when were and the palace bought|1949|0.1005|0.4857
+['templates56']|"the estate and the palace were bought by the portuguese state in 1949.
+"|when were the and the palace bought|1949|0.10010000000000001|0.4857
+['templates53', 'templates220']|"the estate and the palace were bought by the portuguese state in 1949.
+"|when were estate bought|1949|0.0989|0.4857
+['templates21']|"the estate and the palace were bought by the portuguese state in 1949.
+"|where were the estate and the palace bought|state in 1949|0.04632000000000001|0.168
+['templates20']|"the estate and the palace were bought by the portuguese state in 1949.
+"|where were the estate and the palace bought|state|0.04632000000000001|0.168
+['templates52']|"the estate and the palace were bought by the portuguese state in 1949.
+"|where were estate bought|state|0.03504|0.168
+['templates155']|"the estate and the palace were bought by the portuguese state in 1949.
+"|where were estate|the portuguese state|0.034960000000000005|0.168
+['templates35']|"the estate and the palace were bought by the portuguese state in 1949.
+"|who bought the estate and the palace|the portuguese|0.03162|0.0525
+['templates76']|"the estate and the palace were bought by the portuguese state in 1949.
+"|who bought the estate and the palace|the portuguese state|0.03162|0.0525
+['templates76']|"the estate and the palace were bought by the portuguese state in 1949.
+"|who bought the estate and the palace|1949|0.0219|0.0039
+['templates19', 'templates175', 'templates196']|"the estate and the palace were bought by the portuguese state in 1949.
+"|when were the estate and the palace bought|state|0.02162|0.0597
+['templates182']|"the estate and the palace were bought by the portuguese state in 1949.
+"|when were estate and the palace bought|state|0.017060000000000002|0.0597
+['templates179']|"the estate and the palace were bought by the portuguese state in 1949.
+"|who bought estate|the portuguese state|0.015460000000000002|0.0525
+['templates124']|"the estate and the palace were bought by the portuguese state in 1949.
+"|when were and the palace bought|state|0.015300000000000001|0.0597
+['templates56']|"the estate and the palace were bought by the portuguese state in 1949.
+"|when were the and the palace bought|the portuguese state|0.014900000000000002|0.0597
+['templates53', 'templates220']|"the estate and the palace were bought by the portuguese state in 1949.
+"|when were estate bought|state|0.0137|0.0597
+['templates21']|"the estate and the palace were bought by the portuguese state in 1949.
+"|where were the estate and the palace bought|1949 by the portuguese state|0.013540000000000002|0.0041
+['templates20']|"the estate and the palace were bought by the portuguese state in 1949.
+"|where were the estate and the palace bought|1949|0.013540000000000002|0.0041
+['templates179']|"the estate and the palace were bought by the portuguese state in 1949.
+"|who bought estate|1949|0.00574|0.0039
+['templates52']|"the estate and the palace were bought by the portuguese state in 1949.
+"|where were estate bought|1949|0.0022600000000000003|0.0041
+['templates155']|"the estate and the palace were bought by the portuguese state in 1949.
+"|where were estate|1949|0.00218|0.0041
+
+['templates19', 'templates175', 'templates196']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were the park and palace of monserrate classified?|1993|0.11178|0.4857
+['templates228']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were the park and palace for monserrate classified|1993|0.11178|0.4857
+['templates182']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were park and palace of monserrate classified|1993|0.10578|0.4857
+['templates124']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were and palace of monserrate classified|1993|0.10282000000000001|0.4857
+['templates220']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were park of monserrate classified|1993|0.10194|0.4857
+['templates246']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were monserrate first classified|1993|0.09946|0.4857
+['templates56']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were the and palace classified|1993|0.09938000000000001|0.4857
+['templates209']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when interest|1993|0.09842000000000001|0.4857
+['templates53']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were park classified|1993|0.09786|0.4857
+['templates21']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|where were the park and palace of monserrate classified|property in 1993|0.052480000000000006|0.168
+['templates20']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|where were the park and palace of monserrate classified|property|0.052480000000000006|0.168
+['templates52']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|where were park classified|property|0.03416|0.168
+['templates76']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|who classified the park and palace of monserrate|1993|0.030140000000000004|0.0039
+['templates19', 'templates175', 'templates196']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were the park and palace of monserrate classified|property|0.02658|0.0597
+['templates228']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were the park and palace for monserrate classified|property|0.02658|0.0597
+['templates182']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were park and palace of monserrate classified|property|0.02058|0.0597
+['templates21']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|where were the park and palace of monserrate classified|1993 as a property of public interest|0.019700000000000002|0.0041
+['templates20']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|where were the park and palace of monserrate classified|1993|0.019700000000000002|0.0041
+['templates124']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were and palace of monserrate classified|property|0.017620000000000004|0.0597
+['templates220']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were park of monserrate classified|property|0.01674|0.0597
+['templates246']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were monserrate first classified|property|0.014260000000000002|0.0597
+['templates209']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when interest|property|0.01322|0.0597
+['templates53']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|when were park classified|property|0.012660000000000001|0.0597
+['templates179']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|who classified park|1993|0.00574|0.0039
+['templates155']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|where were park|1993|0.00218|0.0041
+['templates52']|"the park and palace of monserrate were classified as a property of public interest in 1993, and were included in the cultural landscape of sintra, which has been classified by unesco as world heritage since 1995.
+"|where were park classified|1993|0.0013800000000000002|0.0041
+
+['templates19', 'templates175', 'templates182', 'templates196', 'templates220']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|when was responsibility for the management of the estate transferred?|2000|0.1177|0.4857
+['templates124']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|when was for the management of the estate transferred|2000|0.11586|0.4857
+['templates228']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|when was responsibility for management transferred|2000|0.10202|0.4857
+['templates246']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|when was management first transferred|2000|0.10026|0.4857
+['templates53']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|when was responsibility transferred|2000|0.09938000000000001|0.4857
+['templates76']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|who transferred responsibility for the management of the estate|2000|0.041420000000000005|0.0039
+['templates21']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|where was responsibility for the management of the estate transferred|parques in 2000|0.034600000000000006|0.0574
+['templates20']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|where was responsibility for the management of the estate transferred|parques|0.034600000000000006|0.0574
+['templates19', 'templates175', 'templates182', 'templates196', 'templates220']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|when was responsibility for the management of the estate transferred|parques|0.025720000000000003|0.0258
+['templates21']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|where was responsibility for the management of the estate transferred|2000 to parques de sintra , which embarked upon a profound programme of recovery and restoration work|0.023940000000000003|0.0041
+['templates20']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|where was responsibility for the management of the estate transferred|2000|0.023940000000000003|0.0041
+['templates124']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|when was for the management of the estate transferred|parques|0.023880000000000002|0.0258
+['templates52']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|where was responsibility transferred|parques|0.014280000000000001|0.0574
+['templates228']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|when was responsibility for management transferred|parques|0.01004|0.0258
+['templates246']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|when was management first transferred|parques|0.008280000000000001|0.0258
+['templates53']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|when was responsibility transferred|parques|0.0074|0.0258
+['templates179']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|who transferred responsibility|2000|0.00574|0.0039
+['templates52']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|where was responsibility transferred|2000|0.0036200000000000004|0.0041
+['templates155']|"in 2000, responsibility for the management of the estate was transferred to parques de sintra, which embarked upon a profound programme of recovery and restoration work.
+"|where was responsibility|2000|0.0022600000000000003|0.0041
+
+['templates139']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|what was the category of the “ best development of a historic park or garden ”?|the park of monserrate|0.12138000000000002|0.3265
+['templates139']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|what was a garden award|the park of monserrate|0.07578000000000001|0.3265
+['templates139']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|what was 2013|the park of monserrate|0.06690000000000002|0.3265
+['templates209']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when development of a historic park or garden ”|award|0.0565|0.0597
+['templates209']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when development of a historic park or garden ”|category|0.0565|0.0597
+['templates21']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|where was the park of monserrate distinguished|award under the category of the “ best development of a historic park or garden ”|0.05024000000000001|0.168
+['templates21']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|where was the park of monserrate distinguished|award in 2013 ,|0.05024000000000001|0.168
+['templates21']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|where was the park of monserrate distinguished|category with a european garden award|0.05024000000000001|0.168
+['templates21']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|where was the park of monserrate distinguished|category in 2013 ,|0.05024000000000001|0.168
+['templates20']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|where was the park of monserrate distinguished|award|0.05024000000000001|0.168
+['templates20']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|where was the park of monserrate distinguished|category|0.05024000000000001|0.168
+['templates209']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when “ development of a historic park or garden|award|0.03434|0.0597
+['templates209']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when “ development of a historic park or garden|category|0.03434|0.0597
+['templates52']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|where was park distinguished|award|0.03424000000000001|0.168
+['templates52']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|where was park distinguished|category|0.03424000000000001|0.168
+['templates19', 'templates175', 'templates196']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was the park of monserrate distinguished|award|0.02858|0.0597
+['templates19', 'templates175', 'templates196']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was the park of monserrate distinguished|category|0.02858|0.0597
+['templates228']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was the park for monserrate distinguished|award|0.02858|0.0597
+['templates228']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was the park for monserrate distinguished|category|0.02858|0.0597
+['templates182', 'templates220']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was park of monserrate distinguished|award|0.01722|0.0597
+['templates182', 'templates220']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was park of monserrate distinguished|category|0.01722|0.0597
+['templates124']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was of monserrate distinguished|award|0.015220000000000001|0.0597
+['templates124']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was of monserrate distinguished|category|0.015220000000000001|0.0597
+['templates53']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was park distinguished|award|0.014180000000000002|0.0597
+['templates53']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was park distinguished|category|0.014180000000000002|0.0597
+['templates246']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was monserrate first distinguished|award|0.012580000000000001|0.0597
+['templates246']|"in 2013, the park of monserrate was distinguished with a european garden award under the category of the “best development of a historic park or garden”.
+"|when was monserrate first distinguished|category|0.012580000000000001|0.0597
+
+['templates21']|"it was restored in 1858 for sir francis cook, an english baronet created viscount of monserrate by king luís i.
+"|where was it restored?|sir in 1858|0.13974|0.6967
+['templates20', 'templates52']|"it was restored in 1858 for sir francis cook, an english baronet created viscount of monserrate by king luís i.
+"|where was it restored|sir|0.13974|0.6967
+['templates19', 'templates53', 'templates175', 'templates182', 'templates196', 'templates220']|"it was restored in 1858 for sir francis cook, an english baronet created viscount of monserrate by king luís i.
+"|when was it restored|1858|0.09754|0.4857
+['templates19', 'templates53', 'templates175', 'templates182', 'templates196', 'templates220']|"it was restored in 1858 for sir francis cook, an english baronet created viscount of monserrate by king luís i.
+"|when was it restored|sir|0.07972|0.3966
+['templates214']|"it was restored in 1858 for sir francis cook, an english baronet created viscount of monserrate by king luís i.
+"|when was it restored|baronet|0.01234|0.0597
+['templates76', 'templates179']|"it was restored in 1858 for sir francis cook, an english baronet created viscount of monserrate by king luís i.
+"|who restored it|1858|0.00366|0.0039
+['templates155']|"it was restored in 1858 for sir francis cook, an english baronet created viscount of monserrate by king luís i.
+"|where was it|1858|0.0015400000000000001|0.0041
+['templates21']|"it was restored in 1858 for sir francis cook, an english baronet created viscount of monserrate by king luís i.
+"|where was it restored|1858 for sir francis cook , an english baronet created viscount of monserrate by king luís i|0.0012200000000000002|0.0041
+['templates20', 'templates52']|"it was restored in 1858 for sir francis cook, an english baronet created viscount of monserrate by king luís i.
+"|where was it restored|1858|0.0012200000000000002|0.0041
+
+['templates139']|"the design was influenced by romanticism and mudéjar moorish revival architecture with neo-gothic elements.
+"|what was romanticism and mudéjar revival architecture with neo-gothic elements?|the design|0.10026000000000002|0.3265
+['templates139']|"the design was influenced by romanticism and mudéjar moorish revival architecture with neo-gothic elements.
+"|what was moorish revival architecture with neo-gothic elements|the design|0.08618|0.3265
+['templates20']|"the design was influenced by romanticism and mudéjar moorish revival architecture with neo-gothic elements.
+"|where was the design influenced|architecture|0.04304000000000001|0.168
+['templates52']|"the design was influenced by romanticism and mudéjar moorish revival architecture with neo-gothic elements.
+"|where was design influenced|architecture|0.03424000000000001|0.168
+['templates19', 'templates175', 'templates196']|"the design was influenced by romanticism and mudéjar moorish revival architecture with neo-gothic elements.
+"|when was the design influenced|architecture|0.021380000000000003|0.0597
+['templates209']|"the design was influenced by romanticism and mudéjar moorish revival architecture with neo-gothic elements.
+"|when elements|architecture|0.01298|0.0597
+['templates53', 'templates182', 'templates220']|"the design was influenced by romanticism and mudéjar moorish revival architecture with neo-gothic elements.
+"|when was design influenced|architecture|0.01242|0.0597
+
+['templates229', 'templates60']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a fine example along with other nearby palácios , such as the pena palace?|the eclecticism|0.11914000000000001|0.3265
+['templates59']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a fine example along with other nearby palácios , such as the pena palace|eclecticism|0.11914000000000001|0.3265
+['templates253']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a fine eclecticism in with other nearby palácios , such as the pena palace|eclecticism|0.11762000000000002|0.3265
+['templates253']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a fine eclecticism in along other nearby palácios , such as the pena palace|eclecticism|0.11762000000000002|0.3265
+['templates229', 'templates60']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a fine example of the sintra romanticism|the eclecticism|0.11722000000000002|0.3265
+['templates253']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a fine eclecticism in the sintra romanticism|eclecticism|0.11722000000000002|0.3265
+['templates59']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a fine example of the sintra romanticism|eclecticism|0.11722000000000002|0.3265
+['templates91']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a example in with other nearby palácios , such as the pena palace|eclecticism|0.11138|0.3265
+['templates91']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a example in along other nearby palácios , such as the pena palace|eclecticism|0.11138|0.3265
+['templates91']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a example in the sintra romanticism|eclecticism|0.10706000000000002|0.3265
+['templates58']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a example in romanticism|eclecticism|0.09010000000000001|0.3265
+['templates125']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what 's a fine example|sintra romanticism|0.08946000000000001|0.3265
+['templates50']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a fine example|eclecticism|0.08946000000000001|0.3265
+['templates58']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a example in palácios|eclecticism|0.08706000000000001|0.3265
+['templates167']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is romanticism 's fine example|eclecticism|0.08378000000000001|0.3265
+['templates78']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what 's the eclecticism|example along with other nearby palácios , such as the pena palace|0.07962000000000001|0.3265
+['templates78']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what 's the eclecticism|example of the sintra romanticism|0.07962000000000001|0.3265
+['templates79']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what 's the eclecticism|romanticism|0.07962000000000001|0.3265
+['templates97']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a eclecticism|example|0.07682000000000001|0.3265
+['templates41']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a eclecticism|example along with other nearby palácios , such as the pena palace|0.07682000000000001|0.3265
+['templates41']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is a eclecticism|example of the sintra romanticism|0.07682000000000001|0.3265
+['templates167']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is palácios 's fine example|eclecticism|0.07130000000000002|0.3265
+['templates144']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is eclecticism|example along with other nearby palácios , such as the pena palace|0.06914000000000001|0.3265
+['templates144']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is eclecticism|example of the sintra romanticism|0.06914000000000001|0.3265
+['templates143', 'templates194']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is eclecticism|fine example along with other nearby palácios , such as the pena palace|0.06914000000000001|0.3265
+['templates143', 'templates194']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what is eclecticism|fine example of the sintra romanticism|0.06914000000000001|0.3265
+['templates55']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|who is a fine example along with other nearby palácios , such as the pena palace|the eclecticism|0.06434|0.0525
+['templates215']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|who is a fine example along with other nearby palácios , such as the pena palace|eclecticism|0.06434|0.0525
+['templates55']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|who is a fine example of the sintra romanticism|the eclecticism|0.06242|0.0525
+['templates215']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|who is a fine example of the sintra romanticism|eclecticism|0.06242|0.0525
+['templates130']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|where is the eclecticism example|sintra romanticism|0.056560000000000006|0.168
+['templates198']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|where of the sintra romanticism is eclecticism|the sintra romanticism|0.04816000000000001|0.168
+['templates7']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|where is the the eclecticism|of the sintra romanticism along with other nearby palácios , such as the pena palace|0.04152000000000001|0.168
+['templates161']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|where is romanticism|fine example of the sintra romanticism|0.03984000000000001|0.168
+['templates62']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|where is a the eclecticism|palace|0.038000000000000006|0.168
+['templates101']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|where is eclecticism|of the sintra romanticism along with other nearby palácios , such as the pena palace|0.03760000000000001|0.168
+['templates161']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|where is palácios|fine example along with other nearby palácios , such as the pena palace|0.034960000000000005|0.168
+['templates79']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|what 's the eclecticism|palácios|0.032|0.0884
+['templates108']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|who is the eclecticism|is a fine example along with other nearby palácios , such as the pena palace|0.024820000000000002|0.0525
+['templates108']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|who is the eclecticism|is a fine example of the sintra romanticism|0.024820000000000002|0.0525
+['templates7']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|where is the the eclecticism|along with other nearby palácios , such as the pena palace of the sintra romanticism|0.0194|0.0574
+['templates101']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|where is eclecticism|along with other nearby palácios , such as the pena palace of the sintra romanticism|0.01548|0.0574
+['templates174']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|who is along|the eclecticism|0.01442|0.0525
+['templates146']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|who is eclecticism|fine example|0.01434|0.0525
+['templates174']|"the eclecticism is a fine example of the sintra romanticism, along with other nearby palácios, such as the pena palace and the quinta do relógio.
+"|who is with|the eclecticism|0.013380000000000001|0.0525
+
+['templates66']|"the terrace leads out into the large park.
+"|what is large?|the terrace|0.07386000000000001|0.3265
+
+['templates20', 'templates52']|"it is designed in a romantic style with a lake, several springs and fountains, grottoes, and is surrounded by lush greenery with rare species.
+"|where is it designed?|style|0.035120000000000005|0.168
+['templates209']|"it is designed in a romantic style with a lake, several springs and fountains, grottoes, and is surrounded by lush greenery with rare species.
+"|when lake , several springs and fountains , grottoes|style|0.03034|0.0597
+['templates19', 'templates53', 'templates175', 'templates182', 'templates196', 'templates220']|"it is designed in a romantic style with a lake, several springs and fountains, grottoes, and is surrounded by lush greenery with rare species.
+"|when is it designed|style|0.013460000000000001|0.0597
+
+['templates66']|"the monserrate palace briefly appears on the 1996 tv miniseries gulliver's travels.
+"|what is the 1996 tv miniseries gulliver 's?|the monserrate palace|0.07610000000000001|0.3265
+
+
+['templates162']|"monserrate palace seamlessly blends arabic, gothic and indian architectural styles to create a wonderful summer house that is surrounded by beautiful gardens; when you visit sintra do not miss-out on this hidden gem.
+"|what is to create a wonderful summer house that is surrounded by beautiful gardens?|palace|0.11258000000000001|0.3265
+
+['templates139']|"the actual palace was imagined by an englishman, sir francis cook, who decided to build a summer residence from the ruins of a pre-existent neo-gothic palace around 1860.
+"|what was an englishman , sir francis cook , who decided to build a summer residence from the ruins of a pre-existent neo-gothic palace around 1860?|the actual palace|0.09962000000000001|0.3265
+['templates214']|"the actual palace was imagined by an englishman, sir francis cook, who decided to build a summer residence from the ruins of a pre-existent neo-gothic palace around 1860.
+"|when was the actual palace imagined|sir|0.09412000000000001|0.3966
+['templates20']|"the actual palace was imagined by an englishman, sir francis cook, who decided to build a summer residence from the ruins of a pre-existent neo-gothic palace around 1860.
+"|where was the actual palace imagined|englishman|0.048400000000000006|0.168
+['templates52']|"the actual palace was imagined by an englishman, sir francis cook, who decided to build a summer residence from the ruins of a pre-existent neo-gothic palace around 1860.
+"|where was palace imagined|englishman|0.0364|0.168
+['templates19', 'templates175', 'templates196']|"the actual palace was imagined by an englishman, sir francis cook, who decided to build a summer residence from the ruins of a pre-existent neo-gothic palace around 1860.
+"|when was the actual palace imagined|englishman|0.02674|0.0597
+['templates182']|"the actual palace was imagined by an englishman, sir francis cook, who decided to build a summer residence from the ruins of a pre-existent neo-gothic palace around 1860.
+"|when was actual palace imagined|englishman|0.015620000000000002|0.0597
+['templates53', 'templates220']|"the actual palace was imagined by an englishman, sir francis cook, who decided to build a summer residence from the ruins of a pre-existent neo-gothic palace around 1860.
+"|when was palace imagined|englishman|0.014180000000000002|0.0597
+['templates124']|"the actual palace was imagined by an englishman, sir francis cook, who decided to build a summer residence from the ruins of a pre-existent neo-gothic palace around 1860.
+"|when was actual imagined|englishman|0.013380000000000001|0.0597
+
+['templates162']|"located about 3.5 km from the sintra historical center, the stunning monserrate park and palace continues the 19th century romanticism architectural style found throughout of sintra.
+"|what is located about 3.5 km from the sintra historical center?|park|0.09914|0.3265
+
+
+['templates114']|"the garden is interesting throughout the whole year, since the different species have different blossoming times.
+"|what is the garden?|interesting|0.02326|0.0447
+
+
+['templates139']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|what was the middle of the 20th century?|the palace|0.09146000000000001|0.3265
+['templates139']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|what was its furniture and collections|the palace|0.06978000000000001|0.3265
+['templates21']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|where been the palace emptied|furniture in the middle of the 20th century|0.0352|0.168
+['templates21']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|where been the palace emptied|middle from its furniture and collections|0.0352|0.168
+['templates20']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|where been the palace emptied|furniture|0.0352|0.168
+['templates20']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|where been the palace emptied|middle|0.0352|0.168
+['templates52']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|where been palace emptied|furniture|0.033760000000000005|0.168
+['templates52']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|where been palace emptied|middle|0.033760000000000005|0.168
+['templates19', 'templates175', 'templates196']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|when been the palace emptied|furniture|0.013380000000000001|0.0597
+['templates19', 'templates175', 'templates196']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|when been the palace emptied|middle|0.013380000000000001|0.0597
+['templates209']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|when century|furniture|0.01322|0.0597
+['templates209']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|when century|middle|0.01322|0.0597
+['templates53', 'templates182', 'templates220']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|when been palace emptied|furniture|0.012100000000000001|0.0597
+['templates53', 'templates182', 'templates220']|"the palace has been emptied from its furniture and collections in the middle of the 20th century, so don’t expect to find a museum.
+"|when been palace emptied|middle|0.012100000000000001|0.0597
+
+['templates139']|"for about fifty years the building was virtually abandoned and it deteriorated a lot.
+"|what was about fifty years?|the building|0.07714000000000001|0.3265
+['templates20']|"for about fifty years the building was virtually abandoned and it deteriorated a lot.
+"|where was the building abandoned|years|0.02092|0.0574
+['templates19', 'templates175', 'templates196']|"for about fifty years the building was virtually abandoned and it deteriorated a lot.
+"|when was the building abandoned|years|0.014600000000000002|0.0258
+['templates52']|"for about fifty years the building was virtually abandoned and it deteriorated a lot.
+"|where was building abandoned|years|0.013240000000000002|0.0574
+['templates76']|"for about fifty years the building was virtually abandoned and it deteriorated a lot.
+"|who abandoned the building|about fifty years|0.01274|0.0117
+['templates155']|"for about fifty years the building was virtually abandoned and it deteriorated a lot.
+"|where was building|about fifty years|0.0126|0.0574
+['templates179']|"for about fifty years the building was virtually abandoned and it deteriorated a lot.
+"|who abandoned building|about fifty years|0.0073|0.0117
+['templates53', 'templates182', 'templates220']|"for about fifty years the building was virtually abandoned and it deteriorated a lot.
+"|when was building abandoned|years|0.006600000000000001|0.0258
+
+['templates208']|"the old photographs exhibited in the different rooms are also a good way of travelling back to the cook family time.
+"|what 's the old photographs exhibited in the different rooms?|way of travelling back to the cook family time|0.10562000000000002|0.3265
+['templates94']|"the old photographs exhibited in the different rooms are also a good way of travelling back to the cook family time.
+"|what are the old photographs exhibited in the different rooms|are a way of travelling back to the cook family time|0.10322|0.3265
+['templates97']|"the old photographs exhibited in the different rooms are also a good way of travelling back to the cook family time.
+"|what are a old photographs exhibited in the different rooms|way|0.10226000000000002|0.3265
+['templates43']|"the old photographs exhibited in the different rooms are also a good way of travelling back to the cook family time.
+"|what are a photographs|a way of travelling back to the cook family time|0.07050000000000001|0.3265
+['templates39']|"the old photographs exhibited in the different rooms are also a good way of travelling back to the cook family time.
+"|what are a photographs|good way of travelling back to the cook family time|0.07050000000000001|0.3265
+['templates145']|"the old photographs exhibited in the different rooms are also a good way of travelling back to the cook family time.
+"|what are photographs|a way of travelling back to the cook family time|0.06722000000000002|0.3265
+['templates50']|"the old photographs exhibited in the different rooms are also a good way of travelling back to the cook family time.
+"|what are a good way|photographs|0.04256|0.0884
+['templates235']|"the old photographs exhibited in the different rooms are also a good way of travelling back to the cook family time.
+"|what way are of travelling back cook family|photographs|0.024960000000000003|0.0884
+['templates146']|"the old photographs exhibited in the different rooms are also a good way of travelling back to the cook family time.
+"|who are photographs|good way|0.01242|0.0525
+
+['templates114']|"the palace itself is not very big, but the rooms themselves are worth exploring.
+"|what is the palace itself?|big|0.01438|0.0447
+['templates204']|"the palace itself is not very big, but the rooms themselves are worth exploring.
+"|how big is palace|very big|0.009559999999999999|0.023
+['templates204']|"the palace itself is not very big, but the rooms themselves are worth exploring.
+"|how big is palace|not big|0.009559999999999999|0.023
+
+['templates97']|"one of the highlights inside the palace is the music hall, still used nowadays for cultural events.
+"|what is the one of the highlights inside the palace?|hall|0.09690000000000001|0.3265
+['templates98']|"one of the highlights inside the palace is the music hall, still used nowadays for cultural events.
+"|what is the one of the highlights inside the palace|music hall|0.09690000000000001|0.3265
+['templates208']|"one of the highlights inside the palace is the music hall, still used nowadays for cultural events.
+"|what 's one of the highlights inside the palace|hall still used nowadays for cultural events|0.03382|0.0243
+['templates94']|"one of the highlights inside the palace is the music hall, still used nowadays for cultural events.
+"|what is one of the highlights inside the palace|is the hall still used nowadays for cultural events|0.03382|0.0243
+['templates235']|"one of the highlights inside the palace is the music hall, still used nowadays for cultural events.
+"|what hall is still used nowadays|one|0.024399999999999998|0.0768
+['templates43']|"one of the highlights inside the palace is the music hall, still used nowadays for cultural events.
+"|what is the one|the hall still used nowadays for cultural events|0.01646|0.0107
+['templates145']|"one of the highlights inside the palace is the music hall, still used nowadays for cultural events.
+"|what is one|the hall still used nowadays for cultural events|0.004540000000000001|0.0107
+
+['templates162']|"surrounded by inspirational muses, this hall has impressive acoustics.
+"|what is surrounded by inspirational muses?|hall|0.08794000000000002|0.3265
+
+['templates91']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what is the kitchen in its technological wood burning stove , which provided hot water for the boiler , thus integrating the heating system of the house?|spot|0.13698000000000002|0.3265
+['templates97']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what is the inside spot one should not miss|kitchen|0.08586000000000002|0.3265
+['templates91']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what is the kitchen in its technological wood burning stove , which provided hot water for the boiler , thus integrating the heating system of the house|other|0.08062000000000001|0.0447
+['templates41']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what is the spot|kitchen with its technological wood burning stove , which provided hot water for the boiler , thus integrating the heating system of the house|0.07962000000000001|0.3265
+['templates97']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what is the other|kitchen|0.07514000000000001|0.3265
+['templates41']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what is the other|kitchen with its technological wood burning stove , which provided hot water for the boiler , thus integrating the heating system of the house|0.07514000000000001|0.3265
+['templates78']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what 's inside spot one should not miss|kitchen with its technological wood burning stove , which provided hot water for the boiler , thus integrating the heating system of the house|0.07498000000000002|0.3265
+['templates79']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what 's inside spot one should not miss|stove|0.07498000000000002|0.3265
+['templates78']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what 's other|kitchen with its technological wood burning stove , which provided hot water for the boiler , thus integrating the heating system of the house|0.07386000000000001|0.3265
+['templates79']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what 's other|stove|0.07386000000000001|0.3265
+['templates144']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what is other|kitchen with its technological wood burning stove ,|0.07386000000000001|0.3265
+['templates144']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what is spot|kitchen with its technological wood burning stove ,|0.06914000000000001|0.3265
+['templates58']|"other inside spot one should not miss is the kitchen with its technological wood burning stove, which provided hot water for the boiler, thus integrating the heating system of the house.
+"|what is the kitchen in stove|other|0.03694|0.0447
+
+['templates155']|"this was considered very modern at the time.
+"|where was this?|the time|0.03424000000000001|0.168
+['templates20', 'templates52']|"this was considered very modern at the time.
+"|where was this considered|time|0.034|0.168
+['templates19', 'templates53', 'templates175', 'templates182', 'templates196', 'templates220']|"this was considered very modern at the time.
+"|when was this considered|time|0.012660000000000001|0.0597
+['templates76', 'templates179']|"this was considered very modern at the time.
+"|who considered this|the time|0.0125|0.0525
+
+['templates128']|"the opening hours are between 9.30-10.00 and 17.00-19.00 (for the palace) and 18.00-20.00 (for the park), depending on the season.
+"|what is the opening hours?|-19.00|0.0324|0.0768
+['templates128']|"the opening hours are between 9.30-10.00 and 17.00-19.00 (for the palace) and 18.00-20.00 (for the park), depending on the season.
+"|what is the opening hours|17.00|0.0324|0.0768
+['templates128']|"the opening hours are between 9.30-10.00 and 17.00-19.00 (for the palace) and 18.00-20.00 (for the park), depending on the season.
+"|what is the opening hours|18.00|0.0324|0.0768
+
+['templates114']|"monserrate palace is open 7 days a week (except for a few key holidays), unlike many of lisbon's monuments which are closed on mondays.
+"|what is monserrate palace?|open|0.01734|0.0447
+
+['templates35']|"further information regarding opening times and entrance fees can be consulted at the parques de sintra website:
+"|who consulted information regarding opening times and entrance fees?|the de sintra|0.19456|0.8852
+['templates20']|"further information regarding opening times and entrance fees can be consulted at the parques de sintra website:
+"|where be further information regarding opening times and entrance fees consulted|website|0.04184|0.168
+['templates52']|"further information regarding opening times and entrance fees can be consulted at the parques de sintra website:
+"|where be information consulted|website|0.03432|0.168
+['templates19', 'templates175', 'templates182', 'templates196']|"further information regarding opening times and entrance fees can be consulted at the parques de sintra website:
+"|when be further information regarding opening times and entrance fees consulted|website|0.019700000000000002|0.0597
+['templates220']|"further information regarding opening times and entrance fees can be consulted at the parques de sintra website:
+"|when be information regarding opening times and entrance fees consulted|website|0.018340000000000002|0.0597
+['templates124']|"further information regarding opening times and entrance fees can be consulted at the parques de sintra website:
+"|when be further regarding opening times and entrance fees consulted|website|0.013540000000000002|0.0597
+['templates53']|"further information regarding opening times and entrance fees can be consulted at the parques de sintra website:
+"|when be information consulted|website|0.012580000000000001|0.0597
+
+
+['templates214']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|when were the wild gardens created?|gerard|0.085|0.3966
+['templates21']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|where were the wild and rambling gardens created|century by wealthy english merchant gerard de visme , then enlarged by landscape painter william stockdale ( with help from london ’s kew gardens )|0.041120000000000004|0.168
+['templates21']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|where were the wild and rambling gardens created|merchant in the 18th century|0.041120000000000004|0.168
+['templates20']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|where were the wild and rambling gardens created|century|0.041120000000000004|0.168
+['templates20']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|where were the wild and rambling gardens created|merchant|0.041120000000000004|0.168
+['templates52']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|where were gardens created|century|0.03568|0.168
+['templates52']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|where were gardens created|merchant|0.03568|0.168
+['templates182']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|when were wild and rambling gardens created|century|0.022740000000000003|0.0597
+['templates182']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|when were wild and rambling gardens created|merchant|0.022740000000000003|0.0597
+['templates124']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|when were wild and rambling created|century|0.01858|0.0597
+['templates124']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|when were wild and rambling created|merchant|0.01858|0.0597
+['templates19', 'templates175', 'templates196']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|when were the wild and rambling gardens created|century|0.017620000000000004|0.0597
+['templates19', 'templates175', 'templates196']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|when were the wild and rambling gardens created|merchant|0.017620000000000004|0.0597
+['templates35']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|who created the gardens|the 18th|0.01762|0.0525
+['templates53', 'templates220']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|when were gardens created|century|0.01442|0.0597
+['templates53', 'templates220']|"the wild and rambling gardens were created in the 18th century by wealthy english merchant gerard de visme, then enlarged by landscape painter william stockdale (with help from london’s kew gardens).
+"|when were gardens created|merchant|0.01442|0.0597
+
+
+['templates10']|"the park is 3.5km west of sintra-vila.
+"|how west is the park?|3.5 km|0.05364|0.2166
+
+['templates214']|"the palace was designed by the architects thomas james knowles (father and son) and built in 1858, having been commissioned by sir francis cook, viscount of monserrate.
+"|when was the palace designed?|thomas|0.08876|0.3966
+['templates139']|"the palace was designed by the architects thomas james knowles (father and son) and built in 1858, having been commissioned by sir francis cook, viscount of monserrate.
+"|what was the architects thomas james knowles ( father and son )|the palace|0.08514000000000001|0.3265
+['templates20']|"the palace was designed by the architects thomas james knowles (father and son) and built in 1858, having been commissioned by sir francis cook, viscount of monserrate.
+"|where was the palace designed|architects|0.02092|0.0574
+['templates19', 'templates175', 'templates196']|"the palace was designed by the architects thomas james knowles (father and son) and built in 1858, having been commissioned by sir francis cook, viscount of monserrate.
+"|when was the palace designed|architects|0.014600000000000002|0.0258
+['templates52']|"the palace was designed by the architects thomas james knowles (father and son) and built in 1858, having been commissioned by sir francis cook, viscount of monserrate.
+"|where was palace designed|architects|0.01212|0.0574
+['templates53', 'templates182', 'templates220']|"the palace was designed by the architects thomas james knowles (father and son) and built in 1858, having been commissioned by sir francis cook, viscount of monserrate.
+"|when was palace designed|architects|0.005640000000000001|0.0258
+
+['templates231']|"the design of the gardens took advantage of the unique microclimates of the mountains to produce a magnificent park in which over 3,000 exotic species can still be seen today.
+"|when was advantage produce?|microclimates|0.006360000000000001|0.0258
+['templates13']|"the design of the gardens took advantage of the unique microclimates of the mountains to produce a magnificent park in which over 3,000 exotic species can still be seen today.
+"|when was advantage took|microclimates|0.005960000000000001|0.0258
+
+['templates209']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|when mansion built by the english merchant , gerard de visme , who built the first palace of monserrate?|ruins|0.05052|0.0258
+['templates20']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|where was this palace , the cook family 's summer residence , constructed|ruins|0.031560000000000005|0.0574
+['templates124']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|when was the cook family 's summer residence , constructed|ruins|0.029880000000000004|0.0258
+['templates19']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|when was this palace , the cook family 's summer residence , constructed|ruins|0.023400000000000004|0.0258
+['templates182', 'templates220']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|when was palace , the cook family 's summer residence , constructed|ruins|0.022680000000000002|0.0258
+['templates196']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|when was this palace , the cook family 's summer residence constructed|ruins|0.01972|0.0258
+['templates196']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|when was this palace the cook family 's summer residence , constructed|ruins|0.019160000000000003|0.0258
+['templates124']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|when was , the cook family 's summer residence constructed|ruins|0.01668|0.0258
+['templates52']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|where was palace constructed|ruins|0.01212|0.0574
+['templates175']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|when was this palace , , constructed|ruins|0.01156|0.0258
+['templates53']|"this palace, the cook family's summer residence, was constructed on the ruins of the neo-gothic mansion built by the english merchant, gerard de visme, who built the first palace of monserrate.
+"|when was palace constructed|ruins|0.005640000000000001|0.0258
+
+['templates14']|"william beckford leased the property in 1793, carrying out works on the palace and starting to create a landscape garden.
+"|who leased the property?|william beckford|0.18744|0.8852
+['templates13']|"william beckford leased the property in 1793, carrying out works on the palace and starting to create a landscape garden.
+"|when was the property leased|1793|0.10658000000000001|0.4857
+['templates34']|"william beckford leased the property in 1793, carrying out works on the palace and starting to create a landscape garden.
+"|when was beckford leased|1793|0.09986|0.4857
+['templates231']|"william beckford leased the property in 1793, carrying out works on the palace and starting to create a landscape garden.
+"|when was property carrying|1793|0.09762|0.4857
+
+['templates78']|"like the other palaces in the region, such as the pena palace, this is an example of portuguese romanticism.
+"|what 's this?|example of portuguese romanticism|0.06810000000000001|0.3265
+['templates79']|"like the other palaces in the region, such as the pena palace, this is an example of portuguese romanticism.
+"|what 's this|romanticism|0.06810000000000001|0.3265
+['templates144']|"like the other palaces in the region, such as the pena palace, this is an example of portuguese romanticism.
+"|what is this|example of portuguese romanticism|0.06810000000000001|0.3265
+['templates97']|"like the other palaces in the region, such as the pena palace, this is an example of portuguese romanticism.
+"|what is an this|example|0.06682|0.3265
+['templates41']|"like the other palaces in the region, such as the pena palace, this is an example of portuguese romanticism.
+"|what is an this|example of portuguese romanticism|0.06682|0.3265
+['templates130']|"like the other palaces in the region, such as the pena palace, this is an example of portuguese romanticism.
+"|where is this example|portuguese romanticism|0.03728000000000001|0.168
+['templates198']|"like the other palaces in the region, such as the pena palace, this is an example of portuguese romanticism.
+"|where of romanticism is this|portuguese romanticism|0.03696000000000001|0.168
+
+['templates209']|"since 1978 it has been classified as a building of public interest.
+"|when interest?|1978|0.09842000000000001|0.4857
+['templates19', 'templates53', 'templates175', 'templates182', 'templates196', 'templates220']|"since 1978 it has been classified as a building of public interest.
+"|when been it classified|1978|0.0973|0.4857
+['templates21']|"since 1978 it has been classified as a building of public interest.
+"|where been it classified|building since 1978|0.033760000000000005|0.168
+['templates20', 'templates52']|"since 1978 it has been classified as a building of public interest.
+"|where been it classified|building|0.033760000000000005|0.168
+['templates209']|"since 1978 it has been classified as a building of public interest.
+"|when interest|building|0.01322|0.0597
+['templates19', 'templates53', 'templates175', 'templates182', 'templates196', 'templates220']|"since 1978 it has been classified as a building of public interest.
+"|when been it classified|building|0.012100000000000001|0.0597
+['templates76', 'templates179']|"since 1978 it has been classified as a building of public interest.
+"|who classified it|1978|0.00366|0.0039
+['templates21']|"since 1978 it has been classified as a building of public interest.
+"|where been it classified|1978 as a building of public interest|0.0009800000000000002|0.0041
+['templates20', 'templates52']|"since 1978 it has been classified as a building of public interest.
+"|where been it classified|1978|0.0009800000000000002|0.0041
+['templates155']|"since 1978 it has been classified as a building of public interest.
+"|where been it|1978|0.0009800000000000002|0.0041
+
+['templates139']|"monserrate palace was visited by lord byron, the anglo-scottish poet and leading figure in the romantic movement.
+"|what was lord byron , the anglo-scottish poet and leading figure in the romantic movement?|monserrate palace|0.09362000000000001|0.3265
+['templates20']|"monserrate palace was visited by lord byron, the anglo-scottish poet and leading figure in the romantic movement.
+"|where was monserrate palace visited|lord|0.03848000000000001|0.168
+['templates52']|"monserrate palace was visited by lord byron, the anglo-scottish poet and leading figure in the romantic movement.
+"|where was palace visited|lord|0.03424000000000001|0.168
+['templates26', 'templates124']|"monserrate palace was visited by lord byron, the anglo-scottish poet and leading figure in the romantic movement.
+"|when was monserrate visited|lord|0.014660000000000001|0.0597
+['templates53']|"monserrate palace was visited by lord byron, the anglo-scottish poet and leading figure in the romantic movement.
+"|when was palace visited|lord|0.014180000000000002|0.0597
+['templates214']|"monserrate palace was visited by lord byron, the anglo-scottish poet and leading figure in the romantic movement.
+"|when was monserrate palace visited|poet|0.013940000000000001|0.0597
+['templates19', 'templates175', 'templates182', 'templates196', 'templates220']|"monserrate palace was visited by lord byron, the anglo-scottish poet and leading figure in the romantic movement.
+"|when was monserrate palace visited|lord|0.013940000000000001|0.0597
+
+['templates13']|"he visited the estate in 1809 and sang of its beauty in the poem ""childe harold's pilgrimage"".
+"|when was the estate visited?|1809|0.10658000000000001|0.4857
+
+['templates162']|"walking among the trees from all over the world, waterfalls and ponds, a romantic mysticism enshrouds the visitor.
+"|what is walking among the trees from all over the world , waterfalls and ponds?|mysticism|0.11258000000000001|0.3265
+

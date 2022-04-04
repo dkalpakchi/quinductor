@@ -1,0 +1,1 @@
+Namespace(case_folding=True, files='data/monseratte/proc.jsonl', format='jsl', include_gold=False, join_symbol=' ', keep_empty=True, lang='en', max_examples=-1, modeldb_url='', pos_ngrams=None, ranking_folder=PosixPath('templates/en'), remove_diacritics=False, remove_punctuation=False, right_to_left=False, strict=False, templates_folder='templates/en/16132054753040054/')
