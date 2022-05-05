@@ -24,7 +24,7 @@ from .rules import load_templates, load_template_examples
 from .core import generate_questions
 
 
-__version__ = '0.2.1'
+__version__ = '0.2.2'
 
 logger = get_logger()
 

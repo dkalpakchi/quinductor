@@ -34,7 +34,7 @@ class TextinatorLoader:
                         'start': ca['start'],
                         'end': ca['end']
                     }
-                    yield question, answer, ca['context']
+                    yield question, answer, context
 
 
 class SquadLoader:

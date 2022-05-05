@@ -111,7 +111,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-l', '--lang', type=str, help='A language for template generation (en, sv are currently supported)')
     parser.add_argument('-f', '--files', type=str, help='Comma-separated list of files to generate questions from')
-    parser.add_argument('-t', '--templates-folder', type=str, help="A folder with guards, templates and template_examples subfolders")
+    parser.add_argument('-t', '--templates-folder', type=str, help="A folder with guards, templates and example files")
     parser.add_argument('-r', '--ranking-folder', type=str, help='A folder with qwstats.dill and atmpl.dill for the language')
     parser.add_argument('-ft', '--format', type=str, help='Data format (tt for Textinator or squad for Squad)')
     parser.add_argument('-pg', '--pos-ngrams', type=str, help='Folder with POS-ngrams for the language only')

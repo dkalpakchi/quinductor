@@ -16,10 +16,15 @@ def get_version(rel_path):
     else:
         raise RuntimeError("Unable to find version string.")
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setuptools.setup(
     name='quinductor',
     version=get_version("src/quinductor/__init__.py"),
     description='A package implementing a multi-lingual question generation method described in https://arxiv.org/abs/2103.10121',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url='https://github.com/dkalpakchi/quinductor',
     author='Dmytro Kalpakchi',
     install_requires=[

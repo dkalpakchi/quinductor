@@ -694,6 +694,9 @@ if __name__ == '__main__':
     if not os.path.exists(DIR):
         os.makedirs(DIR)
 
+    with open(os.path.join(DIR, 'args.txt'), 'w') as f:
+        f.write(str(args))
+
     gen_fname = os.path.join(DIR, f'{args.lang}.qac')
 
     if not os.path.exists(gen_fname) or args.force:

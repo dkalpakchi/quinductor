@@ -12,7 +12,7 @@ from quinductor.loaders import *
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('-t', '--templates-folder', required=True, type=str, help="A folder with guards, templates and template_examples subfolders")
+    parser.add_argument('-s', '--save', required=True, type=str, help="A folder to save to")
     parser.add_argument('-l', '--lang', type=str, help='A language for stats generation (en, sv are currently supported)')
     parser.add_argument('-d', '--data', type=str, help='Comma-separated list of files to generate stats from')
     parser.add_argument('-ft', '--format', type=str, help='Data format (tt for Textinator or squad for Squad)')
@@ -67,7 +67,8 @@ if __name__ == '__main__':
             [x.upos + '/' + '|'.join(sorted(x.feats.split('|'))) if x.feats else x.upos
             for x in a_parsed.sentences[0].words])] += 1
 
-    folder = Path(args.templates_folder).parent
+    folder = Path(args.save)
+    folder.mkdir(parents=True, exist_ok=True)
 
     dill.dump(stats, open(folder.joinpath('qwstats.dill'), 'wb'))
     dill.dump(answer_tmpl, open(folder.joinpath('atmpl.dill'), 'wb'))

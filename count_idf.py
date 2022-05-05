@@ -6,7 +6,7 @@ from collections import defaultdict
 
 from tqdm import tqdm
 
-import loaders
+import quinductor.loaders as loaders
 
 
 
