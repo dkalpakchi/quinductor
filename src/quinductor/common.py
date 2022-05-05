@@ -110,7 +110,7 @@ def get_default_model_path(lang, mtype=None):
         logger = logging.getLogger('quinductor')
         logger.error(
             """The language {} currently has no available models.
-            Please create your own model and provide it using script arguments""".format(args.lang)
+            Please create your own model and provide it using script arguments""".format(lang)
         )
         sys.exit(1)
 

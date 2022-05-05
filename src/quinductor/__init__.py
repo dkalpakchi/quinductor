@@ -24,7 +24,7 @@ from .rules import load_templates, load_template_examples
 from .core import generate_questions
 
 
-__version__ = '0.2.0'
+__version__ = '0.2.1'
 
 logger = get_logger()
 
@@ -175,11 +175,13 @@ def use(lang=None, templates_folder=None, guards_files=None, templates_files=Non
         lang, mtype = lang.split('/')
     
     temp_folder = templates_folder or get_default_model_path(lang, mtype)
-
-    print(temp_folder)
+    print("Getting guards and templates from:", temp_folder)
 
     ranking_folder = Path(temp_folder).parent
+    print("Getting question word and answer template statistics from:", ranking_folder)
+
     ng_folder = pos_ng_folder or os.path.join(ranking_folder.parent, 'pos_ngrams')
+    print("Getting PoS n-grams statistics from: ", ng_folder)
 
     rtl = ['ja', 'te', 'ko']
 
