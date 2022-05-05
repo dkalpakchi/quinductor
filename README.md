@@ -50,6 +50,34 @@ Each element in the `res` list above will be an instance of `GeneratedQAPair` cl
 2. Induce templates and guards by running `induce_templates.sh`
 If you want to induce templates only for a specific language, please choose the correpsonding lines from the shell scripts.
 
+## Using your own templates
+Quinductor templates constitute a plain text file with a number of induced templates. However, in order for them to be used, Quinductor requires a number of extra files in addition to the templates file:
+* guards file -- a plain text file with guards for all templates, i.e. conditions on the dependency trees that must be satisfied for applying each template
+* examples file -- a file containing the sentences from the training corpus that gave rise to each template
+* question word model -- a dill binary file containing the question word model (see the associated article for explanations), can be induced by using `qword_stat.py` script
+* answer statistics file -- a dill binary file containng the statistics about pos-morph expressions for the root tokens of the answers in the training set, used for filtering (can be induced using `qword_stat.py` script also)
+* pos-morph n-gram model folder -- a folder containing a number of plain text files with n-gram models of pos-morph expressions (see the associated article for more details and [ewt_dev_freq.txt](https://github.com/dkalpakchi/quinductor/blob/master/templates/en/pos_ngrams/ewt_dev_freq.txt) for the example of the file format)
+
+Quinductor templates along with all aforementioned extra files constitute a Quinductor model. Each such model must be organized as a folder with the following structure:
+```
+|- language code
+  |- pos_ngrams -- a folder with pos-morph n-gram model
+  |- dataset name -- a name of the dataset used for inducing templates
+    |- a unique name for templates -- a timestamp if templates induced by the script from this repo
+      |- guards.txt -- guards file
+      |- templates.txt -- templates file
+      |- sentences.txt -- examples file
+    |- atmpl.dill -- answer statistics file
+    |- qwstats.dill -- question word model file
+```
+
+If you want to use a custom Quinductor model, you should organize your folder according to the structure above and give the path to the folder with `templates.txt` file as an extra argument called `templates_folder` to the `qi.use` method, as shown below.
+```python
+import quinductor as qi
+tools = qi.use('sv', templates_folder='my_templates/sv/1613213402519069')
+```
+If you want only parts of a Quinductor model to differ from one of the default models, you can specify more fine-grained self-explanatory arguments to the `qi.use` method: `guards_files`, `templates_files`, `pos_ng_folder`, `example_files`, `qw_stat_file`, `a_stat_file`.
+
 ## How to evaluate?
 We use [nlg-eval package](https://github.com/Maluuba/nlg-eval) to calculate automatic evaluation metrics. 
 This package requires to have hypothesis and ground truth files, where each line correspond to a question generated based on the same sentence.
