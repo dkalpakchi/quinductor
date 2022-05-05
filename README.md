@@ -37,6 +37,11 @@ trees = udon2.ConllReader.read_file("example.conll")
 res = qi.generate_questions(trees, tools)
 print("\n".join([str(x) for x in res]))
 ```
+Each element in the `res` list above will be an instance of `GeneratedQAPair` class, which has the following properties:
+* `q` -- generated question as a string
+* `a` -- generated answer as a string
+* `score` -- the Quinductor score for this QA-pair (the list is sorted in the descending order of the scores)
+* `template` -- a list of templates that resulted in the induced QA-pair
 
 ## How to induce templates yourself?
 1. Generate auxiliary models:
